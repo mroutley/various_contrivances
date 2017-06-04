@@ -1,6 +1,7 @@
-baseurl = "/"
+baseurl = "http://matt.routleynet.org/"
 relativeurls = true
-languageCode = "en-us"
+enableEmoji = true
+languageCode = "en-ca"
 title = "Various Contrivances"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
