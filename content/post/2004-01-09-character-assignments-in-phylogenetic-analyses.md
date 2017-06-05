@@ -5,6 +5,7 @@ date: '2004-01-09'
 slug: character-assignments-in-phylogenetic-analyses
 categories:
   - evolution
+  - code
 tags: []
 ---
 

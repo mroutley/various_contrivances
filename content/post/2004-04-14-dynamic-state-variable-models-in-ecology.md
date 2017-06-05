@@ -5,6 +5,7 @@ date: '2004-04-14'
 slug: dynamic-state-variable-models-in-ecology
 categories:
   - evolution
+  - code
 tags: []
 ---
 

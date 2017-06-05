@@ -5,6 +5,7 @@ date: '2004-04-06'
 slug: journal-abbreviations
 categories:
   - academic
+  - code
 tags: []
 ---
 

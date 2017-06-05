@@ -5,6 +5,7 @@ date: '2004-11-07'
 slug: jstor-import-script
 categories:
   - academic
+  - code
 tags: []
 ---
 
