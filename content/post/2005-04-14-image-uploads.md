@@ -1,19 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-    <head>
-    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    	<meta name="generator" content="Tumblr Backup 0.3>" />
-    	<meta name="backup-date" content="Wed, 08 Dec 10 06:50:14 -0500" />
-    	<link rel="stylesheet" href="../style.css"/>
-    	<link rel="icon" href="../avatar.png"/>
-    </head>
-    <body class="archive_body">        
-        <div class="post_meta">
-            <span class="timestamp">April 14, 2005, 12:27 pm</span>
-            <a class="permalink" href="../posts/80923869.html">#</a>
-        </div>
-        
-        <h1>Image uploads</h1><div><p>A particular challenge with maintaining a weblog is the uploading and resizing of images. The process involves choosing the correct images, creating large &amp; thumbnail sized versions, uploading these images to the webserver, and posting the appropriate code into the weblog post. In the spirit of my last few posts, <a href="http://public.me.com/mroutley">image2web</a> is an <a href="http://www.apple.com/applescript">applescript</a> I use to automate this process:</p>
+---
+title: Image uploads
+author: Matthew Routley
+date: '2005-04-14'
+slug: image-uploads
+categories:
+  - code
+tags: []
+---
+
+<p>A particular challenge with maintaining a weblog is the uploading and resizing of images. The process involves choosing the correct images, creating large &amp; thumbnail sized versions, uploading these images to the webserver, and posting the appropriate code into the weblog post. In the spirit of my last few posts, <a href="http://public.me.com/mroutley">image2web</a> is an <a href="http://www.apple.com/applescript">applescript</a> I use to automate this process:</p>
 
 <pre>
 <code>
@@ -109,5 +104,4 @@
 </li>
 <li>Publish the weblog</li>
 </ol>
-<p>This script requires both <a href="http://www.imagemagick.org/">ImageMagick</a> and <a href="http://www.panic.com/transmit/">Transmit</a> and is inspired by a script from <a href="http://waferbaby.com/archives/2005/02/17/transmit3">waferbaby</a>.</p></div>
-</body></html>
+<p>This script requires both <a href="http://www.imagemagick.org/">ImageMagick</a> and <a href="http://www.panic.com/transmit/">Transmit</a> and is inspired by a script from <a href="http://waferbaby.com/archives/2005/02/17/transmit3">waferbaby</a>.</p>
