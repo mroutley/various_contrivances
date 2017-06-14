@@ -1,5 +1,5 @@
 ---
-title: Plantae&#039;s continued development
+title: Plantae's continued development
 author: Matthew Routley
 date: '2006-11-30'
 slug: plantae-039-s-continued-development
