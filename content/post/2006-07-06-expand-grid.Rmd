@@ -1,0 +1,46 @@
+---
+title: expand-grid
+author: Matthew Routley
+date: '2006-07-06'
+slug: expand-grid
+categories:
+  - code
+tags: []
+---
+
+Here&#8217;s a simple trick for creating experimental designs in R: use the function expand.grid.
+
+A simple example is:
+
+```{r eval=FALSE}
+treatments <- LETTERS[1:4]
+levels <- 1:3
+experiment <- data.frame(expand.grid(treatment=treatments, 
+                                     level=levels))
+```
+
+which produces:
+
+```{r eval=FALSE}
+treatment level
+1          A     1
+2          B     1
+3          C     1
+4          D     1
+5          A     2
+6          B     2
+7          C     2
+8          D     2
+9          A     3
+10         B     3
+11         C     3
+12         D     3
+```
+
+Now, if you want to randomize your experimental treatments, try:
+
+```{r eval=FALSE}
+experiment[sample(dim(experiment)[1]), ]
+```
+
+`sample` randomly chooses numbers from a vector the same length as the `experiment` data frame without replacement. The square brackets then use this random sample to subsample from the `experiment` data frame.
