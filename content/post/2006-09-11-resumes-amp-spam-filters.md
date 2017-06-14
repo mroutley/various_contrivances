@@ -1,5 +1,5 @@
 ---
-title: Resumes &amp; Spam Filters
+title: Resumes & Spam Filters
 author: Matthew Routley
 date: '2006-09-11'
 slug: resumes-amp-spam-filters

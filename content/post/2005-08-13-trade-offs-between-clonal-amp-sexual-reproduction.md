@@ -1,5 +1,5 @@
 ---
-title: Trade-offs between clonal &amp; sexual reproduction
+title: Trade-offs between clonal & sexual reproduction
 author: Matthew Routley
 date: '2005-08-13'
 slug: trade-offs-between-clonal-amp-sexual-reproduction

@@ -1,5 +1,5 @@
 ---
-title: Idealized, Inaccurate but Successful -- A Pragmatic Approach to Evaluating
+title: Idealized, Inaccurate but Successful - A Pragmatic Approach to Evaluating
   Models
 author: Matthew Routley
 date: '2005-12-24'

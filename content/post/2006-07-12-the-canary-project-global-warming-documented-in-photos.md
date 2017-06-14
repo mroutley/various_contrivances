@@ -1,5 +1,5 @@
 ---
-title: The Canary Project-- Global Warming Documented in Photos
+title: The Canary Project - Global Warming Documented in Photos
 author: Matthew Routley
 date: '2006-07-12'
 slug: the-canary-project-global-warming-documented-in-photos

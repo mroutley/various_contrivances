@@ -1,5 +1,5 @@
 ---
-title: TED-- Hans Rosling
+title: Hans Rosling at TED
 author: Matthew Routley
 date: '2006-09-19'
 slug: ted-hans-rosling

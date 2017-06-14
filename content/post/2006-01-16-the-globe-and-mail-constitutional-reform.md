@@ -1,5 +1,5 @@
 ---
-title: The Globe and Mail-- Constitutional reform
+title: The Globe and Mail - Constitutional reform
 author: Matthew Routley
 date: '2006-01-16'
 slug: the-globe-and-mail-constitutional-reform
