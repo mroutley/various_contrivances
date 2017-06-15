@@ -3,4 +3,13 @@ title: "About"
 date: "2016-05-05T21:48:51-07:00"
 ---
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium-theme).
+I enjoy solving complex problems with innovative research, sophisticated analysis, and compelling storytelling.
+
+So far, I've been fortunate to follow my curiousity into a variety of fields:
+
+* As an academic in [evolutionary ecology](https://www.slideshare.net/slideshow/embed_code/key/NenzTBMBt6cPIP)
+* Running my own statistical consulting business
+* Contributing to Ontario's infrastructure planning and policy at [Treasury Board Secretariat](https://www.ontario.ca/page/treasury-board-secretariat)
+* Leading analytics teams at both Treasury Board Secretarit and the Ministry of Infrastrucutre
+* Leading a team of economists and transportation planners in providing and using a comprehensive evidence base for Metrolinx's [project evaluations](http://www.metrolinx.com/en/regionalplanning/projectevaluation/benefitscases/benefits_case_analyses.aspx)
+* Co-founding [PsephoAnalytics](http://www.psephoanalytics.ca/) to model voting behaviour in order to accurately explain political campaigns
