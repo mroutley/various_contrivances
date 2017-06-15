@@ -1,5 +1,5 @@
 ---
-title: Census change latest move in PMâ€™s dumbing down of Canada
+title: Census change latest move in PM's dumbing down of Canada
 author: Matthew Routley
 date: '2010-07-08'
 slug: census-change-latest-move-in-pm-s-dumbing-down-of-canada
