@@ -1,8 +1,8 @@
 ---
-title: The Green FaÃ§ade
+title: The Green Façade
 author: Matthew Routley
 date: '2010-01-22'
-slug: the-green-faÃ§ade
+slug: the-green-façade
 categories:
   - environment
 tags: []
