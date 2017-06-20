@@ -1,0 +1,92 @@
+---
+title: TTC delay data and Friday the 13th
+author: Matthew Routley
+date: '2017-06-19'
+slug: ttc-delay-data-and-friday-the-13th
+categories:
+  - transit
+  - code
+tags: []
+draft: true
+---
+
+The TTC releasing their [Subway Delay Data](delay_data) was great news. I'm always happy to see more data released to the public. In this case, it also helps us investigate one of the great, enduring mysteries: Is Friday the 13th actually an unlucky day?
+
+
+  [delay_data]: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=fa6be8c5a612c510VgnVCM10000071d60f89RCRD
+
+As always, we start by downloading and manipulating the data. I've added in two steps that aren't strictly necessary. One is converting the Date, Time, and Day columns into a single Date column. The other is to drop most of the other columns of data, since we aren't interested in them here.
+
+```{r download_data, message=FALSE, warning=FALSE}
+library(tidyverse)
+url <- "http://www1.toronto.ca/City%20Of%20Toronto/Information%20&%20Technology/Open%20Data/Data%20Sets/Assets/Files/Subway%20&%20SRT%20Logs%20(Jan01_14%20to%20April30_17).xlsx"
+filename <- basename(url)
+# download.file(url, destfile = filename, mode="wb")
+delays <- readxl::read_excel(filename, sheet = 2) %>% 
+  dplyr::mutate(date = lubridate::ymd_hm(paste(`Date`, `Time`, sep = " ")),
+                delay = `Min Delay`) %>% 
+  dplyr::select(date, delay)
+delays
+```
+
+Now we have a `delays` dataframe with `r dim(delays)[1]` incidents from `r min(delays$date)` to `r max(delays$date)`. We're interested in any dates that are a Friday the 13th. We also might want to compare weekends, regular Fridays, other weekdays, and Friday the 13ths, so we add a `type` column that provides these values:
+
+```{r friday_13th}
+delays <- delays %>% 
+    dplyr::mutate(type = case_when( # Partition into Friday the 13ths, Fridays, weekends, and others
+    lubridate::wday(.$date) %in% c(1, 7) ~ "weekend",
+    lubridate::wday(.$date) %in% c(6) & lubridate::day(.$date) == 13 ~ "Friday 13th",
+    lubridate::wday(.$date) %in% c(6) ~ "Friday",
+    TRUE ~ "weekday" # Everything else is a weekday
+  )) %>% 
+  dplyr::mutate(type = factor(type)) %>% 
+  dplyr::group_by(type)
+delays
+```
+
+With the data organized, We can start with just a simple box plot of the minutes in delay by `type`.
+
+```{r box_plot}
+ggplot2::ggplot(delays, aes(type, delay)) +
+  ggplot2::geom_boxplot() + 
+  ggplot2::labs(x = "Type", y = "Minutes of delay")
+```
+
+Not very compelling, basically most delays are short (as in zero minutes long) with many outliers.
+
+How about if we summed up the total minutes in delays for each of the types of days?
+
+```{r sums}
+delays %>% 
+  dplyr::summarise(total_delay = sum(delay))
+```
+
+Clearly the total minutes of delays are much shorter for Friday the 13ths. But, there aren't very many such days (only `r length(unique(lubridate::yday(delays$date[delays$type == "Friday 13th"])))` in fact). So, let's take a step back and calculate the average of the total delay across the entire day for each of the types of days. If Friday the 13ths really are unlucky, we would expect to see longer delays, at least relative to a regular Friday. 
+
+```{r}
+daily_delays <- delays %>% 
+  dplyr::mutate(year = lubridate::year(date),
+                day = lubridate::yday(date)) %>% 
+  dplyr::group_by(year, day, type) %>% 
+  dplyr::summarise(total_delay = sum(delay))
+
+mean_daily_delays <- daily_delays %>% 
+  dplyr::group_by(type) %>% 
+  dplyr::summarise(avg_delay = mean(total_delay))
+mean_daily_delays
+```
+
+```{r summary_box_plot}
+ggplot2::ggplot(daily_delays, aes(type, total_delay)) +
+  ggplot2::geom_boxplot() + 
+  ggplot2::labs(x = "Type", y = "Total minutes of delay")
+```
+
+On average, Friday the 13ths have shorter total delays (`r round(mean_daily_delays$avg_delay[mean_daily_delays$type=="Friday 13th"],0)` minutes) than either regular Fridays (`r round(mean_daily_delays$avg_delay[mean_daily_delays$type=="Friday"],0)` minutes) or other weekdays (`r round(mean_daily_delays$avg_delay[mean_daily_delays$type=="weekday"],0)` minutes). Overall, weekend days have far shorter total delays (`r round(mean_daily_delays$avg_delay[mean_daily_delays$type=="weekend"],0)` minutes).
+
+```{r}
+daily_delays %>% 
+  group_by(type) %>% 
+  tally()
+```
+
