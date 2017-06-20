@@ -1,5 +1,5 @@
 ---
-title: The Anosognosicâ€™s Dilemma
+title: The Anosognosic's Dilemma
 author: Matthew Routley
 date: '2010-06-21'
 slug: the-anosognosic-s-dilemma

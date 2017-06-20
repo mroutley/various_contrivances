@@ -1,5 +1,5 @@
 ---
-title: The true costs of â€˜truth in sentencingâ€™
+title: The true costs of "truth in sentencing"
 author: Matthew Routley
 date: '2010-06-30'
 slug: the-true-costs-of-truth-in-sentencing
