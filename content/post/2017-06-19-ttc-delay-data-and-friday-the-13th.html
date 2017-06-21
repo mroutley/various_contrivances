@@ -16,7 +16,9 @@ slug: ttc-delay-data-and-friday-the-13th
 filename &lt;- basename(url)
 download.file(url, destfile = filename, mode = &quot;wb&quot;)
 delays &lt;- readxl::read_excel(filename, sheet = 2) %&gt;% 
-  dplyr::mutate(date = lubridate::ymd_hm(paste(`Date`, `Time`, sep = &quot; &quot;)),
+  dplyr::mutate(date = lubridate::ymd_hm(paste(`Date`, 
+                                               `Time`, 
+                                               sep = &quot; &quot;)),
                 delay = `Min Delay`) %&gt;% 
   dplyr::select(date, delay)
 delays</code></pre>
@@ -39,7 +41,8 @@ delays</code></pre>
 <pre class="r"><code>delays &lt;- delays %&gt;% 
     dplyr::mutate(type = case_when( # Partition into Friday the 13ths, Fridays, weekends, and weekdays
       lubridate::wday(.$date) %in% c(1, 7) ~ &quot;weekend&quot;,
-      lubridate::wday(.$date) %in% c(6) &amp; lubridate::day(.$date) == 13 ~ &quot;Friday 13th&quot;,
+      lubridate::wday(.$date) %in% c(6) &amp; 
+        lubridate::day(.$date) == 13 ~ &quot;Friday 13th&quot;,
       lubridate::wday(.$date) %in% c(6) ~ &quot;Friday&quot;,
       TRUE ~ &quot;weekday&quot; # Everything else is a weekday
   )) %&gt;% 
