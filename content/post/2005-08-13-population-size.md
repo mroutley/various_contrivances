@@ -24,6 +24,6 @@ tags: []
 <h2>Publication(s):</h2>
 
 <ul>
-<li>Routley M.B., Mavraganis K. &amp; Eckert C.G., 1999, Effect of population size on the mating system in a self-compatible, autogamous plant, <em>Aquilegia canadensis</em> (Ranunculaceae). Heredity 82: 518–528&#160;<a href="http://www.hubmed.org/display.cgi?issn=0018067X&amp;uids=0010383672">[link]</a><a href="http://public.me.com/mroutley/">[PopulationSizeT.pdf]</a>
+<li>Routley M.B., Mavraganis K. &amp; Eckert C.G., 1999, Effect of population size on the mating system in a self-compatible, autogamous plant, <em>Aquilegia canadensis</em> (Ranunculaceae). Heredity 82: 518–528&#160;<a href="http://www.hubmed.org/display.cgi?issn=0018067X&amp;uids=0010383672">[link]</a><a href="http://s3.amazonaws.com/mroutley_public/PopulationSizeT.pdf">[PopulationSizeT.pdf]</a>
 </li>
 </ul>

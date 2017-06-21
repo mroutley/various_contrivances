@@ -7,7 +7,7 @@ I enjoy solving complex problems with innovative research, sophisticated analysi
 
 So far, I've been fortunate to follow my curiosity into a variety of fields:
 
-* As an academic in [evolutionary ecology](https://www.slideshare.net/slideshow/embed_code/key/NenzTBMBt6cPIP)
+* As an academic in [evolutionary ecology](http://s3.amazonaws.com/mroutley_public/MRoutleyThesis.pdf)
 * Running my own [statistical consulting business](http://matt.routleynet.org/consulting/)
 * Contributing to Ontario's infrastructure planning and policy at [Treasury Board Secretariat](https://www.ontario.ca/page/treasury-board-secretariat)
 * Leading analytics teams at both Treasury Board Secretariat and the Ministry of Infrastructure

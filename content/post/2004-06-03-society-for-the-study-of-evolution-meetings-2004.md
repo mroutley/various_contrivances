@@ -10,4 +10,4 @@ tags: []
 
 <p>Routley, M.B., L.D. Harder, &amp; S.A. Richards. Ovule fates. <a href="http://evolution04.biology.colostate.edu/">Colorado State University</a></p>
 
-<p><a href="http://public.me.com/mroutley">Download</a> SSE2004.pdf</p>
+<p><a href="http://s3.amazonaws.com/mroutley_public/SSE2004.pdf">Download</a> SSE2004.pdf</p>

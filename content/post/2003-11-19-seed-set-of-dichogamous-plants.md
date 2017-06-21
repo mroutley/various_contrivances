@@ -28,7 +28,7 @@ tags: []
 <p>Citation:</p>
 
 <ul>
-<li>Routley, M.B. &amp; B.C. Husband. 2003. The effect of protandry on siring success in <span class="SpeciesName">Chamerion angustifolium</span> (Onagraceae) with different inflorescence sizes. <a href="http://lsvl.la.asu.edu/evolution/">Evolution</a>, 57: 240-248&#160;<a class="documentLink" href="http://pmbrowser.info/pmdisplay.cgi?issn=00143820&amp;uids=12683521">PubMed</a> <a class="documentLink" href="/files/ProtandryDichogamy.pdf">PDF</a>
+<li>Routley, M.B. &amp; B.C. Husband. 2003. The effect of protandry on siring success in <span class="SpeciesName">Chamerion angustifolium</span> (Onagraceae) with different inflorescence sizes. <a href="http://lsvl.la.asu.edu/evolution/">Evolution</a>, 57: 240-248&#160;<a class="documentLink" href="http://pmbrowser.info/pmdisplay.cgi?issn=00143820&amp;uids=12683521">PubMed</a> <a class="documentLink" href="http://s3.amazonaws.com/mroutley_public/ProtandryDichogamy.pdf">PDF</a>
 </li>
 </ul>
-<p>Download: <a href="http://public.me.com/mroutley">SeedSetData.txt</a></p>
+<p>Download: <a href="http://s3.amazonaws.com/mroutley_public/SeedSetData.txt">SeedSetData.txt</a></p>

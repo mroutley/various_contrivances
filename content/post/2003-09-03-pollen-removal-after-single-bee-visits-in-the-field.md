@@ -23,10 +23,10 @@ tags: []
 <p>Citation:</p>
 
 <ul>
-<li><a href="http://public.me.com/mroutley/">MRoutleyThesis.pdf</a></li>
+<li><a href="http://s3.amazonaws.com/mroutley_public/MRoutleyThesis.pdf">MRoutleyThesis.pdf</a></li>
 </ul>
 <p>Download:</p>
 
 <ul>
-<li><a href="http://public.me.com/mroutley/">MontanaPollenRemoval.txt</a></li>
+<li><a href="http://s3.amazonaws.com/mroutley_public/MontanaPollenRemoval.txt">MontanaPollenRemoval.txt</a></li>
 </ul>

@@ -10,4 +10,4 @@ tags: []
 
 <p>Routley, M.B. The evolutionary significance of being one gender at a time. <a href="http://www.ucalgary.ca/ecology/seminars.html#weekly">Ecology Division Seminar Series</a>, University of Calgary</p>
 
-<p>Download <a href="http://public.me.com/mroutley/files/Calgary2003.pdf">http://public.me.com/mroutley/files/Calgary2003.pdf</a></p>
+<p>Download <a href="http://s3.amazonaws.com/mroutley_public/Calgary2003.pdf">http://s3.amazonaws.com/mroutley_public/Calgary2003.pdf</a></p>

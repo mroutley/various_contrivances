@@ -21,6 +21,6 @@ tags: []
 <p>Citation:</p>
 
 <ul>
-<li><p>Routley, M.B. &amp; B.C. Husband. 2004. Responses to selection on male-phase duration in <span class="SpeciesName">Chamerion angustifolium</span>. <a href="http://www.eseb.org/jeb.htm"><abbr title="Journal of Evolutionary Biology">J. Evol. Biol.</abbr></a> in press <a class="documentLink" href="http://public.me.com/mroutley">Download paper:</a> protandryHeritability.pdf</p></li>
-<li><p><a href="http://public.me.com/mroutley">Download data</a>: protandryHeritability.zip</p></li>
+<li><p>Routley, M.B. &amp; B.C. Husband. 2004. Responses to selection on male-phase duration in <span class="SpeciesName">Chamerion angustifolium</span>. <a href="http://www.eseb.org/jeb.htm"><abbr title="Journal of Evolutionary Biology">J. Evol. Biol.</abbr></a> in press <a class="documentLink" href="http://s3.amazonaws.com/mroutley_public/protandryHeritability.pdf">Download paper:</a> protandryHeritability.pdf</p></li>
+<li><p><a href="http://s3.amazonaws.com/mroutley_public/protandryHeritability.zip">Download data</a>: protandryHeritability.zip</p></li>
 </ul>

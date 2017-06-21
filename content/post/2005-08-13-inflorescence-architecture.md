@@ -19,6 +19,6 @@ tags: []
 <h2>Publication(s):</h2>
 
 <ul>
-<li>Harder L.D., Jordan C.Y., Gross W.E. &amp; Routley M.B., 2004, Beyond floricentrism: the pollination function of inflorescences. Plant Species Biol. 19: 137–148&#160;<a href="http://www.ingentaconnect.com/content/bsc/psb/2004/00000019/00000003/art00002">[link]</a><a href="http://public.me.com/mroutley">[Floricentrism.pdf]</a>
+<li>Harder L.D., Jordan C.Y., Gross W.E. &amp; Routley M.B., 2004, Beyond floricentrism: the pollination function of inflorescences. Plant Species Biol. 19: 137–148&#160;<a href="http://www.ingentaconnect.com/content/bsc/psb/2004/00000019/00000003/art00002">[link]</a><a href="http://s3.amazonaws.com/mroutley_public/Floricentrism.pdf">[Floricentrism.pdf]</a>
 </li>
 </ul>

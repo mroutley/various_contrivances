@@ -24,10 +24,10 @@ tags: []
 
 <ul>
 <li>
-<a href="http://public.me.com/mroutley">PhD thesis</a> MRoutleyThesis.pdf</li>
+<a href="http://s3.amazonaws.com/mroutley_public/MRoutleyThesis.pdf">PhD thesis</a> MRoutleyThesis.pdf</li>
 </ul>
 <p>Download:</p>
 
 <ul>
-<li><a href="http://public.me.com/mroutley">MontanaPollenDeposition.txt</a></li>
+<li><a href="http://s3.amazonaws.com/mroutley_public/MontanaPollenDeposition.txt">MontanaPollenDeposition.txt</a></li>
 </ul>

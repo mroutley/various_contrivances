@@ -21,5 +21,5 @@ tags: []
 <h2>Publication(s):</h2>
 
 <ul>
-<li>Routley M.B., Kron P. &amp; Husband B.C., 2004, The consequences of clone size for paternal and maternal success in domestic apple (<em>Malus x domestica</em>). Am. J. Bot. 91: 1326–1332&#160;<a href="http://www.amjbot.org/cgi/content/abstract/91/9/1326">[link]</a><a href="http://public.me.com/mroutley">[PDF]</a> AppleCloneSize.pdf</li>
+<li>Routley M.B., Kron P. &amp; Husband B.C., 2004, The consequences of clone size for paternal and maternal success in domestic apple (<em>Malus x domestica</em>). Am. J. Bot. 91: 1326–1332&#160;<a href="http://www.amjbot.org/cgi/content/abstract/91/9/1326">[link]</a><a href="http://s3.amazonaws.com/mroutley_public/AppleCloneSize.pdf">[PDF]</a> AppleCloneSize.pdf</li>
 </ul>

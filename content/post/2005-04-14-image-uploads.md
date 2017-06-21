@@ -8,7 +8,7 @@ categories:
 tags: []
 ---
 
-<p>A particular challenge with maintaining a weblog is the uploading and resizing of images. The process involves choosing the correct images, creating large &amp; thumbnail sized versions, uploading these images to the webserver, and posting the appropriate code into the weblog post. In the spirit of my last few posts, <a href="http://public.me.com/mroutley">image2web</a> is an <a href="http://www.apple.com/applescript">applescript</a> I use to automate this process:</p>
+<p>A particular challenge with maintaining a weblog is the uploading and resizing of images. The process involves choosing the correct images, creating large &amp; thumbnail sized versions, uploading these images to the webserver, and posting the appropriate code into the weblog post. In the spirit of my last few posts, <a href="http://s3.amazonaws.com/mroutley_public/image2web">image2web</a> is an <a href="http://www.apple.com/applescript">applescript</a> I use to automate this process:</p>
 
 <pre>
 <code>
@@ -99,7 +99,7 @@ tags: []
 
 <ol>
 <li>Mark photos with the check-mark tag</li>
-<li>Run the <a href="http://public.me.com/mroutley">image2web</a> script</li>
+<li>Run the <a href="http://s3.amazonaws.com/mroutley_public/image2web">image2web</a> script</li>
 <li>Past the clipboard to <a href="http://blapp.sourceforge.net/">Blapp</a>
 </li>
 <li>Publish the weblog</li>

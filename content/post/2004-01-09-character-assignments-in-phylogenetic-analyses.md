@@ -9,7 +9,7 @@ categories:
 tags: []
 ---
 
-<p>In some recent research (<a href="http://public.me.com/mroutley/SIandDichogamy.pdf">http://public.me.com/mroutley/SIandDichogamy.pdf</a>) I had to make inferences about families based on character states of the species within the family. One approach is to use a simple majority rule. For example, if more than half of the species possess character state x rather than y, then the family can be described as x. However, this approach seemed rather liberal, which led to a 2/3 majority criterion: if more than 2/3 of the species are x, the family is x; If less than 1/3 is x the family is y; otherwise the family is ambiguous.</p>
+<p>In some recent research (<a href="http://s3.amazonaws.com/mroutley_public/SIandDichogamy.pdf">http://s3.amazonaws.com/mroutley_public/SIandDichogamy.pdf</a>) I had to make inferences about families based on character states of the species within the family. One approach is to use a simple majority rule. For example, if more than half of the species possess character state x rather than y, then the family can be described as x. However, this approach seemed rather liberal, which led to a 2/3 majority criterion: if more than 2/3 of the species are x, the family is x; If less than 1/3 is x the family is y; otherwise the family is ambiguous.</p>
 
 <p>A significant drawback to arbitrarily creating such criteria is that I had no idea what the consequences were for making Type I and Type II errors. Presumably, as the criterion becomes more stringent, Type I errors are less likely, but such uncertainty is not comforting. I decided a better approach would be to attempt a simulation study using different criteria coupled with a more sophisticated character state reconstruction algorithm.</p>
 
@@ -17,4 +17,4 @@ tags: []
 
 <p>I tested three decision criteria. Their results are: an 80% criterion was 98.1% accurate, 65% was 91.6%, and 55% was 60.8%. Clearly more stringent criteria are most similar to the more sophisticated maximum-likelihood analyses. However, stringency does exclude more data from the analysis as more families become ambiguously coded. A proper trade-off between stringency and sample size is required to make the best use of data.</p>
 
-<p>I conducted these simulations with <a href="http://www.mesquiteproject.org">Mesquite</a> and the data file is available(<a href="http://public.me.com/mroutley/simulations.nex">http://public.me.com/mroutley/simulations.nex</a>).</p>
+<p>I conducted these simulations with <a href="http://www.mesquiteproject.org">Mesquite</a> and the data file is available(<a href="http://s3.amazonaws.com/mroutley_public/simulations.nex">http://s3.amazonaws.com/mroutley_public/simulations.nex</a>).</p>
