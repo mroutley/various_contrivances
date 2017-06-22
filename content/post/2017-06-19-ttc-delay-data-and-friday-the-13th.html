@@ -36,7 +36,19 @@ delays</code></pre>
 ##  9 2014-01-01 07:34:00     0
 ## 10 2014-01-01 07:53:00     0
 ## # ... with 69,033 more rows</code></pre>
-<p>Now we have a <code>delays</code> dataframe with 69043 incidents starting from 2014-01-01 00:21:00 and ending at 2017-04-30 22:13:00.</p>
+<p>Now we have a <code>delays</code> dataframe with 69043 incidents starting from 2014-01-01 00:21:00 and ending at 2017-04-30 22:13:00. Before we get too far, we’ll take a look at the data. A heatmap of delays by day and hour should give us some perspective.</p>
+<pre class="r"><code>delays %&gt;% 
+  dplyr::mutate(day = lubridate::day(date),
+         hour = lubridate::hour(date)) %&gt;% 
+  dplyr::group_by(day, hour) %&gt;% 
+  dplyr::summarise(sum_delay = sum(delay)) %&gt;% 
+  ggplot2::ggplot(aes(x = hour, y = day, fill = sum_delay)) +
+    ggplot2::geom_tile(alpha = 0.8, color = &quot;white&quot;) +
+    ggplot2::scale_fill_gradient2() + 
+    ggplot2::theme(legend.position = &quot;right&quot;) +
+    ggplot2::labs(x = &quot;Hour&quot;, y = &quot;Day of the month&quot;, fill = &quot;Sum of delays&quot;)</code></pre>
+<p><img src="/post/2017-06-19-ttc-delay-data-and-friday-the-13th_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>Other than a reliable band of calm very early in the morning, no obvious patterns here.</p>
 <p>We need to identify any days that are a Friday the 13th. We also might want to compare weekends, regular Fridays, other weekdays, and Friday the 13ths, so we add a <code>type</code> column that provides these values. Here we use the <code>case_when</code> function:</p>
 <pre class="r"><code>delays &lt;- delays %&gt;% 
     dplyr::mutate(type = case_when( # Partition into Friday the 13ths, Fridays, weekends, and weekdays

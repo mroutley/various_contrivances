@@ -33,7 +33,22 @@ delays <- readxl::read_excel(filename, sheet = 2) %>%
 delays
 ```
 
-Now we have a `delays` dataframe with `r dim(delays)[1]` incidents starting from `r min(delays$date)` and ending at `r max(delays$date)`. 
+Now we have a `delays` dataframe with `r dim(delays)[1]` incidents starting from `r min(delays$date)` and ending at `r max(delays$date)`. Before we get too far, we'll take a look at the data. A heatmap of delays by day and hour should give us some perspective.
+
+```{r}
+delays %>% 
+  dplyr::mutate(day = lubridate::day(date),
+         hour = lubridate::hour(date)) %>% 
+  dplyr::group_by(day, hour) %>% 
+  dplyr::summarise(sum_delay = sum(delay)) %>% 
+  ggplot2::ggplot(aes(x = hour, y = day, fill = sum_delay)) +
+    ggplot2::geom_tile(alpha = 0.8, color = "white") +
+    ggplot2::scale_fill_gradient2() + 
+    ggplot2::theme(legend.position = "right") +
+    ggplot2::labs(x = "Hour", y = "Day of the month", fill = "Sum of delays")
+```
+
+Other than a reliable band of calm very early in the morning, no obvious patterns here.
 
 We need to identify any days that are a Friday the 13th. We also might want to compare weekends, regular Fridays, other weekdays, and Friday the 13ths, so we add a `type` column that provides these values. Here we use the `case_when` function:
 
