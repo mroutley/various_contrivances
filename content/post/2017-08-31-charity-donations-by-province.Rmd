@@ -1,0 +1,62 @@
+---
+title: Charity donations by province
+author: Matthew Routley
+date: '2017-08-31'
+slug: charity-donations-by-province
+categories:
+  - politics
+  - economics
+  - code
+tags: []
+draft: true
+---
+
+This tweet about the charitable donations by Albertans showed up in my timeline and caused a ruckus.
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '903089221920890881')
+```
+
+Many people took issue with the fact that these values weren't adjusted for income. Seems to me that whether this is a good idea or not depends on what kind of question you're trying to answer. Regardless, the [CANSIM](http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=1110001) table includes this value. So, it is straightforward to calculate. Plus CANSIM tables have a pretty standard structure and showing how to manipulate this one serves as a good template for others.
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+# Download and extract
+url <- "http://www20.statcan.gc.ca/tables-tableaux/cansim/csv/01110001-eng.zip"
+zip_file <- "01110001-eng.zip"
+download.file(url,
+              destfile = zip_file)
+unzip(zip_file) 
+# We only want two of the columns. Specifying them here.
+keep_data <- c("Median donations (dollars)",
+               "Median total income of donors (dollars)")
+cansim <- read_csv("01110001-eng.csv") %>% 
+  filter(DON %in% keep_data,
+         is.na(`Geographical classification`)) %>% # This second filter removes anything that isn't a province or territory
+  select(Ref_Date, DON, Value, GEO) %>%
+  spread(DON, Value) %>% 
+  rename(year = Ref_Date,
+         donation = `Median donations (dollars)`,
+         income = `Median total income of donors (dollars)`) %>% 
+  mutate(donation_per_income = donation / income) %>% 
+  filter(year == 2015)
+# We'll want the Canadian average later
+can_avg <- cansim %>% 
+  filter(year == 2015,
+         GEO == "Canada") %>% 
+  select(donation_per_income)
+```
+
+Now we can plot the standardized data to find the rank order changes.
+
+```{r}
+ggplot(filter(cansim, GEO != "Canada"), aes(x = reorder(GEO, donation_per_income), y = donation_per_income)) + 
+  scale_y_continuous(labels = scales::percent) + 
+  coord_flip() + 
+  geom_col() +
+  geom_hline(yintercept = can_avg[[1]], color = "blue") +
+  ylab("Donations as a percentage of median income") +
+  xlab("")
+```
+
+
