@@ -43,7 +43,7 @@ cansim <- read_csv("01110001-eng.csv") %>%
 cansim
 ```
 
-Curious that they dropped the territories from their chart, given that the Yukon has such a high donation amount.
+Curious that they dropped the territories from their chart, given that Nunavut has such a high donation amount.
 
 Now we can plot the standardized data to find the rank order changes. We'll add the Canadian average as a blue line for comparison.
 
