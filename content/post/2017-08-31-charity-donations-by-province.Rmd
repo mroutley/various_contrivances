@@ -8,7 +8,6 @@ categories:
   - economics
   - code
 tags: []
-draft: true
 ---
 
 This tweet about the charitable donations by Albertans showed up in my timeline and caused a ruckus.
@@ -39,17 +38,21 @@ cansim <- read_csv("01110001-eng.csv") %>%
          donation = `Median donations (dollars)`,
          income = `Median total income of donors (dollars)`) %>% 
   mutate(donation_per_income = donation / income) %>% 
-  filter(year == 2015)
-# We'll want the Canadian average later
-can_avg <- cansim %>% 
-  filter(year == 2015,
-         GEO == "Canada") %>% 
-  select(donation_per_income)
+  filter(year == 2015) %>% 
+  select(GEO, donation, donation_per_income)
+cansim
 ```
 
-Now we can plot the standardized data to find the rank order changes.
+Curious that they dropped the territories from their chart, given that the Yukon has such a high donation amount.
 
-```{r}
+Now we can plot the standardized data to find the rank order changes. We'll add the Canadian average as a blue line for comparison.
+
+```{r, echo=FALSE}
+# Pull out the Canadian average
+can_avg <- cansim %>% 
+  filter(GEO == "Canada") %>% 
+  select(donation_per_income)
+
 ggplot(filter(cansim, GEO != "Canada"), aes(x = reorder(GEO, donation_per_income), y = donation_per_income)) + 
   scale_y_continuous(labels = scales::percent) + 
   coord_flip() + 
@@ -59,4 +62,8 @@ ggplot(filter(cansim, GEO != "Canada"), aes(x = reorder(GEO, donation_per_income
   xlab("")
 ```
 
+I'm not comfortable with using median donations (adjusted for income or not) to say anything in particular about the residents of a province. But, I'm always happy to look more closely at data and provide some context for public debates.
 
+One major gap with this type of analysis is that we're only looking at the median donations of people that donated at all. We should really compare these median donations to the total population or the size of the economy. This [Stats Can](http://www.statcan.gc.ca/pub/11-008-x/2012001/article/11637-eng.htm) study is a much more thorough look at the issue.
+
+For me the interesting result here is the dramatic difference between Quebec and the rest of the provinces. But, I don't interpret this to mean that Quebecers are less generous than the rest of Canada. Seems more likely that there are material differences in how the Quebec economy and social safety nets are structured.
