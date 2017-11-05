@@ -13,7 +13,7 @@ Analyzing these data was a great case study for the typical data management proc
 
 ![Leaving work from the Apple Watch](/images/finance_projections_table_6.png)
 
-Sometime recently, the ministry released an update that provides the data in a much better format: one sheet with rows for age and columns for years. Although this is a great improvement, I’ve had to update my [case study](https://github.com/mroutley/analytics_with_r/blob/master/case_study/population/pop_projections.R), which makes it actually less useful as a lesson in data manipulation.
+Sometime recently, the ministry released an update that provides the data in a much better format: one sheet with rows for age and columns for years. Although this is a great improvement, I’ve had to update my [case study](https://github.com/mroutley/analytics_with_r/commit/3ad3aac2ce979405c460acde743500f3203e2067), which makes it actually less useful as a lesson in data manipulation.
 
 Although I've updated the main branch of the github repository, I've also created a [branch](https://github.com/mroutley/analytics_with_r/tree/2016_demog/case_study/population) that sources the [archive.org version](https://web.archive.org/web/20161014124140/https://www.fin.gov.on.ca/en/economy/demographics/projections/table6.html) of the page from October 2016. Now, depending on the audience, I can choose the case study that has the right level of complexity.
 
