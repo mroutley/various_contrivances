@@ -9,67 +9,42 @@ categories:
 tags: []
 draft: TRUE
 ---
+```{r setup, include=FALSE}
+library(tidyverse)
+# library(magrittr)
+```
 
 In preparing for some [PsephoAnalytics](http://www.psephoanalytics.ca/) work on the upcoming provincial election, I've been wrangling the [Elections Ontario](http://www.elections.on.ca/en/resource-centre/elections-results.html) data. The effort required to make these data is outrageous and I'll have more to say about this later. For now, walking through some code demonstrates some useful techniques for this kind of work. 
 
-```{r}
-library(tidyverse)
-library(magrittr)
-raw_results_file <- "http://www.elections.on.ca/content/dam/NGW/sitecontent/2017/results/Poll%20by%20Poll%20Results%20-%20Excel.zip"
+Here's what the source data looks like:
 
-zip_file <- "data-raw/Poll%20by%20Poll%20Results%20-%20Excel.zip"
-if(file.exists(zip_file)) { # Only download the data once
-  # File exists, so nothing to do
-}  else {
-  download.file(raw_results_file,
-                destfile = zip_file)
-  unzip(zip_file, exdir="data-raw") # Extract the data into data-raw
-  file.rename("data-raw/GE Results - 2014 (unconverted)", "data-raw/pollresults")
-}
+![Sample of Elections Ontario data](/images/elections_ontario_results.png)
 
-# Electoral districts -----------------------------------------------------
+A few problems with this:
 
-# Pull the names of the electoral districts from the "Find My Electoral District" website
-# Didn't find any relevant resources on the Elections Ontario website
+  1. The data is scattered across a hundred different Excel files
+  2. Candidates are in columns with their last name as the header. Last names are not unique across all Electoral Districts
+  3. Electoral District names are in a row, followed by a separate row for each poll within the district
+  4. The party affiliation for each candidate isn't included in the data
 
-ed_webpage <- "https://www3.elections.on.ca/internetapp/FYED_Error.aspx?lang=en-ca"
-ed_xpath <- "//*[(@id = \"ddlElectoralDistricts\")]" # Use an xpath selector to get the drop down list by ID
+So, we have a fair bit of work to do to get to something more useful. Ideally something like:
 
-electoral_districts <- xml2::read_html(ed_webpage) %>%
-  rvest::html_node(xpath = ed_xpath) %>%
-  rvest::html_nodes("option") %>%
-  rvest::html_text() %>%
-  .[-1] %>% # Drop the first item on the list
-  tibble::as.tibble() %>% # Convert to a data frame and split into ID number and name
-  tidyr::separate(value, c("electoral_district", "electoral_district_name"),
-                  sep = " ",
-                  extra = "merge") %>%
-  # Clean up district names for later matching and presentation
-  dplyr::mutate(electoral_district_name = stringr::str_to_title(
-    stringr::str_replace_all(electoral_district_name, "--", "—")))
+```{r desired_output, echo=FALSE}
+desired_output <- tibble::tibble(
+  electoral_district = rep(LETTERS[24:26], each = 3),
+  poll = as.character(rep(1:3, times = 3)),
+  candidate = rep(LETTERS[1:3], times = 3),
+  party = rep(c("Liberal", "NDP", "PC"), times = 3),
+  votes = as.integer(round(runif(9, min = 10, max = 100), 0))
+)
+desired_output
+```
 
-# Extract votes -----------------------------------------------------------
+## Candidate parties
 
-file_pattern <- "*_[[:digit:]]{3}.xls" # Can use this to filter down to specific files
-poll_data <- list.files(path = "data-raw/pollresults", pattern = file_pattern, full.names = TRUE) %>% # Find all files that match the pattern
-  purrr::set_names() %>%
-  purrr::map_df(readxl::read_excel, sheet = 1, col_types = "text", .id = "file") %>%   # Import each file and merge into a dataframe
-  # Specifying sheet = 1 just to be clear we're ignoring the rest of the sheets
-  # Declare col_types since there are duplicate surnames and map_df can't recast column types in the rbind
-  # For example, Bell is in both district 014 and 063
-  dplyr::select(-starts_with("X__")) %>% # Drop all of the blank columns
-  dplyr::select(1:2,4:8,15:dim(.)[2]) %>% # Reorganize a bit and drop unneeded columns
-  dplyr::rename(poll_number = `POLL NO.`) %>%
-  tidyr::gather(candidate, votes, -file, -poll_number) %>% # Convert to a long table
-  dplyr::filter(!is.na(votes),
-                poll_number != "Totals") %>%
-  dplyr::mutate(electoral_district = stringr::str_extract(file, "[[:digit:]]{3}"),
-                votes = as.numeric(votes)) %>%
-  dplyr::select(-file) %>%
-  dplyr::left_join(electoral_districts)
+As a first step, we need the party affiliation for each candidate. I didn't see this information on the Elections Ontario site. So, we'll pull the data from [Wikipedia](https://en.wikipedia.org/wiki/Ontario_general_election,_2014#Candidates_by_region). The data on this webpage isn't too bad. The tricky part is finding the right xpath selector to pull out just the tables we're interested in.
 
-# Candidate parties -------------------------------------------------------
-
+```{r candidate_parties_1, echo=TRUE}
 candidate_webpage <- "https://en.wikipedia.org/wiki/Ontario_general_election,_2014#Candidates_by_region"
 candidate_tables <- "table" # Use an xpath selector to get the drop down list by ID
 
@@ -77,7 +52,11 @@ candidates <- xml2::read_html(candidate_webpage) %>%
   rvest::html_nodes(candidate_tables) %>% # Pull tables from the wikipedia entry
   .[13:25] %>% # Drop unecessary tables
   rvest::html_table(fill = TRUE)
+```
 
+This gives us a list of 13 data frames, one for each table on the webpage. Now we cycle through each of these and stack them into one data frame. Unfortunately, the tables aren't consistent in the number of columns. So, the approach is a bit messy and we process each one in a loop. 
+
+```{r candidate_parties_2, echo=TRUE}
 # Setup empty dataframe to store results
 candidate_parties <- tibble::as_tibble(
   electoral_district_name = NULL,
@@ -99,10 +78,40 @@ for(i in seq_along(1:length(candidates))) { # Messy, but works
     dplyr::filter(party != "Incumbent")
   candidate_parties <- dplyr::bind_rows(candidate_parties, this)
 }
+candidate_parties
+```
+
+
+```{r clean_up, include=FALSE}
 rm(this, i)
+```
 
-# Join electoral district numbers into the candidate and parties data
+# Electoral district names
 
+One issue with pulling part affiliations from Wikipedia is that candidates are organized by Electoral District _names_. But the voting results are organized by Electoral District _number_. I couldn't find an appropriate file on the Elections Ontario site. Rather, here we pull the names and numbers of the Electoral Districts from the [Find My Electoral District](https://www3.elections.on.ca/internetapp/FYED_Error.aspx?lang=en-ca) website
+
+```{r ed_names, echo=TRUE}
+ed_webpage <- "https://www3.elections.on.ca/internetapp/FYED_Error.aspx?lang=en-ca"
+ed_xpath <- "//*[(@id = \"ddlElectoralDistricts\")]" # Use an xpath selector to get the drop down list by ID
+
+electoral_districts <- xml2::read_html(ed_webpage) %>%
+  rvest::html_node(xpath = ed_xpath) %>%
+  rvest::html_nodes("option") %>%
+  rvest::html_text() %>%
+  .[-1] %>% # Drop the first item on the list
+  tibble::as.tibble() %>% # Convert to a data frame and split into ID number and name
+  tidyr::separate(value, c("electoral_district", "electoral_district_name"),
+                  sep = " ",
+                  extra = "merge") %>%
+  # Clean up district names for later matching and presentation
+  dplyr::mutate(electoral_district_name = stringr::str_to_title(
+    stringr::str_replace_all(electoral_district_name, "--", "—")))
+electoral_districts
+```
+
+Next, we can join the party affiliations to the Electoral Districts names to join candidates to parties and district numbers.
+
+```{r join_parties_ed_names, echo=TRUE}
 candidate_parties %<>%
   # These three lines are cleaning up hyphens and dashes, seems overly complicated
   dplyr::mutate(electoral_district_name = stringr::str_replace_all(electoral_district_name, "—\n", "—")) %>%
@@ -112,7 +121,50 @@ candidate_parties %<>%
   dplyr::mutate(electoral_district_name = stringr::str_to_title(electoral_district_name)) %>%
   dplyr::left_join(electoral_districts) %>%
   dplyr::filter(!candidate == "") %>%
-  tidyr::separate(candidate, into = c("first","candidate"), extra = "merge", remove = TRUE)
+  tidyr::separate(candidate, into = c("first","candidate"), extra = "merge", remove = TRUE) %>% 
+  dplyr::select(-first)
+candidate_parties
+```
+
+
+
+```{r eval=FALSE, include=FALSE}
+
+raw_results_file <- "http://www.elections.on.ca/content/dam/NGW/sitecontent/2017/results/Poll%20by%20Poll%20Results%20-%20Excel.zip"
+
+zip_file <- "data-raw/Poll%20by%20Poll%20Results%20-%20Excel.zip"
+if(file.exists(zip_file)) { # Only download the data once
+  # File exists, so nothing to do
+}  else {
+  download.file(raw_results_file,
+                destfile = zip_file)
+  unzip(zip_file, exdir="data-raw") # Extract the data into data-raw
+  file.rename("data-raw/GE Results - 2014 (unconverted)", "data-raw/pollresults")
+}
+
+# Extract votes -----------------------------------------------------------
+
+file_pattern <- "*_[[:digit:]]{3}.xls" # Can use this to filter down to specific files
+poll_data <- list.files(path = "data-raw/pollresults", pattern = file_pattern, full.names = TRUE) %>% # Find all files that match the pattern
+  purrr::set_names() %>%
+  purrr::map_df(readxl::read_excel, sheet = 1, col_types = "text", .id = "file") %>%   # Import each file and merge into a dataframe
+  # Specifying sheet = 1 just to be clear we're ignoring the rest of the sheets
+  # Declare col_types since there are duplicate surnames and map_df can't recast column types in the rbind
+  # For example, Bell is in both district 014 and 063
+  dplyr::select(-starts_with("X__")) %>% # Drop all of the blank columns
+  dplyr::select(1:2,4:8,15:dim(.)[2]) %>% # Reorganize a bit and drop unneeded columns
+  dplyr::rename(poll_number = `POLL NO.`) %>%
+  tidyr::gather(candidate, votes, -file, -poll_number) %>% # Convert to a long table
+  dplyr::filter(!is.na(votes),
+                poll_number != "Totals") %>%
+  dplyr::mutate(electoral_district = stringr::str_extract(file, "[[:digit:]]{3}"),
+                votes = as.numeric(votes)) %>%
+  dplyr::select(-file) %>%
+  dplyr::left_join(electoral_districts)
+
+
+
+
 
 poll_data_party_match_table <- poll_data %>%
   group_by(candidate, electoral_district_name) %>%
