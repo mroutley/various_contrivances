@@ -14,7 +14,7 @@ library(tidyverse)
 # library(magrittr)
 ```
 
-In preparing for some [PsephoAnalytics](http://www.psephoanalytics.ca/) work on the upcoming provincial election, I've been wrangling the [Elections Ontario](http://www.elections.on.ca/en/resource-centre/elections-results.html) data. The effort required to make these data is outrageous and I'll have more to say about this later. For now, walking through some code demonstrates some useful techniques for this kind of work. 
+In preparing for some [PsephoAnalytics](http://www.psephoanalytics.ca/) work on the upcoming provincial election, I've been wrangling the [Elections Ontario](http://www.elections.on.ca/en/resource-centre/elections-results.html) data. The effort required to make these data actually useful is outrageous and I'll have more to say about this later. For now, walking through some code demonstrates some useful techniques for this kind of work. 
 
 Here's what the source data looks like:
 
@@ -23,7 +23,7 @@ Here's what the source data looks like:
 A few problems with this:
 
   1. The data is scattered across a hundred different Excel files
-  2. Candidates are in columns with their last name as the header. Last names are not unique across all Electoral Districts
+  2. Candidates are in columns with their last name as the header. Plus, last names are not unique across all Electoral Districts, so can't be used as a unique identifier
   3. Electoral District names are in a row, followed by a separate row for each poll within the district
   4. The party affiliation for each candidate isn't included in the data
 
@@ -86,9 +86,9 @@ candidate_parties
 rm(this, i)
 ```
 
-# Electoral district names
+## Electoral district names
 
-One issue with pulling part affiliations from Wikipedia is that candidates are organized by Electoral District _names_. But the voting results are organized by Electoral District _number_. I couldn't find an appropriate file on the Elections Ontario site. Rather, here we pull the names and numbers of the Electoral Districts from the [Find My Electoral District](https://www3.elections.on.ca/internetapp/FYED_Error.aspx?lang=en-ca) website
+One issue with pulling party affiliations from Wikipedia is that candidates are organized by Electoral District _names_. But the voting results are organized by Electoral District _number_. I couldn't find an appropriate resource on the Elections Ontario site. Rather, here we pull the names and numbers of the Electoral Districts from the [Find My Electoral District](https://www3.elections.on.ca/internetapp/FYED_Error.aspx?lang=en-ca) website.
 
 ```{r ed_names, echo=TRUE}
 ed_webpage <- "https://www3.elections.on.ca/internetapp/FYED_Error.aspx?lang=en-ca"
@@ -126,10 +126,13 @@ candidate_parties %<>%
 candidate_parties
 ```
 
+All that work just to get the name of each candiate for each Electoral District name and number, plus their party affiliation.
 
+## Votes
 
-```{r eval=FALSE, include=FALSE}
+Now we can finally get to the actual voting data. These are made available as a collection of Excel files in a compressed folder. To avoid downloading it more than once, we wrap the call in an `if` statement that first checks to see if we already have the file. We also rename the file to something more manageable.
 
+```{r excel_download, echo=TRUE}
 raw_results_file <- "http://www.elections.on.ca/content/dam/NGW/sitecontent/2017/results/Poll%20by%20Poll%20Results%20-%20Excel.zip"
 
 zip_file <- "data-raw/Poll%20by%20Poll%20Results%20-%20Excel.zip"
@@ -141,9 +144,11 @@ if(file.exists(zip_file)) { # Only download the data once
   unzip(zip_file, exdir="data-raw") # Extract the data into data-raw
   file.rename("data-raw/GE Results - 2014 (unconverted)", "data-raw/pollresults")
 }
+```
 
-# Extract votes -----------------------------------------------------------
 
+
+```{r extract_votes, echo=TRUE}
 file_pattern <- "*_[[:digit:]]{3}.xls" # Can use this to filter down to specific files
 poll_data <- list.files(path = "data-raw/pollresults", pattern = file_pattern, full.names = TRUE) %>% # Find all files that match the pattern
   purrr::set_names() %>%
@@ -161,10 +166,6 @@ poll_data <- list.files(path = "data-raw/pollresults", pattern = file_pattern, f
                 votes = as.numeric(votes)) %>%
   dplyr::select(-file) %>%
   dplyr::left_join(electoral_districts)
-
-
-
-
 
 poll_data_party_match_table <- poll_data %>%
   group_by(candidate, electoral_district_name) %>%
