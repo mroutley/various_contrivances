@@ -27,6 +27,10 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/matthew-routley-065abb77/"
 
+[[menu.main]]
+    name = "Micro.blog"
+    url = "https://micro.blog/mroutley/"
+
 [params]
     description = "An internet wunderkammer."
 
