@@ -1,0 +1,225 @@
+---
+title: Elections Ontario official results
+author: Matthew Routley
+date: '2017-11-19'
+categories:
+  - code
+  - election
+slug: elections-ontario-official-results
+---
+
+
+
+<p>In preparing for some <a href="http://www.psephoanalytics.ca/">PsephoAnalytics</a> work on the upcoming provincial election, I’ve been wrangling the <a href="http://www.elections.on.ca/en/resource-centre/elections-results.html">Elections Ontario</a> data. As provided, the data is really difficult to work with and we’ll walk through some steps to tidy these data for later analysis.</p>
+<p>Here’s what the source data looks like:</p>
+<div class="figure">
+<img src="/images/elections_ontario_results.png" alt="Screenshot of raw Elections Ontario data" />
+<p class="caption">Screenshot of raw Elections Ontario data</p>
+</div>
+<p>A few problems with this:</p>
+<ol style="list-style-type: decimal">
+<li>The data is scattered across a hundred different Excel files</li>
+<li>Candidates are in columns with their last name as the header</li>
+<li>Last names are not unique across all Electoral Districts, so can’t be used as a unique identifier</li>
+<li>Electoral District names are in a row, followed by a separate row for each poll within the district</li>
+<li>The party affiliation for each candidate isn’t included in the data</li>
+</ol>
+<p>So, we have a fair bit of work to do to get to something more useful. Ideally something like:</p>
+<pre><code>## # A tibble: 9 x 5
+##   electoral_district  poll candidate   party votes
+##                &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;   &lt;chr&gt; &lt;int&gt;
+## 1                  X     1         A Liberal    37
+## 2                  X     2         B     NDP    45
+## 3                  X     3         C      PC    33
+## 4                  Y     1         A Liberal    71
+## 5                  Y     2         B     NDP    37
+## 6                  Y     3         C      PC    69
+## 7                  Z     1         A Liberal    28
+## 8                  Z     2         B     NDP    15
+## 9                  Z     3         C      PC    34</code></pre>
+<p>This is much easier to work with: we have one row for the votes received by each candidate at each poll, along with the Electoral District name and their party affiliation.</p>
+<div id="candidate-parties" class="section level2">
+<h2>Candidate parties</h2>
+<p>As a first step, we need the party affiliation for each candidate. I didn’t see this information on the Elections Ontario site. So, we’ll pull the data from <a href="https://en.wikipedia.org/wiki/Ontario_general_election,_2014#Candidates_by_region">Wikipedia</a>. The data on this webpage isn’t too bad. We can just use the <code>table</code> xpath selector to pull out the tables and then drop the ones we aren’t interested in.</p>
+<pre class="r"><code>candidate_webpage &lt;- &quot;https://en.wikipedia.org/wiki/Ontario_general_election,_2014#Candidates_by_region&quot;
+candidate_tables &lt;- &quot;table&quot; # Use an xpath selector to get the drop down list by ID
+
+candidates &lt;- xml2::read_html(candidate_webpage) %&gt;%
+  rvest::html_nodes(candidate_tables) %&gt;% # Pull tables from the wikipedia entry
+  .[13:25] %&gt;% # Drop unecessary tables
+  rvest::html_table(fill = TRUE)</code></pre>
+<p>This gives us a list of 13 data frames, one for each table on the webpage. Now we cycle through each of these and stack them into one data frame. Unfortunately, the tables aren’t consistent in the number of columns. So, the approach is a bit messy and we process each one in a loop.</p>
+<pre class="r"><code># Setup empty dataframe to store results
+candidate_parties &lt;- tibble::as_tibble(
+  electoral_district_name = NULL,
+  party = NULL,
+  candidate = NULL
+)
+
+for(i in seq_along(1:length(candidates))) { # Messy, but works
+  this_table &lt;- candidates[[i]]
+  # The header spans mess up the header row, so renaming
+  names(this_table) &lt;- c(this_table[1,-c(3,4)], &quot;NA&quot;, &quot;Incumbent&quot;)
+  # Get rid of the blank spacer columns
+  this_table &lt;- this_table[-1, ]
+  # Drop the NA columns by keeping only odd columns
+  this_table &lt;- this_table[,seq(from = 1, to = dim(this_table)[2], by = 2)]
+  this_table %&lt;&gt;%
+    tidyr::gather(party, candidate, -`Electoral District`) %&gt;%
+    dplyr::rename(electoral_district_name = `Electoral District`) %&gt;%
+    dplyr::filter(party != &quot;Incumbent&quot;)
+  candidate_parties &lt;- dplyr::bind_rows(candidate_parties, this_table)
+}
+candidate_parties</code></pre>
+<pre><code>## # A tibble: 649 x 3
+##       electoral_district_name   party            candidate
+##                         &lt;chr&gt;   &lt;chr&gt;                &lt;chr&gt;
+##  1 Carleton—Mississippi Mills Liberal      Rosalyn Stevens
+##  2            Nepean—Carleton Liberal           Jack Uppal
+##  3              Ottawa Centre Liberal          Yasir Naqvi
+##  4             Ottawa—Orléans Liberal Marie-France Lalonde
+##  5               Ottawa South Liberal          John Fraser
+##  6              Ottawa—Vanier Liberal   Madeleine Meilleur
+##  7         Ottawa West—Nepean Liberal        Bob Chiarelli
+##  8 Carleton—Mississippi Mills      PC        Jack MacLaren
+##  9            Nepean—Carleton      PC         Lisa MacLeod
+## 10              Ottawa Centre      PC           Rob Dekker
+## # ... with 639 more rows</code></pre>
+</div>
+<div id="electoral-district-names" class="section level2">
+<h2>Electoral district names</h2>
+<p>One issue with pulling party affiliations from Wikipedia is that candidates are organized by Electoral District <em>names</em>. But the voting results are organized by Electoral District <em>number</em>. I couldn’t find an appropriate resource on the Elections Ontario site. Rather, here we pull the names and numbers of the Electoral Districts from the <a href="https://www3.elections.on.ca/internetapp/FYED_Error.aspx?lang=en-ca">Find My Electoral District</a> website. The xpath selector is a bit tricky for this one. The <code>ed_xpath</code> object below actually pulls content from the drop down list that appears when you choose an Electoral District. One nuisance with these data is that Elections Ontario uses <code>--</code> in the Electoral District names, instead of the — used on Wikipedia. We use <code>str_replace_all</code> to fix this below.</p>
+<pre class="r"><code>ed_webpage &lt;- &quot;https://www3.elections.on.ca/internetapp/FYED_Error.aspx?lang=en-ca&quot;
+ed_xpath &lt;- &quot;//*[(@id = \&quot;ddlElectoralDistricts\&quot;)]&quot; # Use an xpath selector to get the drop down list by ID
+
+electoral_districts &lt;- xml2::read_html(ed_webpage) %&gt;%
+  rvest::html_node(xpath = ed_xpath) %&gt;%
+  rvest::html_nodes(&quot;option&quot;) %&gt;%
+  rvest::html_text() %&gt;%
+  .[-1] %&gt;% # Drop the first item on the list (&quot;Select...&quot;)
+  tibble::as.tibble() %&gt;% # Convert to a data frame and split into ID number and name
+  tidyr::separate(value, c(&quot;electoral_district&quot;, &quot;electoral_district_name&quot;),
+                  sep = &quot; &quot;,
+                  extra = &quot;merge&quot;) %&gt;%
+  # Clean up district names for later matching and presentation
+  dplyr::mutate(electoral_district_name = stringr::str_to_title(
+    stringr::str_replace_all(electoral_district_name, &quot;--&quot;, &quot;—&quot;)))
+electoral_districts</code></pre>
+<pre><code>## # A tibble: 107 x 2
+##    electoral_district              electoral_district_name
+##                 &lt;chr&gt;                                &lt;chr&gt;
+##  1                001                       Ajax—Pickering
+##  2                002                    Algoma—Manitoulin
+##  3                003 Ancaster—Dundas—Flamborough—Westdale
+##  4                004                               Barrie
+##  5                005                    Beaches—East York
+##  6                006                 Bramalea—Gore—Malton
+##  7                007                  Brampton—Springdale
+##  8                008                        Brampton West
+##  9                009                                Brant
+## 10                010                Bruce—Grey—Owen Sound
+## # ... with 97 more rows</code></pre>
+<p>Next, we can join the party affiliations to the Electoral District names to join candidates to parties and district numbers.</p>
+<pre class="r"><code>candidate_parties %&lt;&gt;%
+  # These three lines are cleaning up hyphens and dashes, seems overly complicated
+  dplyr::mutate(electoral_district_name = stringr::str_replace_all(electoral_district_name, &quot;—\n&quot;, &quot;—&quot;)) %&gt;%
+  dplyr::mutate(electoral_district_name = stringr::str_replace_all(electoral_district_name,
+                                                                   &quot;Chatham-Kent—Essex&quot;,
+                                                                   &quot;Chatham—Kent—Essex&quot;)) %&gt;%
+  dplyr::mutate(electoral_district_name = stringr::str_to_title(electoral_district_name)) %&gt;%
+  dplyr::left_join(electoral_districts) %&gt;%
+  dplyr::filter(!candidate == &quot;&quot;) %&gt;%
+  # Since the vote data are identified by last names, we split candidate&#39;s names into first and last
+  tidyr::separate(candidate, into = c(&quot;first&quot;,&quot;candidate&quot;), extra = &quot;merge&quot;, remove = TRUE) %&gt;% 
+  dplyr::select(-first)</code></pre>
+<pre><code>## Joining, by = &quot;electoral_district_name&quot;</code></pre>
+<pre class="r"><code>candidate_parties</code></pre>
+<pre><code>## # A tibble: 578 x 4
+##       electoral_district_name   party      candidate electoral_district
+##  *                      &lt;chr&gt;   &lt;chr&gt;          &lt;chr&gt;              &lt;chr&gt;
+##  1 Carleton—Mississippi Mills Liberal        Stevens                013
+##  2            Nepean—Carleton Liberal          Uppal                052
+##  3              Ottawa Centre Liberal          Naqvi                062
+##  4             Ottawa—Orléans Liberal France Lalonde                063
+##  5               Ottawa South Liberal         Fraser                064
+##  6              Ottawa—Vanier Liberal       Meilleur                065
+##  7         Ottawa West—Nepean Liberal      Chiarelli                066
+##  8 Carleton—Mississippi Mills      PC       MacLaren                013
+##  9            Nepean—Carleton      PC        MacLeod                052
+## 10              Ottawa Centre      PC         Dekker                062
+## # ... with 568 more rows</code></pre>
+<p>All that work just to get the name of each candiate for each Electoral District name and number, plus their party affiliation.</p>
+</div>
+<div id="votes" class="section level2">
+<h2>Votes</h2>
+<p>Now we can finally get to the actual voting data. These are made available as a collection of Excel files in a compressed folder. To avoid downloading it more than once, we wrap the call in an <code>if</code> statement that first checks to see if we already have the file. We also rename the file to something more manageable.</p>
+<pre class="r"><code>raw_results_file &lt;- &quot;http://www.elections.on.ca/content/dam/NGW/sitecontent/2017/results/Poll%20by%20Poll%20Results%20-%20Excel.zip&quot;
+
+zip_file &lt;- &quot;data-raw/Poll%20by%20Poll%20Results%20-%20Excel.zip&quot;
+if(file.exists(zip_file)) { # Only download the data once
+  # File exists, so nothing to do
+}  else {
+  download.file(raw_results_file,
+                destfile = zip_file)
+  unzip(zip_file, exdir=&quot;data-raw&quot;) # Extract the data into data-raw
+  file.rename(&quot;data-raw/GE Results - 2014 (unconverted)&quot;, &quot;data-raw/pollresults&quot;)
+}</code></pre>
+<pre><code>## NULL</code></pre>
+<p>Now we need to extract the votes out of 107 Excel files. The combination of <code>purrr</code> and <code>readxl</code> packages is great for this. In case we want to filter to just a few of the files (perhaps to target a range of Electoral Districts), we declare a <code>file_pattern</code>. For now, we just set it to any xls file that ends with three digits preceeded by a “_“.</p>
+<p>As we read in the Excel files, we clean up lots of blank columns and headers. Then we convert to a long table and drop total and blank rows. Also, rather than try to align the Electoral District name rows with their polls, we use the name of the Excel file to pull out the Electoral District number. Then we join with the <code>electoral_districts</code> table to pull in the Electoral District names.</p>
+<pre class="r"><code>file_pattern &lt;- &quot;*_[[:digit:]]{3}.xls&quot; # Can use this to filter down to specific files
+poll_data &lt;- list.files(path = &quot;data-raw/pollresults&quot;, pattern = file_pattern, full.names = TRUE) %&gt;% # Find all files that match the pattern
+  purrr::set_names() %&gt;%
+  purrr::map_df(readxl::read_excel, sheet = 1, col_types = &quot;text&quot;, .id = &quot;file&quot;) %&gt;%   # Import each file and merge into a dataframe
+  # Specifying sheet = 1 just to be clear we&#39;re ignoring the rest of the sheets
+  # Declare col_types since there are duplicate surnames and map_df can&#39;t recast column types in the rbind
+  # For example, Bell is in both district 014 and 063
+  dplyr::select(-starts_with(&quot;X__&quot;)) %&gt;% # Drop all of the blank columns
+  dplyr::select(1:2,4:8,15:dim(.)[2]) %&gt;% # Reorganize a bit and drop unneeded columns
+  dplyr::rename(poll_number = `POLL NO.`) %&gt;%
+  tidyr::gather(candidate, votes, -file, -poll_number) %&gt;% # Convert to a long table
+  dplyr::filter(!is.na(votes),
+                poll_number != &quot;Totals&quot;) %&gt;%
+  dplyr::mutate(electoral_district = stringr::str_extract(file, &quot;[[:digit:]]{3}&quot;),
+                votes = as.numeric(votes)) %&gt;%
+  dplyr::select(-file) %&gt;%
+  dplyr::left_join(electoral_districts)
+poll_data</code></pre>
+<pre><code>## # A tibble: 143,455 x 5
+##    poll_number candidate votes electoral_district electoral_district_name
+##          &lt;chr&gt;     &lt;chr&gt; &lt;dbl&gt;              &lt;chr&gt;                   &lt;chr&gt;
+##  1         001   DICKSON    73                001          Ajax—Pickering
+##  2         002   DICKSON   144                001          Ajax—Pickering
+##  3         003   DICKSON    68                001          Ajax—Pickering
+##  4         006   DICKSON   120                001          Ajax—Pickering
+##  5         007   DICKSON    74                001          Ajax—Pickering
+##  6        008A   DICKSON    65                001          Ajax—Pickering
+##  7        008B   DICKSON    81                001          Ajax—Pickering
+##  8         009   DICKSON   112                001          Ajax—Pickering
+##  9         010   DICKSON   115                001          Ajax—Pickering
+## 10         011   DICKSON    74                001          Ajax—Pickering
+## # ... with 143,445 more rows</code></pre>
+<p>The only thing left to do is to join <code>poll_data</code> with <code>candidate_parties</code> to add party affiliation to each candidate. Because the names don’t always exactly match between these two tables, we use the <code>fuzzyjoin</code> package to join by closest spelling.</p>
+<pre class="r"><code>poll_data_party_match_table &lt;- poll_data %&gt;%
+  group_by(candidate, electoral_district_name) %&gt;%
+  summarise() %&gt;%
+  fuzzyjoin::stringdist_left_join(candidate_parties,
+                                  ignore_case = TRUE) %&gt;%
+  dplyr::select(candidate = candidate.x,
+                party = party,
+                electoral_district = electoral_district) %&gt;%
+  dplyr::filter(!is.na(party))
+poll_data %&lt;&gt;%
+  dplyr::left_join(poll_data_party_match_table) %&gt;% 
+  dplyr::group_by(electoral_district, party)
+tibble::glimpse(poll_data)</code></pre>
+<pre><code>## Observations: 144,323
+## Variables: 6
+## $ poll_number             &lt;chr&gt; &quot;001&quot;, &quot;002&quot;, &quot;003&quot;, &quot;006&quot;, &quot;007&quot;, &quot;00...
+## $ candidate               &lt;chr&gt; &quot;DICKSON&quot;, &quot;DICKSON&quot;, &quot;DICKSON&quot;, &quot;DICK...
+## $ votes                   &lt;dbl&gt; 73, 144, 68, 120, 74, 65, 81, 112, 115...
+## $ electoral_district      &lt;chr&gt; &quot;001&quot;, &quot;001&quot;, &quot;001&quot;, &quot;001&quot;, &quot;001&quot;, &quot;00...
+## $ electoral_district_name &lt;chr&gt; &quot;Ajax—Pickering&quot;, &quot;Ajax—Pickering&quot;, &quot;A...
+## $ party                   &lt;chr&gt; &quot;Liberal&quot;, &quot;Liberal&quot;, &quot;Liberal&quot;, &quot;Libe...</code></pre>
+<p>And, there we go. One table with a row for the votes received by each candidate at each poll. It would have been great if Elections Ontario released data in this format and we could have avoided all of this work.</p>
+</div>
