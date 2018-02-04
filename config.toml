@@ -1,50 +1,53 @@
 baseurl = "http://matt.routleynet.org/"
-relativeurls = true
-enableEmoji = true
-languageCode = "en-ca"
+publishDir = "public"
 title = "Various Contrivances"
-theme = "hugo-lithium-theme"
+author = "Matthew Routley"
+canonifyurls = true
+languagecode = "en-ca"
+theme = "hugo-tanka"
+
 googleAnalytics = ""
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+disable_mathjax = false
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
+pygmentsstyle      = "vs"
+pygmentscodefences = true
 
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+  sitename = "Various Contrivances"
+  description = "An internet wunderkammer"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 2
 [[menu.main]]
     name = "Consulting"
     url = "/consulting/"
+    weight = 3
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/mroutley"
+    weight = 4
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/mroutley"
+    weight = 5
 [[menu.main]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/matthew-routley-065abb77/"
+    weight = 6
 [[menu.main]]
     name = "Micro.blog"
     url = "https://micro.blog/mroutley"
-
-[params]
-    description = "An internet wunderkammer."
-
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.11.0"
-    highlightjsCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
-
-    MathJaxCDN = "//cdn.bootcss.com"
-    MathJaxVersion = "2.7.1"
-
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
-
+    weight = 7
+[[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 8
