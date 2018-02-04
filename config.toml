@@ -1,5 +1,6 @@
 baseurl = "http://matt.routleynet.org/"
 publishDir = "public"
+relativeurls = true
 title = "Various Contrivances"
 author = "Matthew Routley"
 canonifyurls = true
