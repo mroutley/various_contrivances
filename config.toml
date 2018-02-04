@@ -21,34 +21,26 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   description = "An internet wunderkammer"
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 2
-[[menu.main]]
-    name = "Consulting"
-    url = "/consulting/"
-    weight = 3
+    weight = 1
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/mroutley"
-    weight = 4
+    weight = 2
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/mroutley"
-    weight = 5
+    weight = 3
 [[menu.main]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/matthew-routley-065abb77/"
-    weight = 6
+    weight = 4
 [[menu.main]]
     name = "Micro.blog"
     url = "https://micro.blog/mroutley"
-    weight = 7
+    weight = 5
 [[menu.main]]
     name = "RSS"
     url = "/index.xml"
-    weight = 8
+    weight = 6
