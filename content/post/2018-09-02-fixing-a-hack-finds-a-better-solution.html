@@ -1,0 +1,65 @@
+---
+title: Fixing a hack finds a better solution
+author: Matthew Routley
+date: '2018-09-02'
+slug: fixing-a-hack-finds-a-better-solution
+categories:
+  - code
+  - election
+tags: []
+---
+
+
+
+<p>In my <a href="https://matt.routleynet.org/post/elections-ontario-official-results/">Elections Ontario official results</a> post, I had to use an ugly hack to match Electoral District names and numbers by extracting data from a drop down list on the Find My Electoral District website. Although it was mildly clever, like any hack, I shouldn’t have relied on this one for long, as proven by Elections Ontario shutting down the website.</p>
+<p>So, a more robust solution was required, which led to using one of Election Ontario’s shapefiles. The shapefile contains the data we need, it’s just in a tricky format to deal with. But, the <code>sf</code> package makes this mostly straightforward.</p>
+<p>We start by downloading and importing the Elections Ontario shape file. Then, since we’re only interested in the City of Toronto boundaries, we download the city’s shapefile too and intersect it with the provincial one to get a subset:</p>
+<pre class="r"><code>download.file(&quot;https://www.elections.on.ca/content/dam/NGW/sitecontent/2016/preo/shapefiles/Polling%20Division%20Shapefile%20-%202014%20General%20Election.zip&quot;, 
+              destfile = &quot;data-raw/Polling%20Division%20Shapefile%20-%202014%20General%20Election.zip&quot;)
+unzip(&quot;data-raw/Polling%20Division%20Shapefile%20-%202014%20General%20Election.zip&quot;, 
+      exdir = &quot;data-raw/Polling%20Division%20Shapefile%20-%202014%20General%20Election&quot;)
+
+prov_geo &lt;- sf::st_read(&quot;data-raw/Polling%20Division%20Shapefile%20-%202014%20General%20Election&quot;, 
+                        layer = &quot;PDs_Ontario&quot;) %&gt;%
+  sf::st_transform(crs = &quot;+init=epsg:4326&quot;)
+
+download.file(&quot;http://opendata.toronto.ca/gcc/voting_location_2014_wgs84.zip&quot;,
+              destfile = &quot;data-raw/voting_location_2014_wgs84.zip&quot;)
+unzip(&quot;data-raw/voting_location_2014_wgs84.zip&quot;, exdir=&quot;data-raw/voting_location_2014_wgs84&quot;)
+toronto_wards &lt;- sf::st_read(&quot;data-raw/voting_location_2014_wgs84&quot;, layer = &quot;VOTING_LOCATION_2014_WGS84&quot;) %&gt;%
+  sf::st_transform(crs = &quot;+init=epsg:4326&quot;)
+
+to_prov_geo &lt;- prov_geo %&gt;%
+  sf::st_intersection(toronto_wards)</code></pre>
+<p>Now we just need to extract a couple of columns from the data frame associated with the shapefile. Then we process the values a bit so that they match the format of other data sets. This includes converting them to UTF-8, formatting as title case, and replacing dashes with spaces:</p>
+<pre class="r"><code>electoral_districts &lt;- to_prov_geo %&gt;%
+  dplyr::transmute(electoral_district = as.character(DATA_COMPI),
+                   electoral_district_name = stringr::str_to_title(KPI04)) %&gt;%
+  dplyr::group_by(electoral_district, electoral_district_name) %&gt;%
+  dplyr::count() %&gt;%
+  dplyr::ungroup() %&gt;%
+  dplyr::mutate(electoral_district_name = stringr::str_replace_all(utf8::as_utf8(electoral_district_name), &quot;\u0097&quot;, &quot; &quot;)) %&gt;%
+  dplyr::select(electoral_district, electoral_district_name)
+electoral_districts</code></pre>
+<pre><code>## Simple feature collection with 23 features and 2 fields
+## geometry type:  MULTIPOINT
+## dimension:      XY
+## bbox:           xmin: -79.61919 ymin: 43.59068 xmax: -79.12511 ymax: 43.83057
+## epsg (SRID):    4326
+## proj4string:    +proj=longlat +datum=WGS84 +no_defs
+## # A tibble: 23 x 3
+##    electoral_distri… electoral_distric…                           geometry
+##    &lt;chr&gt;             &lt;chr&gt;                                &lt;MULTIPOINT [°]&gt;
+##  1 005               Beaches East York  (-79.32736 43.69452, -79.32495 43…
+##  2 015               Davenport          (-79.4605 43.68283, -79.46003 43.…
+##  3 016               Don Valley East    (-79.35985 43.78844, -79.3595 43.…
+##  4 017               Don Valley West    (-79.40592 43.75026, -79.40524 43…
+##  5 020               Eglinton Lawrence  (-79.46787 43.70595, -79.46376 43…
+##  6 023               Etobicoke Centre   (-79.58697 43.6442, -79.58561 43.…
+##  7 024               Etobicoke Lakesho… (-79.56213 43.61001, -79.5594 43.…
+##  8 025               Etobicoke North    (-79.61919 43.72889, -79.61739 43…
+##  9 068               Parkdale High Park (-79.49944 43.66285, -79.4988 43.…
+## 10 072               Pickering Scarbor… (-79.18898 43.80374, -79.17927 43…
+## # ... with 13 more rows</code></pre>
+<p>In the end, this is a much more reliable solution, though it seems a bit extreme to use GIS techniques just to get a listing of Electoral District names and numbers.</p>
+<p>The commit with most of these changes in <a href="https://github.com/Psepho/toVotes">toVotes</a> is <a href="https://github.com/Psepho/toVotes/commit/272ea413a6a9a11f0070bcc2c65ed2fcba6e5a4c">here</a>.</p>
