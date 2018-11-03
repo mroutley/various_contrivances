@@ -10,7 +10,7 @@ tags: []
 
 <p>Dichogamy, the temporal separation of gender within a flower, is widespread throughout the angiosperms, occurring in over 250 families. There are two forms of dichogamy: protandry, in which male function precedes female function, and protogyny, the converse. Dichogamy has traditionally been interpreted as a mechanism to avoid inbreeding. However, recent evidence indicates that this inbreeding-avoidance hypothesis cannot completely explain the evolution of dichogamy. An alternate hypothesis is that dichogamy acts to reduce interference between gender functions. Interference can occur within a flower or between flowers on an inflorescence and result in substantial reductions in male and female reproductive success. To date there are very few tests of this interference-avoidance hypothesis or, in fact, investigations of the evolution of dichogamy in general. My Ph.D. thesis was a comprehensive evaluation of the evolutionary significance of dichogamy, including functional, genetic, comparative, and theoretical analyses of this important floral character.</p>
 
-<p><a href="http://www.flickr.com/photos/mroutley/83193561/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/37/83193561_cd01334e47_o.jpg" width="250" height="331" alt="clint"/></a></p>
+![Clint](/images/clint.jpg)
 
 <p>This <span class="SpeciesName">Claytonia</span> species is protandrous. The flower on the left is in male phase with its anthers shedding pollen and the stigma closed and unreceptive. The flower on the right is approximately one day older and is in female phase. The stigma is open and receptive and the anthers have moved away to the side and are empty of pollen.</p>
 
@@ -18,29 +18,30 @@ tags: []
 
 <p>As an evaluation of the fitness consequences of protandry, we tested the interference-avoidance hypothesis with enclosed, artificial populations of <span class="SpeciesName">Chamerion angustifolium</span> (Onagraceae) by experimentally manipulating protandry and inflorescence size and measuring pollinator visitation, seed set, female outcrossing-rate, and outcross siring-success. Protandrous plants had a marginally higher female outcrossing rate than adichogamous plants, but similar seed set and visitation rates. More importantly, protandrous plants (blue points) had, on average, a twofold siring advantage relative to adichogamous plants (red points). However, this siring advantage did not increase linearly with inflorescence size, suggesting that protandry acts to enhance siring success, but not exclusively by reducing between-flower interference.</p>
 
-<p><a href="http://www.flickr.com/photos/mroutley/83194188/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/43/83194188_e2c75e44c8.jpg" width="500" height="458" alt="siring"/></a></p>
+![siring](/images/siring.jpg)
 
 <p>To better understand the function of protandry, we analyzed single bee visits to pairs of <span class="SpeciesName">C. angustifolium</span> flowers in the field and the lab. The patterns of pollen removal and deposition revealed two major consequences of simultaneous hermaphroditism. First, the presence of anthers impeded pollinator’s access to the stigma. Second, pollinators spent more time foraging on hermaphroditic flowers, relative to female flowers. Protandry allows pollen to be exported in the absence of this within-flower interference and can enhance both male and female reproductive success through reductions in pollen discounting and facilitated selfing, respectively.</p>
 
-<p><a href="http://www.flickr.com/photos/mroutley/83193560/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/43/83193560_ab3bcd2097.jpg" width="400" height="299" alt="beevisit"/></a></p>
+![siring](/images/beevisit.jpg)
 
 <h2>Genetic analysis</h2>
 
 <p>The genetic basis of dichogamy may have important implications for its evolution. Consequently, we conducted genetic analyses of protandry in <span class="SpeciesName">C. angustifolium</span> using a paternal half-sib design and an artificial selection experiment. We found moderate heritability (h^2^=0.27) for the duration of male phase. An analysis of plants from the artificial selection experiment showed no genetic correlation between male-phase duration and aspects of floral size. However, we estimated a positive genetic correlation between male-phase duration and floral display size. In addition, we detected a negative correlation between male- and female-phase durations which creates the opportunity for fitness trade-offs between male and female function.</p>
 
-<p><a href="http://www.flickr.com/photos/mroutley/83194187/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/43/83194187_11acf07a7d.jpg" width="464" height="442" alt="sel"/></a></p>
+![sel](/images/sel.jpg)
 
 <h2>Phylogenetic analysis</h2>
 
 <p>To gain a broader perspective on the evolution of dichogamy, we used a current, well resolved phylogeny of the angiosperms to conduct a comparative analysis of dichogamy and self-incompatibility. Using paired-comparisons and maximum-likelihood correlation analyses, we found that protandry is positively correlated with self-incompatibility and protogyny with self-compatibility. These results support a role for interference avoidance in the evolution of protandry and inbreeding avoidance in the evolution of protogyny, suggesting that the two forms of dichogamy provide different functions. In addition, dichogamy changes character states throughout the phylogeny, allowing rapid responses to changing ecological circumstance.</p>
 
-<p><a href="http://www.flickr.com/photos/mroutley/83193564/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/40/83193564_b145887260.jpg" width="500" height="375" alt="phylo"/></a></p>
+![phylo](/images/phylo.jpg)
+
 
 <h2>Theoretical analysis</h2>
 
 <p>We developed a conceptual model to synthesize the effects of male-phase duration, inflorescence size, and inbreeding depression on pollen import and export. The relative fitness of protandry is strongly affected by the combination of floral display size and inbreeding depression. Furthermore, the trade-off between male- and female-phase durations produced a fitness landscape much more favourable to the evolution of protandry.</p>
 
-<p><a href="http://www.flickr.com/photos/mroutley/83194185/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/39/83194185_fd7a7b86d1.jpg" width="451" height="366" alt="relfitness"/></a></p>
+![relfitness](/images/relfitness.jpg)
 
 <h2>Conclusions</h2>
 

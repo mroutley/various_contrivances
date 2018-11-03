@@ -10,7 +10,7 @@ tags: []
 
 <p>I have used this diagram of evolutionary ecology in a wide variety of contexts. In the hope that it may be useful to others, I have made it available to anyone interested. The <a href="http://www.omnigroup.com/applications/omnigraffle/">OmniGraffle</a> source file is available as <a href="http://s3.amazonaws.com/mroutley_public/EvolEcol.graffle">EvolEcol.graffle</a>.</p>
 
-<p><a href="http://www.flickr.com/photos/mroutley/51333973/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/30/51333973_1e0a286eb2.jpg" width="497" height="500" alt="EvolEcol"/></a></p>
+![EvolEcol](/images/EvolEcol.jpg)
 
 <p><!-- Creative Commons Canada Licence -->
 <a rel="license" href="http://creativecommons.org/licenses/by/2.0/ca"><img alt="Some Rights Reserved" border="0" src="http://creativecommons.org/images/public/somerights20.gif"/></a><br/>

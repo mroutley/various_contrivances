@@ -50,7 +50,7 @@ Model 2 takes the approach of constructing each column of the output table in se
 
 How is this important? Model 1 seems intuitive (at least to me) while the syntax of Model 2 is opaque at first glance. However, consider this figure:
 
- <a href="http://www.flickr.com/photos/mroutley/32491928/" title="Photo Sharing"><img src="http://photos21.flickr.com/32491928_e5ffd9b05b_o.png" width="377" height="365" alt="vectorR"/></a>
+![vectorR](/images/vectorR.png)
 
 On the x-axis is the number of data points in the output table on a log scale. The y-axis shows how long the model takes to calculate these values. Model 1 is the blue line. Model 2 is the red line. This illustrates two important points:
 

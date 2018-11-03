@@ -12,7 +12,7 @@ tags: []
 
 <p>Across a range of sizes from 32 to 750 reproductive individuals, we found that small populations (n &lt; 35, red line) had a significantly lower outcrossing rate than large populations (n &gt; 90, blue line).</p>
 
-<p><a href="http://www.flickr.com/photos/mroutley/83193563/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/38/83193563_089418aad7_o.png" width="373" height="360" alt="nXt"/></a></p>
+![nXt](/images/nXt.png)
 
 <p>Given the high estimate for inbreeding depression in this species (0.88 ± 0.14), small populations may experience a rapid decline in population-level fitness that can lead to local extirpation. The consequences of human-induced habitat fragmentation suggest that such local extinctions are common due to this demographic effect.</p>
 

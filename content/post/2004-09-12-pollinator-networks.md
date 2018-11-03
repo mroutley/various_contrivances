@@ -14,7 +14,7 @@ tags: []
 
 <p>The hallmark of a scale-free network is a hub or node with a high number of connections. A relatively simple test for hubs is to plot a histogram of the number of connections between plants. This is illustrated in the following figures. On the left, many plants have a low frequency of connections, while a few plants have many connections. Those plants with many connections could be hubs. Contrast this with the right. The distribution of connections follows a bell shape with no plants having an excessive number of connections. There are no hub plants in this population.</p>
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/mroutley/32491926/" title="scaleNetworks"><img src="https://c1.staticflickr.com/1/23/32491926_6a802c1e34.jpg" width="453" height="189" alt="scaleNetworks"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+![Scale networks](/images/scale_networks.jpg)
 
 <h3>Importance of scale-free networks</h3>
 
