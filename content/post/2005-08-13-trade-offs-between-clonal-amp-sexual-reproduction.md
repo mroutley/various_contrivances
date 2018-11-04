@@ -15,11 +15,11 @@ tags: []
 <h2>Collaborator(s):</h2>
 
 <ul>
-<li><a href="http://www.uoguelph.ca/botany/research/evollab/">Brian Husband</a></li>
-<li><a href="http://www.uoguelph.ca/botany/research/evollab/whoweare.htm#PaulKron">Paul Kron</a></li>
+<li><a href="https://www.uoguelph.ca/ib/husband">Brian Husband</a></li>
+<li><a href="https://www.husbandlab.ca/people/paul-kron.html">Paul Kron</a></li>
 </ul>
 <h2>Publication(s):</h2>
 
 <ul>
-<li>Routley M.B., Kron P. &amp; Husband B.C., 2004, The consequences of clone size for paternal and maternal success in domestic apple (<em>Malus x domestica</em>). Am. J. Bot. 91: 1326–1332&#160;<a href="http://www.amjbot.org/cgi/content/abstract/91/9/1326">[link]</a><a href="http://s3.amazonaws.com/mroutley_public/AppleCloneSize.pdf">[PDF]</a> AppleCloneSize.pdf</li>
+<li>Routley M.B., Kron P. &amp; Husband B.C., 2004, The consequences of clone size for paternal and maternal success in domestic apple (<em>Malus x domestica</em>). Am. J. Bot. 91: 1326–1332&#160;<a href="http://www.amjbot.org/cgi/content/abstract/91/9/1326">[link]</a><a href="https://s3.amazonaws.com/mroutley_public/AppleCloneSize.pdf">[PDF]</a> AppleCloneSize.pdf</li>
 </ul>

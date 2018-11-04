@@ -50,8 +50,8 @@ tags: []
 <h2>Collaborator(s):</h2>
 
 <ul>
-<li><a href="http://www.uoguelph.ca/botany/research/evollab/">Brian Husband</a></li>
-<li><a href="http://www.holycross.edu/departments/biology/website/biofaculty/rbertin.html">Robert Bertin</a></li>
+<li><a href="https://www.uoguelph.ca/ib/husband">Brian Husband</a></li>
+<li><a href="https://www.holycross.edu/academics/programs/biology/faculty/robert-i-bertin">Robert Bertin</a></li>
 </ul>
 <h2>Publication(s):</h2>
 
@@ -60,8 +60,8 @@ tags: []
 </li>
 <li>Routley M.B. &amp; Husband B.C., 2005, Responses to selection on male-phase duration in <em>Chamerion angustifolium</em>. J. Evol. Biol. J. Evol. Biol. 18:1050-1059&#160;<a href="http://www.hubmed.org/display.cgi?issn=1010061X&amp;uids=16033578">[link]</a><a href="/files/protandryHeritability.pdf">[pdf]</a>
 </li>
-<li>Routley M.B., Bertin R.I. &amp; Husband B.C., 2004, Correlated evolution of dichogamy and self-incompatibility: a phylogenetic perspective. Int. J. Plant Sci 165: 983-993&#160;<a href="http://www.journals.uchicago.edu/cgi-bin/resolve?IJPS165091ABS">[link]</a><a href="/files/SIandDichogamy.pdf">[pdf]</a>
+<li>Routley M.B., Bertin R.I. &amp; Husband B.C., 2004, Correlated evolution of dichogamy and self-incompatibility: a phylogenetic perspective. Int. J. Plant Sci 165: 983-993&#160;<a href="https://www.journals.uchicago.edu/cgi-bin/resolve?IJPS165091ABS">[link]</a><a href="/files/SIandDichogamy.pdf">[pdf]</a>
 </li>
-<li>Routley M.B. &amp; Husband B.C., 2003, The effect of protandry on siring success in <em>Chamerion angustifolium</em> (Onagraceae) with different inflorescence sizes. Evolution 57: 240–248&#160;<a href="http://www.hubmed.org/display.cgi?issn=00143820&amp;uids=12683521">[link]</a><a href="/files/ProtandryDiscounting.pdf">[pdf]</a>
+<li>Routley M.B. &amp; Husband B.C., 2003, The effect of protandry on siring success in <em>Chamerion angustifolium</em> (Onagraceae) with different inflorescence sizes. Evolution 57: 240–248&#160;<a href="http://www.hubmed.org/display.cgi?issn=001
 </li>
 </ul></div>

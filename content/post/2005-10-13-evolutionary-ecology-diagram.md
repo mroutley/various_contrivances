@@ -13,8 +13,8 @@ tags: []
 ![EvolEcol](/images/EvolEcol.jpg)
 
 <p><!-- Creative Commons Canada Licence -->
-<a rel="license" href="http://creativecommons.org/licenses/by/2.0/ca"><img alt="Some Rights Reserved" border="0" src="http://creativecommons.org/images/public/somerights20.gif"/></a><br/>
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.0/ca">Creative Commons Canada Licence</a>.
+<a rel="license" href="https://creativecommons.org/licenses/by/2.0/ca"><img alt="Some Rights Reserved" border="0" src="https://creativecommons.org/images/public/somerights20.gif"/></a><br/>
+This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/2.0/ca">Creative Commons Canada Licence</a>.
 <!-- /Creative Commons Canada Licence --></p>
 
 <p><!--

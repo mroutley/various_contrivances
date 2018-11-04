@@ -14,11 +14,11 @@ tags: []
 
 <h2>Collaborator(s):</h2>
 
-<p><a href="http://www.ucalgary.ca/ecology/harder.html">Lawrence Harder</a></p>
+<p><a href="https://bgs.ucalgary.ca/profiles/lawrence-harder">Lawrence Harder</a></p>
 
 <h2>Publication(s):</h2>
 
 <ul>
-<li>Harder L.D., Jordan C.Y., Gross W.E. &amp; Routley M.B., 2004, Beyond floricentrism: the pollination function of inflorescences. Plant Species Biol. 19: 137–148&#160;<a href="http://www.ingentaconnect.com/content/bsc/psb/2004/00000019/00000003/art00002">[link]</a><a href="http://s3.amazonaws.com/mroutley_public/Floricentrism.pdf">[Floricentrism.pdf]</a>
+<li>Harder L.D., Jordan C.Y., Gross W.E. &amp; Routley M.B., 2004, Beyond floricentrism: the pollination function of inflorescences. Plant Species Biol. 19: 137–148&#160;<a href="https://www.ingentaconnect.com/content/bsc/psb/2004/00000019/00000003/art00002">[link]</a><a href="https://s3.amazonaws.com/mroutley_public/Floricentrism.pdf">[Floricentrism.pdf]</a>
 </li>
 </ul>
