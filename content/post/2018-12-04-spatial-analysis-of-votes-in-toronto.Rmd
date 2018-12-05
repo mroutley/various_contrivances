@@ -7,7 +7,6 @@ categories:
   - election
   - code
 tags: []
-draft: true
 ---
 
 ```{r setup, include=FALSE}
@@ -17,7 +16,7 @@ devtools::install_github("psepho/toVotes", ref = "2018_mayor")
 library(toVotes)
 ```
 
-This is a "behind the scenes" elaboration of the geospatial analysis in our [recent post][post] on evaluating our predictions for the 2018 mayoral election in Toronto. This was my first, serious use of the new [`sf` package][sf] for geospatial analysis. I found the package much easier to use than some of my previous workflows for this sort of work, especially given its integration with the [tidyverse][tv].
+This is a "behind the scenes" elaboration of the geospatial analysis in our [recent post][post] on evaluating our predictions for the 2018 mayoral election in Toronto. This was my first, serious use of the new [`sf` package][sf] for geospatial analysis. I found the package much easier to use than some of my previous workflows for this sort of analysis, especially given its integration with the [tidyverse][tv].
 
   [post]:http://www.psephoanalytics.ca/2018/11/reviewing-our-2018-mayoral-race.html
   [sf]:https://r-spatial.github.io/sf/
@@ -30,14 +29,10 @@ We start by downloading the [shapefile for voting locations][vloc] from the City
   [proj]:https://en.wikipedia.org/wiki/Map_projection
 
 ```{r toronto_shapefile, message=FALSE}
-if(file.exists("data/voting_location_2018_wgs84.zip")) {
-  # Nothing to do
-}  else {
-  download.file("http://opendata.toronto.ca/gcc/voting_location_2018_wgs84.zip",
-                destfile = "data/voting_location_2018_wgs84.zip", quiet = TRUE)
-  unzip("data/voting_location_2018_wgs84.zip", exdir="data/voting_location_2018_wgs84")
-}
-toronto_locations <- sf::read_sf("data/voting_location_2018_wgs84", 
+download.file("http://opendata.toronto.ca/gcc/voting_location_2018_wgs84.zip",
+                destfile = "data-raw/voting_location_2018_wgs84.zip", quiet = TRUE)
+unzip("data-raw/voting_location_2018_wgs84.zip", exdir="data-raw/voting_location_2018_wgs84")
+toronto_locations <- sf::read_sf("data-raw/voting_location_2018_wgs84", 
                                  layer = "VOTING_LOCATION_2018_WGS84") %>%
   sf::st_transform(crs = "+init=epsg:4326")
 toronto_locations
@@ -58,18 +53,14 @@ What we want to do next is use the voting location data to aggregate the votes c
 We'll split this into several steps. The first is downloading and reading the census tract shapefile.
 
 ```{r census_tracts, message=FALSE}
-if(file.exists("data/gct_000b11a_e.zip")) {
-  # Nothing to do
-}  else {
-  download.file("http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/gct_000b11a_e.zip",
-                destfile = "data/gct_000b11a_e.zip", quiet = TRUE)
-  unzip("data/gct_000b11a_e.zip", exdir="data/gct")
-}
-census_tracts <- sf::read_sf("data/gct", layer = "gct_000b11a_e") %>%
+download.file("http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/gct_000b11a_e.zip",
+                destfile = "data-raw/gct_000b11a_e.zip", quiet = TRUE)
+unzip("data-raw/gct_000b11a_e.zip", exdir="data-raw/gct")
+census_tracts <- sf::read_sf("data-raw/gct", layer = "gct_000b11a_e") %>%
   sf::st_transform(crs = "+init=epsg:4326")
 ```
 
-Now that we have it, all we really want are the census tracts in Toronto (the shapefile includes census tracts across Canada). We achieve this by intersecting the Toronto voting locations with the census tracts with standard R subsetting notation.
+Now that we have it, all we really want are the census tracts in Toronto (the shapefile includes census tracts across Canada). We achieve this by intersecting the Toronto voting locations with the census tracts using standard R subsetting notation.
 
 ```{r intersect, message=FALSE}
 to_census_tracts <- census_tracts[toronto_locations,]
@@ -105,12 +96,11 @@ spread_votes <- toVotes %>%
   dplyr::filter(year == 2018) %>%
   dplyr::right_join(major_candidates) %>%
   dplyr::select(-type, -year) %>%
-  dplyr::filter(!is.na(area)) %>%
   tidyr::spread(candidate, votes)
 spread_votes
 ```
 
-Our last step before finally aggregating to census tracts is to join the votes by candidate table with the Toronto vote location data. This requires pulling the ward and area identifiers from the `PT_LNG_CD` column of the `toronto_locations` data frame. While we're at it, we also update the candidate names to just use surnames.
+Our last step before finally aggregating to census tracts is to join the `spread_votes` table with the `toronto_locations` data. This requires pulling the ward and area identifiers from the `PT_LNG_CD` column of the `toronto_locations` data frame which we do with some `stringr` functions. While we're at it, we also update the candidate names to just surnames.
 
 ```{r geo_votes, message=FALSE}
 to_geo_votes <- toronto_locations %>%
