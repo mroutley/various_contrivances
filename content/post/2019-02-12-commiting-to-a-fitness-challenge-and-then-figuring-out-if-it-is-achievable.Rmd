@@ -1,5 +1,5 @@
 ---
-title: Commiting to a Fitness Challenge and Then Figuring Out if It Is   Achievable
+title: Commiting to a Fitness Challenge and Then Figuring Out if it is Achievable
 author: Matthew Routley
 date: '2019-02-12'
 slug: commiting-to-a-fitness-challenge-and-then-figuring-out-if-it-is-achievable
