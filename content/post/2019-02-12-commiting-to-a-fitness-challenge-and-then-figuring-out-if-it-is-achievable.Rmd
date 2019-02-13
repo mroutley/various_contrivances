@@ -1,0 +1,134 @@
+---
+title: Commiting to a Fitness Challenge and Then Figuring Out if It Is   Achievable
+author: Matthew Routley
+date: '2019-02-12'
+slug: commiting-to-a-fitness-challenge-and-then-figuring-out-if-it-is-achievable
+categories:
+  - code
+  - fitness
+tags: []
+---
+
+
+```{r setup, echo=FALSE, include=FALSE}
+library(tidyverse)
+library(magrittr)
+```
+
+My [favourite spin studio](https://www.torqride.com/) has put on a fitness challenge for 2019. It has many components, one of which is improving your performance by 3% over six weeks. I've taken on the challenge and am now worried that I don't know how reasonable this increase actually is. So, a perfect excuse to extract my metrics and perform some excessive analysis.
+
+We start by importing a CSV file of my stats, taken from Torq's website. We use `readr` for this and set the `col_types` in advance to specify the type for each column, as well as skip some extra columns with `col_skip`. I find doing this at the same time as the import, rather than later in the process, more direct and efficient. I also like the flexibility of the `col_date` import, where I can convert the source data (e.g., "Mon 11/02/19 - 6:10 AM") into a format [more useful for analysis](https://xkcd.com/1179/) (e.g., "2019-02-11").
+
+One last bit of clean up is to specify the instructors that have led 5 or more sessions. Later, we'll try to identify an instructor-effect on my performance and only 5 of the 10 instructors have sufficient data for such an analysis. The `forcats::fct_other` function is really handy for this: it collapses several factor levels together into one "Other" level.
+
+Lastly, I set the `challenge_start_date` variable for use later on.
+
+```{r import_data}
+col_types = cols(
+  Date = col_date(format = "%a %d/%m/%y - %H:%M %p"),
+  Ride = col_skip(),
+  Instructor = col_character(),
+  Spot = col_skip(),
+  `Avg RPM` = col_skip(),
+  `Max RPM` = col_skip(),
+  `Avg Power` = col_double(),
+  `Max Power` = col_double(),
+  `Total Energy` = col_double(),
+  `Dist. (Miles)` = col_skip(),
+  Cal. = col_skip(),
+  `Class Rank` = col_skip()
+)
+main_instructors <- c("Tanis", "George", "Charlotte", "Justine", "Marawan") # 5 or more sessions
+data <- readr::read_csv("torq_data.csv", col_types = col_types) %>% 
+  tibbletime::as_tbl_time(index = Date) %>% 
+  dplyr::rename(avg_power    = `Avg Power`,
+                max_power    = `Max Power`,
+                total_energy = `Total Energy`) %>% 
+  dplyr::mutate(Instructor = 
+                  forcats::fct_other(Instructor, keep = main_instructors))
+challenge_start_date <- lubridate::as_date("2019-01-01")
+head(data)
+```
+
+To start, we just plot the change in average power over time. Given relatively high variability from class to class, we add a smoothed line to show the overall trend. We also mark the point where the challenge starts with a red line.
+
+```{r avg_power_plot}
+ggplot2::ggplot(data, aes(x = Date, y = avg_power)) +
+  ggplot2::geom_point() +
+  ggplot2::geom_line() +
+  geom_smooth(method = "loess") +
+  ggplot2::ylab("Average power") +
+  ggplot2::geom_vline(xintercept = challenge_start_date, col = "red")
+```
+
+Overall, looks like a made some steady progress when I started, plateaued in the Summer (when I didn't ride as often), and then started a slow, steady increase in the Fall. Unfortunately for me, it also looks like I started to plateau in my improvement just in time for the challenge.
+
+We'll start a more formal analysis by just testing to see what my average improvement is over time.
+
+```{r time_model}
+time_model <- lm(avg_power ~ Date, data = data)
+summary(time_model)
+```
+
+Based on this, we can see that my performance is improving over time and the R^2^ is decent. But, interpreting the coefficient for time isn't entirely intuitive and isn't really the point of the challenge. The question is: how much higher is my average power during the challenge than before? For that, we'll set up a "dummy variable" based on the date of the class. Then we use `dplyr` to group by this variable and estimate the mean of the average power in both time periods.
+
+```{r dummy_variable}
+data %<>% 
+  dplyr::mutate(in_challenge = ifelse(Date > challenge_start_date, 1, 0)) 
+(change_in_power <- data %>% 
+  dplyr::group_by(in_challenge) %>% 
+  dplyr::summarize(mean_avg_power = mean(avg_power)))
+```
+
+So, I've improved from an average power of `r round(change_in_power$mean_avg_power[1], 0)` to `r round(change_in_power$mean_avg_power[2], 0)` for a improvement of `r scales::percent((change_in_power$mean_avg_power[2]-change_in_power$mean_avg_power[1])/change_in_power$mean_avg_power[1], accuracy = 1)`. A great relief: I've exceeded the target!
+
+Of course, having gone to all of this (excessive?) trouble, now I'm interested in seeing if the instructor leading the class has a significant impact on my results. I certainly feel as if some instructors are harder than others. But, is this supported by my actual results? As always, we start with a plot to get a visual sense of the data.
+
+```{r instructor_plot}
+ggplot2::ggplot(data, aes(x = Date, y = avg_power)) +
+  ggplot2::geom_point() +
+  ggplot2::geom_line() +
+  ggplot2::geom_smooth(method = "lm", se = FALSE) +
+  ggplot2::facet_wrap(~Instructor) +
+  ggplot2::ylab("Average power")
+```
+
+There's a mix of confirmation and rejection of my expectations here:
+
+* Charlotte got me started and there's a clear trend of increasing power as I figure out the bikes and gain fitness
+* George's class is always fun, but my progress isn't as high as I'd like (indicated by the shallower slope). This is likely my fault though: George's rides are almost always Friday morning and I'm often tired by then and don't push myself as hard as I could
+* Justine hasn't led many of my classes, but my two best results are with her. That said, my last two rides with her haven't been great
+* Marawan's classes always feel really tough. He's great at motivation and I always feel like I've pushed really hard in his classes. You can sort of see this with the relatively higher position of the best fit line for his classes. But, I also had one really poor class with him. This seems to coincide with some poor classes with both Tanis and George though. So, I was likely a bit sick then. Also, for Marawan, I'm certain I've had more classes with him (each one is memorably challenging), as he's substituted for other instructors several times. Looks like Torq's tracker doesn't adjust the name of the instructor to match this substitution though
+* Tanis' classes are usually tough too. She's relentless about increasing resistance and looks like I was improving well with her
+* Other isn't really worth describing in any detail, as it is a mix of 5 other instructors each with different styles.
+
+Having eye-balled the charts. Let's now look at a statistical model that considers just instructors.
+
+```{r instructor_model}
+instructor_model <- update(time_model, . ~ Instructor)
+summary(instructor_model)
+```
+
+Each of the named instructors has a significant, positive effect on my average power. However, the overall R^2^ is much less than the model that considered just time. So, our next step is to consider both together.
+
+```{r time_instructor_model}
+time_instructor_model <- update(time_model, . ~ . + Instructor)
+summary(time_instructor_model)
+anova(time_instructor_model, time_model)
+```
+
+This model has the best explanatory power so far and increases the coefficient for time slightly. This suggests that controlling for instructor improves the time signal. However, when we add in time, none of the individual instructors are significantly different from each other. My interpretation of this is that my overall improvement over time is much more important than which particular instructor is leading the class. Nonetheless, the earlier analysis of the instructors gave me some insights that I can use to maximize the contribution each of them makes to my overall progress. When comparing these models with an ANOVA though, we find that there isn't a significant difference between them.
+
+The last model to try is to look for a time by instructor interaction.
+
+```{r time_instructor_interaction_model}
+time_instructor_interaction_model <- update(time_model, . ~ . * Instructor)
+summary(time_instructor_interaction_model)
+anova(time_model, time_instructor_interaction_model)
+```
+
+We can see that there are some significant interactions, meaning that the slope of improvement over time does differ by instructor. Before getting too excited though, an ANOVA shows that this model isn't any better than the simple model of just time. There's always a risk with trying to explain main effects (like time) with interactions. The story here is really that we need more data to tease out the impacts of the instructor by time effect.
+
+The last point to make is that we've focused so far on the average power, since that's the metric for this fitness challenge. There could be interesting interactions among average power, maximum power, RPMs, and total energy, each of which is available in these data. I'll return to that analysis some other time.
+
+In the interests of science, I'll keep going to these classes, just so we can figure out what impact instructors have on performance. In the meantime, looks like I'll succeed with at least this component of the fitness challenge and I have the stats to prove it.
