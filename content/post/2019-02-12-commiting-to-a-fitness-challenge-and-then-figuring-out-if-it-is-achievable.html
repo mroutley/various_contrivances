@@ -57,7 +57,7 @@ head(data)</code></pre>
   ggplot2::ylab(&quot;Average power&quot;) +
   ggplot2::geom_vline(xintercept = challenge_start_date, col = &quot;red&quot;)</code></pre>
 <p><img src="/post/2019-02-12-commiting-to-a-fitness-challenge-and-then-figuring-out-if-it-is-achievable_files/figure-html/avg_power_plot-1.png" width="672" /></p>
-<p>Overall, looks like a made some steady progress when I started, plateaued in the Summer (when I didn’t ride as often), and then started a slow, steady increase in the Fall. Unfortunately for me, it also looks like I started to plateau in my improvement just in time for the challenge.</p>
+<p>Overall, looks like I made some steady progress when I started, plateaued in the Summer (when I didn’t ride as often), and then started a slow, steady increase in the Fall. Unfortunately for me, it also looks like I started to plateau in my improvement just in time for the challenge.</p>
 <p>We’ll start a more formal analysis by just testing to see what my average improvement is over time.</p>
 <pre class="r"><code>time_model &lt;- lm(avg_power ~ Date, data = data)
 summary(time_model)</code></pre>
