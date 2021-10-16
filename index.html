@@ -25,12 +25,153 @@
       <div class="h-entry">
 		
 
+        <a href="https://matt.routleynet.org/2021/10/16/day-rotation.html" class="u-url"><time class="dt-published" datetime="2021-10-16 16:37:37 -0400">Oct 16, 2021</time></a>
+
+        <div class="e-content">
+         	<p><a href="https://challenges.micro.blog/2021/10/15/the-prompt-for.html">Day 16</a>: Rotation 📷</p>
+
+<p><img src="uploads/2021/88466e7029.jpg" width="599" height="600" alt="" /></p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
+
+        <a href="https://matt.routleynet.org/2021/10/15/day-ethereal.html" class="u-url"><time class="dt-published" datetime="2021-10-15 17:49:37 -0400">Oct 15, 2021</time></a>
+
+        <div class="e-content">
+         	<p><a href="https://challenges.micro.blog/2021/10/14/the-prompt-for.html">Day 15</a>: Ethereal 📷</p>
+
+<p><img src="uploads/2021/d0525fee5b.jpg" width="599" height="600" alt="" /></p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
+
+        <a href="https://matt.routleynet.org/2021/10/14/day-my-favourite.html" class="u-url"><time class="dt-published" datetime="2021-10-14 14:24:22 -0400">Oct 14, 2021</time></a>
+
+        <div class="e-content">
+         	<p><a href="https://challenges.micro.blog/2021/10/13/the-prompt-for.html">Day 14</a>: My favourite <em>wheels</em> as a kid 📷</p>
+
+<p><img src="uploads/2021/634a038b5f.jpg" width="600" height="599" alt="" /></p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
+
+        <a href="https://matt.routleynet.org/2021/10/13/day-lucy-is.html" class="u-url"><time class="dt-published" datetime="2021-10-13 14:55:10 -0400">Oct 13, 2021</time></a>
+
+        <div class="e-content">
+         	<p><a href="https://challenges.micro.blog/2021/10/12/the-prompt-for.html">Day 13</a>: Lucy is a couch animal 📷</p>
+
+<p><img src="uploads/2021/2641062acd.jpg" width="599" height="600" alt="" /></p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
+
+        <a href="https://matt.routleynet.org/2021/10/12/day-rock-legends.html" class="u-url"><time class="dt-published" datetime="2021-10-12 16:48:09 -0400">Oct 12, 2021</time></a>
+
+        <div class="e-content">
+         	<p><a href="https://challenges.micro.blog/2021/10/11/the-prompt-for.html">Day 12</a>: Rock <em>legends</em> 📷</p>
+
+<p><img src="uploads/2021/6accf89c94.jpg" width="599" height="600" alt="" /></p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
+
+        <a href="https://matt.routleynet.org/2021/10/11/day-hygge.html" class="u-url"><time class="dt-published" datetime="2021-10-11 10:32:08 -0400">Oct 11, 2021</time></a>
+
+        <div class="e-content">
+         	<p><a href="https://challenges.micro.blog/2021/10/10/the-prompt-for.html">Day 11</a>: Hygge 📷</p>
+
+<p><img src="https://matt.routleynet.org/uploads/2021/f031d479d2.jpg" width="600" height="600" alt="" /></p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
+			<h1><a href="https://matt.routleynet.org/2021/10/10/the-cansim-r.html">The cansim R package is really helpful 📦 📊</a></h1>
+		
+
+        <a href="https://matt.routleynet.org/2021/10/10/the-cansim-r.html" class="u-url"><time class="dt-published" datetime="2021-10-10 11:47:00 -0400">Oct 10, 2021</time></a>
+
+        <div class="e-content">
+         	<p><a href="https://www.statcan.gc.ca/eng/start">Statistics Canada</a> has a wealth of data that are essential for good public policy. Often a good third of my analytical scripts are devoted to accessing and processing data from the Statistics Canada website, which always seems like a waste of effort and good opportunity for making silly errors. So, I was keen to test out the <a href="https://mountainmath.github.io/cansim/index.html"><code>cansim</code>package</a> for R to see how it might help. The quick answer is &ldquo;very much&rdquo;.</p>
+
+<p>The <a href="https://mountainmath.github.io/cansim/articles/cansim.html">documentation</a> for the <code>cansim</code> package is thorough and doesn&rsquo;t need to be repeated here. I thought it might be useful to illustrate how helpful the package can be by refactoring <a href="https://matt.routleynet.org/2020/01/10/things-cost-more.html">some earlier work</a> that explored consumer price inflation.</p>
+
+<p>These scripts always start off with downloading and extracting the relevant data file:</p>
+
+<pre><code>cpi_url &lt;- &quot;https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip&quot; # (1)
+if(file.exists(&quot;18100004-eng.zip&quot;)) { # (2)
+    # Already downloaded
+  }  else {
+    download.file(cpi_url,
+      destfile = &quot;18100004-eng.zip&quot;, 
+      quiet = TRUE)
+    unzip(&quot;18100004-eng.zip&quot;) # (3)
+  }
+cpi &lt;- readr::read_csv(&quot;18100004.csv&quot;) # (4)
+</code></pre>
+
+<p>A few things to note here:</p>
+
+<ol>
+<li>You need to know the url for the data. Sometimes the logic is clear and you can guess, but often that doesn&rsquo;t work and you need to spelunk through the Stats Can website</li>
+<li>To avoid downloading the file every time I run the script, there&rsquo;s a test to see if the file already exists</li>
+<li>This approach yields lots of files and folders that you need to manage, including making sure they&rsquo;re ignored by version control</li>
+<li>Using the great <code>readr</code> package imports the final csv file</li>
+</ol>
+
+<p>With <code>cansim</code> all I need to know is the data series number:</p>
+
+<pre><code>cansim_table &lt;- &quot;18-10-0004&quot;
+cpi &lt;- cansim::get_cansim(cansim_table)
+</code></pre>
+
+<p><code>get_cansim</code>downloads the right file to a temporary directory, extracts the data, and imports it as a <code>tidyverse</code>-compatible data frame.</p>
+
+<p>The <code>get_cansim</code> function has some other nice features. It automatically creates a <code>Date</code> column with the right type, inferred from the standard <code>REF_DATE</code> column. And, it also creates a <code>val_norm</code> column that intelligently converts the <code>VALUE</code> column. For example, converting percentage or thousand-dollar values into standard formats.</p>
+
+<p>The <code>cansim</code> package is a great example of a really helpful utility package that allows me to focus on analysis, rather than fiddling around with data. Definitely worth checking out if you deal with data from Statistics Canada.</p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
+
+        <a href="https://matt.routleynet.org/2021/10/10/day-the-bridges.html" class="u-url"><time class="dt-published" datetime="2021-10-10 11:35:26 -0400">Oct 10, 2021</time></a>
+
+        <div class="e-content">
+         	<p><a href="https://challenges.micro.blog/2021/10/09/the-prompt-for.html">Day 10</a>: The <em>bridges</em> of my morning run 📷 🏃‍♂️</p>
+
+<p><img src="https://matt.routleynet.org/uploads/2021/95266f5aa6.jpg" width="450" height="600" alt="" /><img src="https://matt.routleynet.org/uploads/2021/a0f8893daf.jpg" width="449" height="600" alt="" /><img src="https://matt.routleynet.org/uploads/2021/4396c97b85.jpg" width="450" height="600" alt="" /><img src="https://matt.routleynet.org/uploads/2021/154f64f5d7.jpg" width="450" height="600" alt="" /><img src="https://matt.routleynet.org/uploads/2021/b2d809cf89.jpg" width="450" height="600" alt="" /><img src="https://matt.routleynet.org/uploads/2021/2db11117bc.jpg" width="450" height="600" alt="" /></p>
+
+        </div>
+      </div>
+    
+      <div class="h-entry">
+		
+
         <a href="https://matt.routleynet.org/2021/10/09/day-swinging-through.html" class="u-url"><time class="dt-published" datetime="2021-10-09 14:04:18 -0400">Oct 9, 2021</time></a>
 
         <div class="e-content">
          	<p><a href="https://challenges.micro.blog/2021/10/08/the-prompt-for.html">Day 9</a>: Swinging through the trees is <em>safe</em> with this gear on 📷</p>
 
-<p><img src="uploads/2021/4e59704a37.jpg" width="599" height="600" alt="" /></p>
+<p><img src="https://matt.routleynet.org/uploads/2021/4e59704a37.jpg" width="599" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -43,7 +184,7 @@
         <div class="e-content">
          	<p><a href="https://challenges.micro.blog/2021/10/07/the-prompt-for.html">Day 8</a>: A benefit of a <em>twilight</em> run is that the sidewalks are clear 📷</p>
 
-<p><img src="uploads/2021/7adfb73f9e.jpg" width="599" height="600" alt="" /></p>
+<p><img src="https://matt.routleynet.org/uploads/2021/7adfb73f9e.jpg" width="599" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -56,7 +197,7 @@
         <div class="e-content">
          	<p><a href="https://challenges.micro.blog/2021/10/06/the-prompt-for.html">Day 7</a>: Spice 📷</p>
 
-<p><img src="uploads/2021/9af57ebdd7.jpg" width="599" height="600" alt="" /></p>
+<p><img src="https://matt.routleynet.org/uploads/2021/9af57ebdd7.jpg" width="599" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -69,7 +210,7 @@
         <div class="e-content">
          	<p><a href="https://challenges.micro.blog/2021/10/05/the-prompt-for.html">Day 6</a>: Street 📷</p>
 
-<p><img src="uploads/2021/d093aed15f.jpg" width="450" height="600" alt="" /></p>
+<p><img src="https://matt.routleynet.org/uploads/2021/d093aed15f.jpg" width="450" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -82,7 +223,7 @@
         <div class="e-content">
          	<p><a href="https://challenges.micro.blog/2021/10/04/the-prompt-for.html">Day 5</a>: The <em>toys</em> are watching, always 📷</p>
 
-<p><img src="uploads/2021/df228c2213.jpg" width="599" height="600" alt="" /></p>
+<p><img src="https://matt.routleynet.org/uploads/2021/df228c2213.jpg" width="599" height="600" alt="" /></p>
 
         </div>
       </div>
@@ -4362,25 +4503,25 @@ And so when I realized that I could no longer trust the data that I had reported
 
 <p>The first point is that, yes, things do cost more than they used to, since prices have consistently increased year over year (this is the <a href="https://www.bankofcanada.ca/core-functions/monetary-policy/">whole point</a> of monetary policy). I&rsquo;m illustrating this with a long-term plot of CPI in Canada from 1914-01-01 to 2019-11-01.</p>
 
-<p><img src="uploads/2020/deee8a906e.jpg" width="600" alt="Figure showing the long-term increase in CPI from 1914 to 2019. An image of an old fashioned cany bar is on the left and large pile of modern candy on the right." /></p>
+<p><img src="https://matt.routleynet.org/uploads/2020/deee8a906e.jpg" width="600" alt="Figure showing the long-term increase in CPI from 1914 to 2019. An image of an old fashioned cany bar is on the left and large pile of modern candy on the right." /></p>
 
 <p>I added in the images of candy bars to acknowledge my grandmother&rsquo;s observation that, when she was a kid, candy only cost a penny. I also want to make a point that although costs have increased, we also now have a much greater diversity of candy to choose from. There&rsquo;s an important analogy here for estimating the costs of projects, particulary those with a significant portion of machinery or technology assets.</p>
 
 <p>The next point I want to make is that location matters, which I illustrate with a zoomed in look at CPI for Canada, Ontario, and Toronto.</p>
 
-<p><img src="uploads/2020/601f2db219.png" alt="Figure showing CPI from 2000 to 2019 with separate lines for Toronto, Ontario, and Canada. They mostly align until about 2015, when Ontario starts increasing faster than Canada and Toronto faster than Ontario." /></p>
+<p><img src="https://matt.routleynet.org/uploads/2020/601f2db219.png" alt="Figure showing CPI from 2000 to 2019 with separate lines for Toronto, Ontario, and Canada. They mostly align until about 2015, when Ontario starts increasing faster than Canada and Toronto faster than Ontario." /></p>
 
 <p>This shows that over the last five years Toronto has seen higher price increases than the rest of the province and country. This has implications for project costing, since we may need to consider the source of materials and location of the project to choose the most appropriate CPI adjustment.</p>
 
 <p>The last point I want to make is that the type of product also matters. To start, I illustrate this by comparing CPI for apples and alcoholic beverages (why not, there are 330 product types in the data and I have to pick a couple of examples to start).</p>
 
-<p><img src="uploads/2020/0841fc27dd.png" alt="Figure showing CPI from the 1950s with separate lines for apples and alcoholic beverages. Both are relatively flat through the 1950s and 1960s then start to increase rapidly. Apples fluctuate alot in each year." /></p>
+<p><img src="https://matt.routleynet.org/uploads/2020/0841fc27dd.png" alt="Figure showing CPI from the 1950s with separate lines for apples and alcoholic beverages. Both are relatively flat through the 1950s and 1960s then start to increase rapidly. Apples fluctuate alot in each year." /></p>
 
 <p>In addition to showing how relative price inflation between products can change over time (the line for apples crosses the one for alcoholic beverages several times), this chart shows how short-term fluctuations in price can also differ. For example, the line for apples fluctuates dramatically within a year (these are monthly values), while alcoholic beverages is very smooth over time.</p>
 
 <p>Once I&rsquo;ve made the point with a simple example, I can then follow up with something more relevant to transit planners by showing how the price of transportation, public transportation, and parking have all changed over time, relative to each other and all-items (the standard indicator).</p>
 
-<p><img src="uploads/2020/5b7875e343.png" alt="Figure showing CPI from 2000 to 2019 with separate lines for parking costs, transportation, public transit, and all-items. All-items is the lowest and closely tracked by transportation. Public transportation diverges around 2015 and rises dramatically. Parking fees are by far the highest." /></p>
+<p><img src="https://matt.routleynet.org/uploads/2020/5b7875e343.png" alt="Figure showing CPI from 2000 to 2019 with separate lines for parking costs, transportation, public transit, and all-items. All-items is the lowest and closely tracked by transportation. Public transportation diverges around 2015 and rises dramatically. Parking fees are by far the highest." /></p>
 
 <p>At least half of transit planning seems to actually be about parking, so that parking fees line is particularly relevant.</p>
 
