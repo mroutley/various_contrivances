@@ -7,10 +7,123 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2021/10/30/day-red.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/30/the-prompt-for.html\">Day 30</a>: Red 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/b5315eead2.jpg\" width=\"600\" height=\"450\" alt=\"A puppy with a red collar looking into the camera\" /></p>\n",
+				"content_text": "[Day 30](https://challenges.micro.blog/2021/10/30/the-prompt-for.html): Red 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/b5315eead2.jpg\" width=\"600\" height=\"450\" alt=\"A puppy with a red collar looking into the camera\" />\n",
+				"date_published": "2021-10-30T12:39:55-04:00",
+				"url": "https://matt.routleynet.org/2021/10/30/day-red.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/30/switching-to-icloud.html",
+				"title": "Switching to iCloud+ Custom Email Domain 📧 ",
+				"content_html": "<p>I&rsquo;ve switched my personal email over to <a href=\"https://support.apple.com/en-ca/HT212514\">Apple&rsquo;s custom email domain with iCloud Mail</a>. A roughly ranked list of reasons for the switch is:</p>\n\n<ol>\n<li>One less account to worry about. Not that it was a big deal, but now I don&rsquo;t need to know the various setup details for my personal email. Once I&rsquo;ve logged into my iCloud account, my email is ready.</li>\n<li>I appreciate <a href=\"https://www.apple.com/privacy/\">Apple&rsquo;s commitment to privacy</a> and trust that they&rsquo;ll apply this commitment to my email account.</li>\n<li>I&rsquo;m already paying for iCloud+ and, so, might as well use this feature and save some money by not paying for separate email hosting.</li>\n<li>I&rsquo;m actively using Reminders and Notes in iCloud.com and the Mail interface there is decent, certainly better than the rudimentary one offered by my previous email host.</li>\n</ol>\n\n<p>Setup was straightforward with <a href=\"https://support.apple.com/en-ca/HT212524\">clear instructions</a>. Having said that, the only issue I had was that initiating the setup process simply didn&rsquo;t work for a few weeks. I tried a couple of times a week and each time I just got a generic error. Then, for no apparent reason, one day it worked. I suspect this was just an issue with rolling out a new service.</p>\n\n<p>I should point out that my email needs are very basic for this personal account. I don&rsquo;t need many automated rules, tagging, or filtering. So, iCloud Mail is fine. I wouldn&rsquo;t switch over my work account (even if corporate IT would allow it). I get something like 100x the email at work and need more sophisticated tools.</p>\n\n<p>Besides the initial trouble with initiating the setup, everything has been working well for the past week. I&rsquo;m well aware of Apple&rsquo;s well-earned reputation for challenges with internet services and will be staying vigilant for at least the next few weeks. One of the great benefits of having my own domain name is the ease with which I can switch mail hosts.</p>\n",
+				"content_text": "I've switched my personal email over to [Apple's custom email domain with iCloud Mail](https://support.apple.com/en-ca/HT212514). A roughly ranked list of reasons for the switch is:\n\n1. One less account to worry about. Not that it was a big deal, but now I don't need to know the various setup details for my personal email. Once I've logged into my iCloud account, my email is ready.\n2. I appreciate [Apple's commitment to privacy](https://www.apple.com/privacy/) and trust that they'll apply this commitment to my email account.\n3. I'm already paying for iCloud+ and, so, might as well use this feature and save some money by not paying for separate email hosting.\n4. I'm actively using Reminders and Notes in iCloud.com and the Mail interface there is decent, certainly better than the rudimentary one offered by my previous email host.\n\nSetup was straightforward with [clear instructions](https://support.apple.com/en-ca/HT212524). Having said that, the only issue I had was that initiating the setup process simply didn't work for a few weeks. I tried a couple of times a week and each time I just got a generic error. Then, for no apparent reason, one day it worked. I suspect this was just an issue with rolling out a new service. \n\nI should point out that my email needs are very basic for this personal account. I don't need many automated rules, tagging, or filtering. So, iCloud Mail is fine. I wouldn't switch over my work account (even if corporate IT would allow it). I get something like 100x the email at work and need more sophisticated tools.\n\nBesides the initial trouble with initiating the setup, everything has been working well for the past week. I'm well aware of Apple's well-earned reputation for challenges with internet services and will be staying vigilant for at least the next few weeks. One of the great benefits of having my own domain name is the ease with which I can switch mail hosts.\n",
+				"date_published": "2021-10-30T12:32:15-04:00",
+				"url": "https://matt.routleynet.org/2021/10/30/switching-to-icloud.html",
+				"tags": ["code","blog"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/29/railway-citys-jumbo.html",
+				
+				"content_html": "<p>Railway City’s Jumbo is a good, though bitter, IPA 🍺</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/018ba5b199.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Railway City’s Jumbo is a good, though bitter, IPA 🍺\n\n<img src=\"https://matt.routleynet.org/uploads/2021/018ba5b199.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2021-10-29T18:38:48-04:00",
+				"url": "https://matt.routleynet.org/2021/10/29/railway-citys-jumbo.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/29/day-cycle.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/29/the-prompt-for.html\">Day 29</a>: Cycle 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/3bf806b10b.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 29](https://challenges.micro.blog/2021/10/29/the-prompt-for.html): Cycle 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/3bf806b10b.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2021-10-29T12:09:11-04:00",
+				"url": "https://matt.routleynet.org/2021/10/29/day-cycle.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/29/this-new-song.html",
+				
+				"content_html": "<p><a href=\"https://music.apple.com/ca/album/taking-me-back/1589541591?i=1589541594\">This new song</a> from Jack White will wake you up 🎸🥁</p>\n",
+				"content_text": "[This new song](https://music.apple.com/ca/album/taking-me-back/1589541591?i=1589541594) from Jack White will wake you up 🎸🥁\n",
+				"date_published": "2021-10-29T12:03:50-04:00",
+				"url": "https://matt.routleynet.org/2021/10/29/this-new-song.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/29/remarkable-scientists-have.html",
+				
+				"content_html": "<p>Remarkable, <a href=\"https://www.quantamagazine.org/an-atomic-clock-promises-link-between-quantum-world-and-gravity-20211025/\">scientists have measured time dilation in a cloud of atoms</a> and found that the time experienced by the atoms at the top of the cloud is 0.00000000000000001% shorter than the time experienced by those at the bottom. Such precision!</p>\n",
+				"content_text": "Remarkable, [scientists have measured time dilation in a cloud of atoms](https://www.quantamagazine.org/an-atomic-clock-promises-link-between-quantum-world-and-gravity-20211025/) and found that the time experienced by the atoms at the top of the cloud is 0.00000000000000001% shorter than the time experienced by those at the bottom. Such precision!\n",
+				"date_published": "2021-10-29T08:37:38-04:00",
+				"url": "https://matt.routleynet.org/2021/10/29/remarkable-scientists-have.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/28/day-underneath.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/28/the-prompt-for.html\">Day 28</a>: Underneath 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/d1d0b2ec2c.jpg\" width=\"399\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 28](https://challenges.micro.blog/2021/10/28/the-prompt-for.html): Underneath 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/d1d0b2ec2c.jpg\" width=\"399\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2021-10-28T15:19:36-04:00",
+				"url": "https://matt.routleynet.org/2021/10/28/day-underneath.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/27/the-first-two.html",
+				
+				"content_html": "<p>The first two episodes of Invasion on AppleTV+ are intriguing</p>\n",
+				"content_text": "The first two episodes of Invasion on AppleTV+ are intriguing\n",
+				"date_published": "2021-10-27T20:46:11-04:00",
+				"url": "https://matt.routleynet.org/2021/10/27/the-first-two.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/27/day-chaos-of.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/26/204000.html\">Day 27</a>: <em>Chaos</em> of a toddler. This is how I found him one morning 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/73e225aacd.jpg\" width=\"600\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 27](https://challenges.micro.blog/2021/10/26/204000.html): _Chaos_ of a toddler. This is how I found him one morning 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/73e225aacd.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2021-10-27T17:31:13-04:00",
+				"url": "https://matt.routleynet.org/2021/10/27/day-chaos-of.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/26/day-bliss-for.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/26/the-prompt-for.html\">Day 26</a>: <em>Bliss</em> for me is the family relaxing on a dock, reading books, during summer vacations 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/2194ccaefc.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 26](https://challenges.micro.blog/2021/10/26/the-prompt-for.html): _Bliss_ for me is the family relaxing on a dock, reading books, during summer vacations 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/2194ccaefc.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2021-10-26T11:42:18-04:00",
+				"url": "https://matt.routleynet.org/2021/10/26/day-bliss-for.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/25/day-gravity.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/25/the-prompt-for.html\">Day 25</a>: Gravity 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/e4c1d42445.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 25](https://challenges.micro.blog/2021/10/25/the-prompt-for.html): Gravity 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/e4c1d42445.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2021-10-25T08:31:19-04:00",
+				"url": "https://matt.routleynet.org/2021/10/25/day-gravity.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/24/day-so-many.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/23/the-prompt-for.html\">Day 24</a>: So many <em>connections</em>. I have to admit that I’m surprised it actually works 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/ff3b5c32f6.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 24](https://challenges.micro.blog/2021/10/23/the-prompt-for.html): So many _connections_. I have to admit that I’m surprised it actually works 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/ff3b5c32f6.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2021-10-24T12:56:48-04:00",
+				"url": "https://matt.routleynet.org/2021/10/24/day-so-many.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/24/although-im-generally.html",
+				
+				"content_html": "<p>Although I&rsquo;m generally aligned with longtermism, <a href=\"https://aeon.co/essays/why-longtermism-is-the-worlds-most-dangerous-secular-credo\">this essay in Aeon</a> points out important (if slightly hyperbolic) tradeoffs that have to be considered. As with so many things, we need to find ways to fix today&rsquo;s problems while also keeping an eye on the future</p>\n",
+				"content_text": "Although I'm generally aligned with longtermism, [this essay in Aeon](https://aeon.co/essays/why-longtermism-is-the-worlds-most-dangerous-secular-credo) points out important (if slightly hyperbolic) tradeoffs that have to be considered. As with so many things, we need to find ways to fix today's problems while also keeping an eye on the future\n",
+				"date_published": "2021-10-24T12:16:43-04:00",
+				"url": "https://matt.routleynet.org/2021/10/24/although-im-generally.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/10/23/great-weather-for.html",
+				
+				"content_html": "<p>Great weather for apple picking 🍎</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/9af7bf24c3.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"https://matt.routleynet.org/uploads/2021/be4a86b4da.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"https://matt.routleynet.org/uploads/2021/e77bf4ceeb.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"https://matt.routleynet.org/uploads/2021/be9321e5ae.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"https://matt.routleynet.org/uploads/2021/c5232f747c.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n<img src=\"https://matt.routleynet.org/uploads/2021/4cec98d645.jpg\" width=\"449\" height=\"600\" alt=\"\" /><img src=\"https://matt.routleynet.org/uploads/2021/e2b185f3d8.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Great weather for apple picking 🍎\n\n<img src=\"https://matt.routleynet.org/uploads/2021/9af7bf24c3.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"https://matt.routleynet.org/uploads/2021/be4a86b4da.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"https://matt.routleynet.org/uploads/2021/e77bf4ceeb.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"https://matt.routleynet.org/uploads/2021/be9321e5ae.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"https://matt.routleynet.org/uploads/2021/c5232f747c.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n<img src=\"https://matt.routleynet.org/uploads/2021/4cec98d645.jpg\" width=\"449\" height=\"600\" alt=\"\" /><img src=\"https://matt.routleynet.org/uploads/2021/e2b185f3d8.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2021-10-23T17:48:41-04:00",
+				"url": "https://matt.routleynet.org/2021/10/23/great-weather-for.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2021/10/23/day-lots-of.html",
 				
-				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/22/the-prompt-for.html\">Day 23</a>: Lots of <em>meaning</em> to discern when playing Codenames 📷</p>\n\n<p><img src=\"uploads/2021/1d072142f9.jpg\" width=\"599\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "[Day 23](https://challenges.micro.blog/2021/10/22/the-prompt-for.html): Lots of _meaning_ to discern when playing Codenames 📷\n\n<img src=\"uploads/2021/1d072142f9.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/22/the-prompt-for.html\">Day 23</a>: Lots of <em>meaning</em> to discern when playing Codenames 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/1d072142f9.jpg\" width=\"599\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 23](https://challenges.micro.blog/2021/10/22/the-prompt-for.html): Lots of _meaning_ to discern when playing Codenames 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/1d072142f9.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-23T17:46:26-04:00",
 				"url": "https://matt.routleynet.org/2021/10/23/day-lots-of.html"
 			},
@@ -25,24 +138,24 @@
 			{
 				"id": "http://mroutley.micro.blog/2021/10/22/day-having-a.html",
 				
-				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/21/the-prompt-for.html\">Day 22</a>: Having a <em>rest</em> with friends 📷</p>\n\n<p><img src=\"uploads/2021/85fd17cdb0.jpg\" width=\"599\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "[Day 22](https://challenges.micro.blog/2021/10/21/the-prompt-for.html): Having a _rest_ with friends 📷\n\n<img src=\"uploads/2021/85fd17cdb0.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/21/the-prompt-for.html\">Day 22</a>: Having a <em>rest</em> with friends 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/85fd17cdb0.jpg\" width=\"599\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 22](https://challenges.micro.blog/2021/10/21/the-prompt-for.html): Having a _rest_ with friends 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/85fd17cdb0.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-22T12:02:05-04:00",
 				"url": "https://matt.routleynet.org/2021/10/22/day-having-a.html"
 			},
 			{
 				"id": "http://mroutley.micro.blog/2021/10/21/day-an-impressive.html",
 				
-				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/20/the-prompt-for.html\">Day 21</a>: An impressive space at the foot of a mountain 📷</p>\n\n<p><img src=\"uploads/2021/66d2d892ea.jpg\" width=\"600\" height=\"450\" alt=\"\" /></p>\n",
-				"content_text": "[Day 21](https://challenges.micro.blog/2021/10/20/the-prompt-for.html): An impressive space at the foot of a mountain 📷\n\n<img src=\"uploads/2021/66d2d892ea.jpg\" width=\"600\" height=\"450\" alt=\"\" />\n",
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/20/213831.html\">Day 21</a>: An impressive space at the foot of a mountain 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/66d2d892ea.jpg\" width=\"600\" height=\"450\" alt=\"\" /></p>\n",
+				"content_text": "[Day 21](https://challenges.micro.blog/2021/10/20/213831.html): An impressive space at the foot of a mountain 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/66d2d892ea.jpg\" width=\"600\" height=\"450\" alt=\"\" />\n",
 				"date_published": "2021-10-21T21:37:25-04:00",
 				"url": "https://matt.routleynet.org/2021/10/21/day-an-impressive.html"
 			},
 			{
 				"id": "http://mroutley.micro.blog/2021/10/20/day-im-looking.html",
 				
-				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/19/the-prompt-for.html\">Day 20</a>: I’m looking forward to resuming winter <em>sports</em> 📷</p>\n\n<p><img src=\"uploads/2021/13a3202652.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "[Day 20](https://challenges.micro.blog/2021/10/19/the-prompt-for.html): I’m looking forward to resuming winter _sports_ 📷\n\n<img src=\"uploads/2021/13a3202652.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/20/the-prompt-for.html\">Day 20</a>: I’m looking forward to resuming winter <em>sports</em> 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/13a3202652.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 20](https://challenges.micro.blog/2021/10/20/the-prompt-for.html): I’m looking forward to resuming winter _sports_ 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/13a3202652.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-20T19:58:26-04:00",
 				"url": "https://matt.routleynet.org/2021/10/20/day-im-looking.html"
 			},
@@ -81,8 +194,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2021/10/16/day-rotation.html",
 				
-				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/15/222357.html\">Day 16</a>: Rotation 📷</p>\n\n<p><img src=\"uploads/2021/88466e7029.jpg\" width=\"599\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "[Day 16](https://challenges.micro.blog/2021/10/15/222357.html): Rotation 📷\n\n<img src=\"uploads/2021/88466e7029.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/15/222357.html\">Day 16</a>: Rotation 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/88466e7029.jpg\" width=\"599\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 16](https://challenges.micro.blog/2021/10/15/222357.html): Rotation 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/88466e7029.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-16T16:37:37-04:00",
 				"url": "https://matt.routleynet.org/2021/10/16/day-rotation.html"
 			},
@@ -227,8 +340,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2021/10/01/touch.html",
 				
-				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/01/day-of-the.html\">Day 1</a>: Touch 📷</p>\n\n<p><img src=\"uploads/2021/c31e8ae42d.jpg\" width=\"599\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "[Day 1](https://challenges.micro.blog/2021/10/01/day-of-the.html): Touch 📷\n\n<img src=\"uploads/2021/c31e8ae42d.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2021/10/01/day-of-the.html\">Day 1</a>: Touch 📷</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/c31e8ae42d.jpg\" width=\"599\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "[Day 1](https://challenges.micro.blog/2021/10/01/day-of-the.html): Touch 📷\n\n<img src=\"https://matt.routleynet.org/uploads/2021/c31e8ae42d.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-10-01T14:56:03-04:00",
 				"url": "https://matt.routleynet.org/2021/10/01/touch.html"
 			},
@@ -439,8 +552,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2021/08/15/this-book-caught.html",
 				
-				"content_html": "<p>This book caught my eye at the local used bookstore: <em>Pragmatism and Other Essays</em> by William James 📚</p>\n\n<p><img src=\"uploads/2021/848cf793e2.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "This book caught my eye at the local used bookstore: _Pragmatism and Other Essays_ by William James 📚\n\n<img src=\"uploads/2021/848cf793e2.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>This book caught my eye at the local used bookstore: <em>Pragmatism and Other Essays</em> by William James 📚</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/848cf793e2.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "This book caught my eye at the local used bookstore: _Pragmatism and Other Essays_ by William James 📚\n\n<img src=\"https://matt.routleynet.org/uploads/2021/848cf793e2.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-08-15T18:06:00-04:00",
 				"url": "https://matt.routleynet.org/2021/08/15/this-book-caught.html",
 				"tags": ["book"]
