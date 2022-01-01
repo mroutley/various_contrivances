@@ -7,6 +7,32 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2021/12/29/as-an-update.html",
+				
+				"content_html": "<p>As an update to my <a href=\"https://matt.routleynet.org/2019/10/15/task-management-with.html\">earlier post about using MindNode for task management</a>, I’ve refreshed my areas of focus and projects for work. I still find MindNode really helpful for this, especially for seeing the balance of projects across the areas of focus. In this case, I can see that I have many Process Improvement projects, which makes sense, given my company has a big push on Lean at the moment.</p>\n\n<p><img src=\"uploads/2021/28d3dee5d9.png\" width=\"450\" alt=\"Screenshot of areas of focus and projects as a mindmap in MindNode\" /></p>\n\n<p>Now I can fill in next actions for each project and then sync with Reminders.</p>\n",
+				"content_text": "As an update to my [earlier post about using MindNode for task management](https://matt.routleynet.org/2019/10/15/task-management-with.html), I’ve refreshed my areas of focus and projects for work. I still find MindNode really helpful for this, especially for seeing the balance of projects across the areas of focus. In this case, I can see that I have many Process Improvement projects, which makes sense, given my company has a big push on Lean at the moment.\n\n<img src=\"uploads/2021/28d3dee5d9.png\" width=\"450\" alt=\"Screenshot of areas of focus and projects as a mindmap in MindNode\" />\n\nNow I can fill in next actions for each project and then sync with Reminders.\n\n",
+				"date_published": "2021-12-29T14:54:00-05:00",
+				"url": "https://matt.routleynet.org/2021/12/29/as-an-update.html",
+				"tags": ["code"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/12/29/the-dispossessed-by.html",
+				
+				"content_html": "<p><a href=\"https://micro.blog/books/9780061796883\">The Dispossessed</a> by Ursula K. Le Guin is a really interesting story about two different worlds and a physicist that tries to bring them back together. As with most good science fiction, the story is about the people, rather than the science, but the sci-fi setting accentuates the morals of the story 📚</p>\n",
+				"content_text": "[The Dispossessed](https://micro.blog/books/9780061796883) by Ursula K. Le Guin is a really interesting story about two different worlds and a physicist that tries to bring them back together. As with most good science fiction, the story is about the people, rather than the science, but the sci-fi setting accentuates the morals of the story 📚\n",
+				"date_published": "2021-12-29T14:03:41-05:00",
+				"url": "https://matt.routleynet.org/2021/12/29/the-dispossessed-by.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2021/12/24/i-sincerely-hope.html",
+				
+				"content_html": "<p>I sincerely hope this will not become a new Christmas tradition</p>\n\n<p><img src=\"uploads/2021/776f569f54.jpg\" width=\"600\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "I sincerely hope this will not become a new Christmas tradition \n\n<img src=\"uploads/2021/776f569f54.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2021-12-24T17:02:37-05:00",
+				"url": "https://matt.routleynet.org/2021/12/24/i-sincerely-hope.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2021/12/24/a-good-time.html",
 				
 				"content_html": "<p>A good time to reread the classic <em>A Christmas Carol</em> by Charles Dickens 🎄</p>\n\n<p><img src=\"uploads/2021/4c61aa4ff1.jpg\" width=\"600\" height=\"600\" alt=\"\" /></p>\n",
@@ -26,8 +52,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2021/12/23/breaking-in-my.html",
 				
-				"content_html": "<p>Breaking in <a href=\"https://matt.routleynet.org/2021/12/21/after-years-of.html\">my new shoes</a> with some hill sprints 🏃‍♂️</p>\n\n<p><img src=\"uploads/2021/6bc81c0b02.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Breaking in [my new shoes](https://matt.routleynet.org/2021/12/21/after-years-of.html) with some hill sprints 🏃‍♂️ \n\n<img src=\"uploads/2021/6bc81c0b02.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Breaking in <a href=\"https://matt.routleynet.org/2021/12/21/after-years-of.html\">my new shoes</a> with some hill sprints 🏃‍♂️</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/6bc81c0b02.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Breaking in [my new shoes](https://matt.routleynet.org/2021/12/21/after-years-of.html) with some hill sprints 🏃‍♂️ \n\n<img src=\"https://matt.routleynet.org/uploads/2021/6bc81c0b02.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-12-23T12:46:22-05:00",
 				"url": "https://matt.routleynet.org/2021/12/23/breaking-in-my.html",
 				"tags": ["fitness"]
@@ -35,8 +61,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2021/12/22/a-christmas-classic.html",
 				
-				"content_html": "<p>A Christmas classic</p>\n\n<p><img src=\"uploads/2021/0360b50878.jpg\" width=\"599\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "A Christmas classic\n\n<img src=\"uploads/2021/0360b50878.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>A Christmas classic</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/0360b50878.jpg\" width=\"599\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "A Christmas classic\n\n<img src=\"https://matt.routleynet.org/uploads/2021/0360b50878.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-12-22T19:09:10-05:00",
 				"url": "https://matt.routleynet.org/2021/12/22/a-christmas-classic.html"
 			},
@@ -95,8 +121,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2021/12/19/a-long-run.html",
 				
-				"content_html": "<p>A long run with fresh snow is a great start to a Sunday 🏃‍♂️❄️</p>\n\n<p><img src=\"uploads/2021/f62c456e07.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "A long run with fresh snow is a great start to a Sunday 🏃‍♂️❄️\n\n<img src=\"uploads/2021/f62c456e07.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>A long run with fresh snow is a great start to a Sunday 🏃‍♂️❄️</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/f62c456e07.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "A long run with fresh snow is a great start to a Sunday 🏃‍♂️❄️\n\n<img src=\"https://matt.routleynet.org/uploads/2021/f62c456e07.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-12-19T11:45:35-05:00",
 				"url": "https://matt.routleynet.org/2021/12/19/a-long-run.html",
 				"tags": ["fitness"]
@@ -104,8 +130,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2021/12/19/looks-like-someone.html",
 				
-				"content_html": "<p>Looks like someone went for an inadvertent swim 🥶</p>\n\n<p><img src=\"uploads/2021/f9cab77dee.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "Looks like someone went for an inadvertent swim 🥶\n\n<img src=\"uploads/2021/f9cab77dee.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>Looks like someone went for an inadvertent swim 🥶</p>\n\n<p><img src=\"https://matt.routleynet.org/uploads/2021/f9cab77dee.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "Looks like someone went for an inadvertent swim 🥶\n\n<img src=\"https://matt.routleynet.org/uploads/2021/f9cab77dee.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2021-12-19T10:00:53-05:00",
 				"url": "https://matt.routleynet.org/2021/12/19/looks-like-someone.html"
 			},
