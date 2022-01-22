@@ -7,10 +7,44 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2022/01/17/theres-been-some.html",
+				
+				"content_html": "<p>There’s been some shovelling today ❄️</p>\n\n<p><img src=\"uploads/2022/1a858b5e48.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"uploads/2022/35a5af3886.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"uploads/2022/a09f719f06.jpg\" width=\"450\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "There’s been some shovelling today ❄️ \n\n<img src=\"uploads/2022/1a858b5e48.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"uploads/2022/35a5af3886.jpg\" width=\"450\" height=\"600\" alt=\"\" /><img src=\"uploads/2022/a09f719f06.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-01-17T17:55:33-05:00",
+				"url": "https://matt.routleynet.org/2022/01/17/theres-been-some.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/01/17/lucy-is-enjoying.html",
+				
+				"content_html": "<p>Lucy is enjoying all this new snow ❄️</p>\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://matt.routleynet.org/uploads/2022/e0616de40f.mov\" width=\"640\" height=\"360\" poster=\"https://matt.routleynet.org/uploads/2022/00c945552e.png\" preload=\"none\"></video>\n",
+				"content_text": "Lucy is enjoying all this new snow ❄️ \n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://matt.routleynet.org/uploads/2022/e0616de40f.mov\" width=\"640\" height=\"360\" poster=\"https://matt.routleynet.org/uploads/2022/00c945552e.png\" preload=\"none\"></video>\n",
+				"date_published": "2022-01-17T17:48:11-05:00",
+				"url": "https://matt.routleynet.org/2022/01/17/lucy-is-enjoying.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/01/16/the-alignment-problem.html",
+				
+				"content_html": "<p><a href=\"https://brianchristian.org/the-alignment-problem/\">The Alignment Problem</a> by Brian Christian is a fascinating and very well written overview of the current state of AI research. I was particularly struck by how much of the challenge with safe AI is based on our poor understanding of our own intelligence 📚</p>\n",
+				"content_text": "[The Alignment Problem](https://brianchristian.org/the-alignment-problem/) by Brian Christian is a fascinating and very well written overview of the current state of AI research. I was particularly struck by how much of the challenge with safe AI is based on our poor understanding of our own intelligence 📚\n",
+				"date_published": "2022-01-16T13:09:59-05:00",
+				"url": "https://matt.routleynet.org/2022/01/16/the-alignment-problem.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/01/15/bike-sizing.html",
+				"title": "Bike sizing 🚴‍♂️",
+				"content_html": "<p>I&rsquo;ll be spending many hours and a reasonable amount of money on a bicycle over the next few months. To be efficient, comfortable, and injury free, I want the bike to fit me closely. So, I sought the advice of <a href=\"http://fitt1stbikefit.blogspot.com/\">Scott</a>, a professional bike fitter.</p>\n\n<p>Scott has an interesting contraption that is the various parts of a bike, each adjustable, with which he can recreate any <a href=\"https://en.wikipedia.org/wiki/Bicycle_frame#Frame_geometry\">frame geometry</a>. He started out with a <a href=\"https://www.trekbikes.com/ca/en_CA/domane/\">Trek Domane</a> as a reference point and had me ride it for a few minutes. Then with an assortment of rulers, protractors, and lasers, he measured me, moved parts, measured again, and optimized the fit. Once the fit was established, he generated a detailed report for me of all the various lengths and angles that I can use to confirm the size of any bike that I find.</p>\n\n<p>I also learned that my tibias are longer than my femurs (not by much) which is not typical (most people have longer femurs). This ends up affecting my optimal bike geometry, since it affects the angle of my knee and hip when at the top of a pedal stroke.</p>\n\n<p>Now that I know what size of bike to get, I&rsquo;m on the search. The COVID-induced supply chain challenges are definitely affecting availability.</p>\n",
+				"content_text": "I'll be spending many hours and a reasonable amount of money on a bicycle over the next few months. To be efficient, comfortable, and injury free, I want the bike to fit me closely. So, I sought the advice of [Scott](http://fitt1stbikefit.blogspot.com/), a professional bike fitter. \n\nScott has an interesting contraption that is the various parts of a bike, each adjustable, with which he can recreate any [frame geometry](https://en.wikipedia.org/wiki/Bicycle_frame#Frame_geometry). He started out with a [Trek Domane](https://www.trekbikes.com/ca/en_CA/domane/) as a reference point and had me ride it for a few minutes. Then with an assortment of rulers, protractors, and lasers, he measured me, moved parts, measured again, and optimized the fit. Once the fit was established, he generated a detailed report for me of all the various lengths and angles that I can use to confirm the size of any bike that I find.\n\nI also learned that my tibias are longer than my femurs (not by much) which is not typical (most people have longer femurs). This ends up affecting my optimal bike geometry, since it affects the angle of my knee and hip when at the top of a pedal stroke.\n\nNow that I know what size of bike to get, I'm on the search. The COVID-induced supply chain challenges are definitely affecting availability.\n",
+				"date_published": "2022-01-15T14:55:54-05:00",
+				"url": "https://matt.routleynet.org/2022/01/15/bike-sizing.html",
+				"tags": ["blog","fitness"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2022/01/08/as-a-benchmark.html",
 				
-				"content_html": "<p>As a benchmark for upcoming training, my coach had me run a 5k time trial. This is also useful for determining my heart rate training zones 🏃‍♂️</p>\n\n<p><img src=\"uploads/2022/37bfe40409.jpg\" width=\"600\" height=\"600\" alt=\"\" /></p>\n",
-				"content_text": "As a benchmark for upcoming training, my coach had me run a 5k time trial. This is also useful for determining my heart rate training zones 🏃‍♂️\n\n<img src=\"uploads/2022/37bfe40409.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
+				"content_html": "<p>As a benchmark for upcoming training, my coach had me run a 5k time trial. This is also useful for determining my heart rate training zones. I started off too fast and paid for it near the end, but managed to hold a good pace from KMs 2 to 5 🏃‍♂️</p>\n\n<p><img src=\"uploads/2022/37bfe40409.jpg\" width=\"600\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "As a benchmark for upcoming training, my coach had me run a 5k time trial. This is also useful for determining my heart rate training zones. I started off too fast and paid for it near the end, but managed to hold a good pace from KMs 2 to 5 🏃‍♂️\n\n<img src=\"uploads/2022/37bfe40409.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-01-08T15:29:00-05:00",
 				"url": "https://matt.routleynet.org/2022/01/08/as-a-benchmark.html",
 				"tags": ["fitness"]
