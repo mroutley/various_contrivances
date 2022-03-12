@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2022/03/08/i-think-i.html",
+				
+				"content_html": "<p>I think I liked season 1 of <em>Raised by Wolves</em>? A curious mix of sci-fi, fantasy, and horror that overall was more about mood than plot. I&rsquo;m not sure what to make of the ending yet.</p>\n",
+				"content_text": "I think I liked season 1 of _Raised by Wolves_? A curious mix of sci-fi, fantasy, and horror that overall was more about mood than plot. I'm not sure what to make of the ending yet.\n",
+				"date_published": "2022-03-08T17:25:00-05:00",
+				"url": "https://matt.routleynet.org/2022/03/08/i-think-i.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2022/03/01/integrating-mindnode-reminders.html",
 				"title": "Integrating MindNode, Reminders, and Mail 🗺 ✅ 📧",
 				"content_html": "<p>I&rsquo;m still <a href=\"https://matt.routleynet.org/2019/10/15/task-management-with.html\">using MindNode for task management</a>. Seeing all of my tasks, projects, and areas of focus on one mind map has been really helpful, especially since it is integrated with Reminders.</p>\n<p>One challenge has been integration with Mail, given the majority of my tasks arrive via email. Despite Apple&rsquo;s seemingly inexplicable decision to isolate Mail from the usual sharing actions found in other apps, they at least allow drag and drop from Mail into Reminders, which adds a link to the original email message. This works with MindNode too. If you drag an email onto a node, it will add a link there. The issue is that when you synchronize MindNode with Reminders, the links to emails from MindNode no longer work when shown in Reminders.</p>\n<p>After tinkering around for a bit, there&rsquo;s a relatively easy fix. When you drag a mail message to a node in MindNode, it adds a url that looks something like:</p>\n<pre><code>message:%3CYT2PR01MB9@YT2PR01MB9447.CANPRD01%3E\n</code></pre>\n<p>Editing the link to add <code>//</code> after <code>message:</code>makes the link work in Reminders, while also continuing to work in MindNode.</p>\n<p>I&rsquo;m not sure why MindNode creates a url that isn&rsquo;t accessible from other apps (perhaps a security feature?). At least this fix, though a bit annoying, allows for a more seamless integration between Mail, MindNode, and Reminders.</p>\n",
