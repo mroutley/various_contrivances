@@ -7,6 +7,48 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2022/03/19/the-ghost-brigades.html",
+				
+				"content_html": "<p><a href=\"https://micro.blog/books/9780765354068\">The Ghost Brigades</a> by John Scalzi is a fun “soldiers in space” book with some interesting ethical concepts📚</p>\n",
+				"content_text": "[The Ghost Brigades](https://micro.blog/books/9780765354068) by John Scalzi is a fun “soldiers in space” book with some interesting ethical concepts📚\n",
+				"date_published": "2022-03-19T08:05:00-05:00",
+				"url": "https://matt.routleynet.org/2022/03/19/the-ghost-brigades.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/03/18/a-closed-and.html",
+				
+				"content_html": "<p><a href=\"https://micro.blog/books/9781473621459\">A Closed and Common Orbit</a> by Becky Chambers is really good. A strong emotional core with an intriguing sci-fi structure📚</p>\n",
+				"content_text": "[A Closed and Common Orbit](https://micro.blog/books/9781473621459) by Becky Chambers is really good. A strong emotional core with an intriguing sci-fi structure📚\n",
+				"date_published": "2022-03-18T10:15:23-05:00",
+				"url": "https://matt.routleynet.org/2022/03/18/a-closed-and.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/03/16/busy-morning-so.html",
+				
+				"content_html": "<p>Busy morning so far</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Busy morning so far\n\n<img src=\"uploads/2022/6dd099414a.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-03-16T09:11:54-05:00",
+				"url": "https://matt.routleynet.org/2022/03/16/busy-morning-so.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/03/13/one-of-the.html",
+				
+				"content_html": "<p>One of the highlights from last night&rsquo;s <a href=\"https://stoutnight.com/\">Stout Beer Festival</a>: Beeramisu Imperial Stout from the Third Moon and Bellwoods breweries</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "One of the highlights from last night's [Stout Beer Festival](https://stoutnight.com/): Beeramisu Imperial Stout from the Third Moon and Bellwoods breweries\n\n<img src=\"uploads/2022/8460775ac6.jpg\" width=\"600\" height=\"600\" alt=\"A photo of a can of beer and full mug\" />\n",
+				"date_published": "2022-03-13T17:47:11-05:00",
+				"url": "https://matt.routleynet.org/2022/03/13/one-of-the.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/03/12/although-i-was.html",
+				
+				"content_html": "<p>Although I was disappointed to miss out on attending <a href=\"https://micro.camp/\">Micro Camp March 2022</a>, I&rsquo;ve enjoyed catching up on the videos. A nice diversity of topics, each very well presented</p>\n",
+				"content_text": "Although I was disappointed to miss out on attending [Micro Camp March 2022](https://micro.camp/), I've enjoyed catching up on the videos. A nice diversity of topics, each very well presented \n",
+				"date_published": "2022-03-12T14:27:43-05:00",
+				"url": "https://matt.routleynet.org/2022/03/12/although-i-was.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2022/03/08/i-think-i.html",
 				
 				"content_html": "<p>I think I liked season 1 of <em>Raised by Wolves</em>? A curious mix of sci-fi, fantasy, and horror that overall was more about mood than plot. I&rsquo;m not sure what to make of the ending yet.</p>\n",
@@ -35,7 +77,7 @@
 				"id": "http://mroutley.micro.blog/2022/02/24/pancakes-for-dinner.html",
 				
 				"content_html": "<p>Pancakes for dinner</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Pancakes for dinner\n\n<img src=\"uploads/2022/ac2583c0ce.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
+				"content_text": "Pancakes for dinner\n\n<img src=\"https://matt.routleynet.org/uploads/2022/ac2583c0ce.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-02-24T20:58:04-05:00",
 				"url": "https://matt.routleynet.org/2022/02/24/pancakes-for-dinner.html"
 			},
@@ -52,7 +94,7 @@
 				"id": "http://mroutley.micro.blog/2022/02/19/a-fun-one.html",
 				
 				"content_html": "<p>A fun one</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "A fun one\n\n<img src=\"uploads/2022/f372f21923.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
+				"content_text": "A fun one\n\n<img src=\"https://matt.routleynet.org/uploads/2022/f372f21923.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-02-19T17:33:45-05:00",
 				"url": "https://matt.routleynet.org/2022/02/19/a-fun-one.html"
 			},
