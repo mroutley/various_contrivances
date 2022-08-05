@@ -7,6 +7,31 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2022/08/05/im-enjoying-the.html",
+				
+				"content_html": "<p>I&rsquo;m enjoying the <a href=\"https://dynamic.wakingup.com/pack/PKDAFBB?source=content%20share&amp;share_id=6E669BB5\">Time Management for Mortals series</a> by Oliver Burkeman on the Waking Up app. A nice extension of his <em>Four Thousand Weeks</em> book 🎧</p>\n",
+				"content_text": "I'm enjoying the [Time Management for Mortals series](https://dynamic.wakingup.com/pack/PKDAFBB?source=content%20share&share_id=6E669BB5) by Oliver Burkeman on the Waking Up app. A nice extension of his _Four Thousand Weeks_ book 🎧\n",
+				"date_published": "2022-08-05T18:23:35-04:00",
+				"url": "https://matt.routleynet.org/2022/08/05/im-enjoying-the.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/07/30/the-nova-incident.html",
+				
+				"content_html": "<p><a href=\"https://micro.blog/books/9780857669469\">The Nova Incident</a> by Dan Moren is an entertaining mix of espionage, action, and sci-fi. I’ve enjoyed all of the books in this series 📚</p>\n",
+				"content_text": "[The Nova Incident](https://micro.blog/books/9780857669469) by Dan Moren is an entertaining mix of espionage, action, and sci-fi. I’ve enjoyed all of the books in this series 📚\n",
+				"date_published": "2022-07-30T16:09:20-04:00",
+				"url": "https://matt.routleynet.org/2022/07/30/the-nova-incident.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/07/30/im-aligned-with.html",
+				
+				"content_html": "<p>I’m aligned with the views of <a href=\"https://overcast.fm/+kMZyM4K4\">the Incomparable panel on recent Star Trek</a>: Discovery is disappointing, Picard is frustrating, and Strange New Worlds is delightful 🖖</p>\n",
+				"content_text": "I’m aligned with the views of [the Incomparable panel on recent Star Trek](https://overcast.fm/+kMZyM4K4): Discovery is disappointing, Picard is frustrating, and Strange New Worlds is delightful 🖖 \n",
+				"date_published": "2022-07-30T16:06:51-04:00",
+				"url": "https://matt.routleynet.org/2022/07/30/im-aligned-with.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2022/07/28/reunification-day-kids.html",
 				
 				"content_html": "<p>Reunification day! Kids are back from a month at summer camp. Tanned, relaxed, and happy</p>\n<!-- raw HTML omitted -->\n",
