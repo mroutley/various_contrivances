@@ -7,6 +7,100 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2022/08/19/rays-of-light.html",
+				
+				"content_html": "<p>Rays of light</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Rays of light\n\n<img src=\"uploads/2022/c86f16bd50.jpg\" width=\"600\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-08-19T20:03:23-04:00",
+				"url": "https://matt.routleynet.org/2022/08/19/rays-of-light.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/18/looking-for-a.html",
+				"title": "Looking for a beaver lodge 🦫",
+				"content_html": "<p>We’ve seen a beaver swimming from one end of the lake to the other, most evenings at our rented cottage. Today we paddled out to investigate.</p>\n<!-- raw HTML omitted -->\n<p>We found three separate lodges, though I could only really get a good picture of one.</p>\n<!-- raw HTML omitted -->\n<p>As well as a dam that was blocking a culvert at the end of the lake.</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "We’ve seen a beaver swimming from one end of the lake to the other, most evenings at our rented cottage. Today we paddled out to investigate. \n\n<img src=\"uploads/2022/c86105d086.jpg\" alt=\"Kayaking on the lake\" />\n\nWe found three separate lodges, though I could only really get a good picture of one. \n\n<img src=\"uploads/2022/fdeaf43619.jpg\" />\n\nAs well as a dam that was blocking a culvert at the end of the lake. \n\n<img src=\"uploads/2022/3c1aca815c.jpg\" />\n\n<img src=\"uploads/2022/bbfdfa4298.jpg\" />\n\n<img src=\"uploads/2022/ebe413700a.jpg\" />\n\n<img src=\"uploads/2022/370b8002f4.jpg\" />\n\n<img src=\"uploads/2022/228a6cb094.jpg\" />\n",
+				"date_published": "2022-08-18T14:20:18-04:00",
+				"url": "https://matt.routleynet.org/2022/08/18/looking-for-a.html",
+				"tags": ["blog"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/18/different-running-route.html",
+				
+				"content_html": "<p>Different <a href=\"https://strava.app.link/TTgl9pbXAsb\">running route</a> today to find some unpaved roads and justify packing my trail shoes on the vacation 🏃‍♂️</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Different [running route](https://strava.app.link/TTgl9pbXAsb) today to find some unpaved roads and justify packing my trail shoes on the vacation 🏃‍♂️\n\n<img src=\"uploads/2022/abe934c71c.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-08-18T10:19:59-04:00",
+				"url": "https://matt.routleynet.org/2022/08/18/different-running-route.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/17/arriving-today-by.html",
+				
+				"content_html": "<p><a href=\"https://micro.blog/books/9780062987969\">Arriving Today</a> by Christopher Mims is a very interesting look into the logistics network that we all take for granted with an emphasis on Amazon. A fascinating mix of robotics, AI, and labour laws📚</p>\n",
+				"content_text": "[Arriving Today](https://micro.blog/books/9780062987969) by Christopher Mims is a very interesting look into the logistics network that we all take for granted with an emphasis on Amazon. A fascinating mix of robotics, AI, and labour laws📚\n",
+				"date_published": "2022-08-17T18:44:56-04:00",
+				"url": "https://matt.routleynet.org/2022/08/17/arriving-today-by.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/17/nice-to-get.html",
+				
+				"content_html": "<p>Nice to get out for a <a href=\"https://strava.app.link/sGCjlFbMzsb\">long swim</a> 🏊‍♂️</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Nice to get out for a [long swim](https://strava.app.link/sGCjlFbMzsb) 🏊‍♂️\n\n<img src=\"uploads/2022/9520b896ff.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-08-17T17:17:38-04:00",
+				"url": "https://matt.routleynet.org/2022/08/17/nice-to-get.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/17/interesting-to-hear.html",
+				
+				"content_html": "<p>Interesting to hear William MacAskill on two of my favourite podcasts (<a href=\"https://overcast.fm/+S_7kOjoto\">Mindscape with Sean Carroll</a> and <a href=\"https://overcast.fm/+KhqGAGrm0\">Making Sense with Sam Harris</a>). Although there&rsquo;s some necessary overlap, the two hosts drew out different themes in the conversations 🎧</p>\n",
+				"content_text": "Interesting to hear William MacAskill on two of my favourite podcasts ([Mindscape with Sean Carroll](https://overcast.fm/+S_7kOjoto) and [Making Sense with Sam Harris](https://overcast.fm/+KhqGAGrm0)). Although there's some necessary overlap, the two hosts drew out different themes in the conversations 🎧\n",
+				"date_published": "2022-08-17T12:31:33-04:00",
+				"url": "https://matt.routleynet.org/2022/08/17/interesting-to-hear.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/16/piranesi-by-susanna.html",
+				
+				"content_html": "<p><a href=\"https://micro.blog/books/9781635575644\">Piranesi</a> by Susanna Clarke is a delight. A strange and fascinating story that is unlike anything that I’ve read recently 📚</p>\n",
+				"content_text": "[Piranesi](https://micro.blog/books/9781635575644) by Susanna Clarke is a delight. A strange and fascinating story that is unlike anything that I’ve read recently 📚\n",
+				"date_published": "2022-08-16T13:15:10-04:00",
+				"url": "https://matt.routleynet.org/2022/08/16/piranesi-by-susanna.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/15/persepolis-rising-by.html",
+				
+				"content_html": "<p><a href=\"https://micro.blog/books/9780316332828\">Persepolis Rising</a> by James S. A. Corey is a solid start to a new Expanse story. Although I like the mystery surrounding the alien artifacts, Expanse is at its best when focused on the people📚</p>\n",
+				"content_text": "[Persepolis Rising](https://micro.blog/books/9780316332828) by James S. A. Corey is a solid start to a new Expanse story. Although I like the mystery surrounding the alien artifacts, Expanse is at its best when focused on the people📚\n",
+				"date_published": "2022-08-15T11:43:31-04:00",
+				"url": "https://matt.routleynet.org/2022/08/15/persepolis-rising-by.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/14/around-here-you.html",
+				
+				"content_html": "<p>Around here you <a href=\"https://strava.app.link/f81a05Wgusb\">run hills</a>, whether you want to or not</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Around here you [run hills](https://strava.app.link/f81a05Wgusb), whether you want to or not\n\n<img src=\"uploads/2022/5402bd1c72.png\" width=\"600\" height=\"532\" alt=\"Chart of elevation gain through a run, showing lots of spikes\" />\n",
+				"date_published": "2022-08-14T09:43:04-04:00",
+				"url": "https://matt.routleynet.org/2022/08/14/around-here-you.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/13/203112.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n",
+				"content_text": "\n\n<img src=\"uploads/2022/8223ec47c3.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-08-13T20:31:12-04:00",
+				"url": "https://matt.routleynet.org/2022/08/13/203112.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/13/misty-morning-for.html",
+				
+				"content_html": "<p>Misty morning for an <a href=\"https://strava.app.link/vM2qDFszssb\">easy run</a> 🏃‍♂️</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Misty morning for an [easy run](https://strava.app.link/vM2qDFszssb) 🏃‍♂️\n\n<img src=\"uploads/2022/7a7a3a59ad.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-08-13T09:08:33-04:00",
+				"url": "https://matt.routleynet.org/2022/08/13/misty-morning-for.html",
+				"tags": ["fitness"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2022/08/12/the-space-between.html",
 				
 				"content_html": "<p><a href=\"https://micro.blog/books/9780593135068\">The Space Between Worlds</a> by Micaiah Johnson is a fun parallel worlds story with lots of plot twists 📚</p>\n",
@@ -19,7 +113,7 @@
 				"id": "http://mroutley.micro.blog/2022/08/11/such-a-delight.html",
 				
 				"content_html": "<p>Such a delight to <a href=\"https://strava.app.link/uJxZofh4qsb\">swim</a> in a nice, deep lake 🏊‍♂️</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Such a delight to [swim](https://strava.app.link/uJxZofh4qsb) in a nice, deep lake 🏊‍♂️ \n\n<img src=\"uploads/2022/61feaed266.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_text": "Such a delight to [swim](https://strava.app.link/uJxZofh4qsb) in a nice, deep lake 🏊‍♂️ \n\n<img src=\"https://matt.routleynet.org/uploads/2022/61feaed266.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-08-11T16:48:58-04:00",
 				"url": "https://matt.routleynet.org/2022/08/11/such-a-delight.html"
 			},
@@ -36,7 +130,7 @@
 				"id": "http://mroutley.micro.blog/2022/08/09/184355.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "\n\n<img src=\"uploads/2022/05455ff015.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_text": "\n\n<img src=\"https://matt.routleynet.org/uploads/2022/05455ff015.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-08-09T18:43:55-04:00",
 				"url": "https://matt.routleynet.org/2022/08/09/184355.html"
 			},
@@ -44,7 +138,7 @@
 				"id": "http://mroutley.micro.blog/2022/08/09/lucy-is-settling.html",
 				
 				"content_html": "<p>Lucy is settling into cottage life</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Lucy is settling into cottage life\n\n<img src=\"uploads/2022/05f45135dc.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_text": "Lucy is settling into cottage life\n\n<img src=\"https://matt.routleynet.org/uploads/2022/05f45135dc.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-08-09T16:38:32-04:00",
 				"url": "https://matt.routleynet.org/2022/08/09/lucy-is-settling.html"
 			},
@@ -94,7 +188,7 @@
 				"id": "http://mroutley.micro.blog/2022/07/28/reunification-day-kids.html",
 				
 				"content_html": "<p>Reunification day! Kids are back from a month at summer camp. Tanned, relaxed, and happy</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Reunification day! Kids are back from a month at summer camp. Tanned, relaxed, and happy\n\n<img src=\"uploads/2022/a802000b71.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"content_text": "Reunification day! Kids are back from a month at summer camp. Tanned, relaxed, and happy\n\n<img src=\"https://matt.routleynet.org/uploads/2022/a802000b71.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-07-28T15:48:09-04:00",
 				"url": "https://matt.routleynet.org/2022/07/28/reunification-day-kids.html"
 			},
