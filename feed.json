@@ -7,6 +7,101 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2022/08/26/relaxed-and-happy.html",
+				
+				"content_html": "<p>Relaxed and happy</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Relaxed and happy\n\n<img src=\"uploads/2022/ec9f3c7b43.jpg\" width=\"599\" height=\"600\" alt=\"son and daughter arm in arm and looking towards the camera\" />\n",
+				"date_published": "2022-08-26T13:53:12-04:00",
+				"url": "https://matt.routleynet.org/2022/08/26/relaxed-and-happy.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/25/found-some-rapids.html",
+				
+				"content_html": "<p>Found some rapids on <a href=\"https://strava.app.link/YwdI3ZHYMsb\">today’s run</a> 🏃‍♂️</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "Found some rapids on [today’s run](https://strava.app.link/YwdI3ZHYMsb) 🏃‍♂️\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://matt.routleynet.org/uploads/2022/a0840715f0.mov\" width=\"360\" height=\"640\" poster=\"https://matt.routleynet.org/uploads/2022/0e119211e6.png\" preload=\"none\"></video>\n",
+				"date_published": "2022-08-25T16:14:21-04:00",
+				"url": "https://matt.routleynet.org/2022/08/25/found-some-rapids.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/25/the-kobo-libra.html",
+				"title": "The Kobo Libra 2 is great for cottage reading 📚",
+				"content_html": "<p>As a follow up to <a href=\"https://matt.routleynet.org/2022/07/24/my-annual-cottage.html\">my earlier post</a>, now that I&rsquo;m on the eleventh <a href=\"https://matt.routleynet.org/categories/book/\">book</a> of my vacation, I can confirm that the <a href=\"https://ca.kobobooks.com/products/kobo-libra-2\">Kobo Libra 2</a> is exactly what I&rsquo;d hoped.</p>\n<p>The screen has been easy to read in all lighting (especially bright sunlight on the dock), the page turn buttons are reliable, and the public library integration has been seamless.</p>\n<p>Perfect for cottage reading!</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "As a follow up to [my earlier post](https://matt.routleynet.org/2022/07/24/my-annual-cottage.html), now that I'm on the eleventh [book](https://matt.routleynet.org/categories/book/) of my vacation, I can confirm that the [Kobo Libra 2](https://ca.kobobooks.com/products/kobo-libra-2) is exactly what I'd hoped. \n\nThe screen has been easy to read in all lighting (especially bright sunlight on the dock), the page turn buttons are reliable, and the public library integration has been seamless. \n\nPerfect for cottage reading!\n\n<img src=\"uploads/2022/5a0461b146.jpg\" width=\"600\" height=\"600\" alt=\"holding the Kobo with the cottage lake in the background \" />\n",
+				"date_published": "2022-08-25T14:44:49-04:00",
+				"url": "https://matt.routleynet.org/2022/08/25/the-kobo-libra.html",
+				"tags": ["book","blog"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/25/although-the-book.html",
+				
+				"content_html": "<p>Although the book is unfinished, I enjoyed <a href=\"https://micro.blog/books/9780771070853\">Starlight</a> by Richard Wagamese. The theme of appreciating the land resonates well with my cottage vacation. I also found the themes of fatherhood and adopted families compelling 📚</p>\n",
+				"content_text": "Although the book is unfinished, I enjoyed [Starlight](https://micro.blog/books/9780771070853) by Richard Wagamese. The theme of appreciating the land resonates well with my cottage vacation. I also found the themes of fatherhood and adopted families compelling 📚\n",
+				"date_published": "2022-08-25T10:33:35-04:00",
+				"url": "https://matt.routleynet.org/2022/08/25/although-the-book.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/24/ominous-clouds-for.html",
+				
+				"content_html": "<p>Ominous clouds for <a href=\"https://strava.app.link/79YGNGXaLsb\">today’s swim</a></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Ominous clouds for [today’s swim](https://strava.app.link/79YGNGXaLsb)\n\n<img src=\"uploads/2022/9ea0d4b73b.jpg\" width=\"450\" height=\"600\" alt=\"Lake with some dark clouds rolling in with Strava stats: 3,110 m in 1 hour and 11 minutes\" />\n",
+				"date_published": "2022-08-24T14:09:44-04:00",
+				"url": "https://matt.routleynet.org/2022/08/24/ominous-clouds-for.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/24/a-fun-upgrade.html",
+				
+				"content_html": "<p><a href=\"https://overcast.fm/+Fcm9TWvZM\">A fun Upgrade episode</a> on automation with Jason Snell, Federico Viticci, Rosemary Orchard, and Matthew Cassinelli 🤖🎧</p>\n",
+				"content_text": "[A fun Upgrade episode](https://overcast.fm/+Fcm9TWvZM) on automation with Jason Snell, Federico Viticci, Rosemary Orchard, and Matthew Cassinelli 🤖🎧\n",
+				"date_published": "2022-08-24T13:10:36-04:00",
+				"url": "https://matt.routleynet.org/2022/08/24/a-fun-upgrade.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/24/tunnel-by-helena.html",
+				
+				"content_html": "<p><a href=\"https://micro.blog/books/9781541788824\">Tunnel 29</a> by Helena Merriman is an engrossing book about students that escaped from East Germany during the Cold War, only to then tunnel back under the wall to help more people escape 📚</p>\n",
+				"content_text": "[Tunnel 29](https://micro.blog/books/9781541788824) by Helena Merriman is an engrossing book about students that escaped from East Germany during the Cold War, only to then tunnel back under the wall to help more people escape 📚\n",
+				"date_published": "2022-08-24T09:56:58-04:00",
+				"url": "https://matt.routleynet.org/2022/08/24/tunnel-by-helena.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/23/the-eye-of.html",
+				
+				"content_html": "<p><a href=\"https://micro.blog/books/9781429959810\">The Eye of the World</a> by Robert Jordan was a perfect vacation read. A long and immersive fantasy story with both familiar elements and novel ideas📚</p>\n",
+				"content_text": "[The Eye of the World](https://micro.blog/books/9781429959810) by Robert Jordan was a perfect vacation read. A long and immersive fantasy story with both familiar elements and novel ideas📚\n",
+				"date_published": "2022-08-23T15:12:03-04:00",
+				"url": "https://matt.routleynet.org/2022/08/23/the-eye-of.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/23/back-on-the.html",
+				
+				"content_html": "<p>Back on the gravel roads for <a href=\"https://strava.app.link/90L8XfFkJsb\">today’s run</a></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Back on the gravel roads for [today’s run](https://strava.app.link/90L8XfFkJsb)\n\n<img src=\"https://matt.routleynet.org/uploads/2022/eaa78c5839.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-08-23T11:28:38-04:00",
+				"url": "https://matt.routleynet.org/2022/08/23/back-on-the.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/21/nice-run-along.html",
+				
+				"content_html": "<p>Nice <a href=\"https://strava.app.link/1bM3ibIZFsb\">run</a> along the James Cooper Lookout Trail, despite some tough terrain 🏃‍♂️</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "Nice [run](https://strava.app.link/1bM3ibIZFsb) along the James Cooper Lookout Trail, despite some tough terrain 🏃‍♂️\n\n<img src=\"uploads/2022/8119fa7932.jpg\" width=\"450\" height=\"600\" alt=\"Signpost at the trailhead\" /><img src=\"uploads/2022/379b662e01.jpg\" width=\"600\" height=\"600\" alt=\"My Saucony Switchbacks\" /><img src=\"uploads/2022/721cc1df63.jpg\" width=\"599\" height=\"600\" alt=\"a narrow trail through the woods\" /><img src=\"uploads/2022/34dbfdcce8.jpg\" width=\"450\" height=\"600\" alt=\"looking up the slope to a trail marker\" />\n",
+				"date_published": "2022-08-21T11:18:41-04:00",
+				"url": "https://matt.routleynet.org/2022/08/21/nice-run-along.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/08/20/although-i-was.html",
+				
+				"content_html": "<p>Although I was initially confused by the plot of <a href=\"https://micro.blog/books/9781250789075\">Light From Uncommon Stars</a> by Ryka Aoki, once I got into the story I enjoyed it. A nice mix of humour, honouring your identity, immigrating, and classical music 📚</p>\n",
+				"content_text": "Although I was initially confused by the plot of [Light From Uncommon Stars](https://micro.blog/books/9781250789075) by Ryka Aoki, once I got into the story I enjoyed it. A nice mix of humour, honouring your identity, immigrating, and classical music 📚\n",
+				"date_published": "2022-08-20T18:15:41-04:00",
+				"url": "https://matt.routleynet.org/2022/08/20/although-i-was.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2022/08/19/rays-of-light.html",
 				
 				"content_html": "<p>Rays of light</p>\n<!-- raw HTML omitted -->\n",
@@ -27,7 +122,7 @@
 				"id": "http://mroutley.micro.blog/2022/08/18/different-running-route.html",
 				
 				"content_html": "<p>Different <a href=\"https://strava.app.link/TTgl9pbXAsb\">running route</a> today to find some unpaved roads and justify packing my trail shoes on the vacation 🏃‍♂️</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Different [running route](https://strava.app.link/TTgl9pbXAsb) today to find some unpaved roads and justify packing my trail shoes on the vacation 🏃‍♂️\n\n<img src=\"uploads/2022/abe934c71c.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"content_text": "Different [running route](https://strava.app.link/TTgl9pbXAsb) today to find some unpaved roads and justify packing my trail shoes on the vacation 🏃‍♂️\n\n<img src=\"https://matt.routleynet.org/uploads/2022/abe934c71c.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-08-18T10:19:59-04:00",
 				"url": "https://matt.routleynet.org/2022/08/18/different-running-route.html",
 				"tags": ["fitness"]
@@ -45,7 +140,7 @@
 				"id": "http://mroutley.micro.blog/2022/08/17/nice-to-get.html",
 				
 				"content_html": "<p>Nice to get out for a <a href=\"https://strava.app.link/sGCjlFbMzsb\">long swim</a> 🏊‍♂️</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Nice to get out for a [long swim](https://strava.app.link/sGCjlFbMzsb) 🏊‍♂️\n\n<img src=\"uploads/2022/9520b896ff.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
+				"content_text": "Nice to get out for a [long swim](https://strava.app.link/sGCjlFbMzsb) 🏊‍♂️\n\n<img src=\"https://matt.routleynet.org/uploads/2022/9520b896ff.jpg\" width=\"450\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-08-17T17:17:38-04:00",
 				"url": "https://matt.routleynet.org/2022/08/17/nice-to-get.html"
 			},
@@ -79,7 +174,7 @@
 				"id": "http://mroutley.micro.blog/2022/08/14/around-here-you.html",
 				
 				"content_html": "<p>Around here you <a href=\"https://strava.app.link/f81a05Wgusb\">run hills</a>, whether you want to or not</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Around here you [run hills](https://strava.app.link/f81a05Wgusb), whether you want to or not\n\n<img src=\"uploads/2022/5402bd1c72.png\" width=\"600\" height=\"532\" alt=\"Chart of elevation gain through a run, showing lots of spikes\" />\n",
+				"content_text": "Around here you [run hills](https://strava.app.link/f81a05Wgusb), whether you want to or not\n\n<img src=\"https://matt.routleynet.org/uploads/2022/5402bd1c72.png\" width=\"600\" height=\"532\" alt=\"Chart of elevation gain through a run, showing lots of spikes\" />\n",
 				"date_published": "2022-08-14T09:43:04-04:00",
 				"url": "https://matt.routleynet.org/2022/08/14/around-here-you.html"
 			},
@@ -87,7 +182,7 @@
 				"id": "http://mroutley.micro.blog/2022/08/13/203112.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "\n\n<img src=\"uploads/2022/8223ec47c3.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"content_text": "\n\n<img src=\"https://matt.routleynet.org/uploads/2022/8223ec47c3.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-08-13T20:31:12-04:00",
 				"url": "https://matt.routleynet.org/2022/08/13/203112.html"
 			},
@@ -95,7 +190,7 @@
 				"id": "http://mroutley.micro.blog/2022/08/13/misty-morning-for.html",
 				
 				"content_html": "<p>Misty morning for an <a href=\"https://strava.app.link/vM2qDFszssb\">easy run</a> 🏃‍♂️</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Misty morning for an [easy run](https://strava.app.link/vM2qDFszssb) 🏃‍♂️\n\n<img src=\"uploads/2022/7a7a3a59ad.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
+				"content_text": "Misty morning for an [easy run](https://strava.app.link/vM2qDFszssb) 🏃‍♂️\n\n<img src=\"https://matt.routleynet.org/uploads/2022/7a7a3a59ad.jpg\" width=\"599\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-08-13T09:08:33-04:00",
 				"url": "https://matt.routleynet.org/2022/08/13/misty-morning-for.html",
 				"tags": ["fitness"]
