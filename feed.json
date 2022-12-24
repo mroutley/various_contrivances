@@ -7,6 +7,48 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2022/12/21/waiting-for-the.html",
+				
+				"content_html": "<p>Waiting for the train</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Waiting for the train\n\n<img src=\"uploads/2022/5c64f76095.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"date_published": "2022-12-21T08:47:42-05:00",
+				"url": "https://matt.routleynet.org/2022/12/21/waiting-for-the.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/12/20/finished-reading-the.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780765377142\">The Well of Ascension</a> by Brandon Sanderson. This series has been really entertaining so far📚</p>\n",
+				"content_text": "Finished reading: [The Well of Ascension](https://micro.blog/books/9780765377142) by Brandon Sanderson. This series has been really entertaining so far📚\n",
+				"date_published": "2022-12-20T19:59:39-05:00",
+				"url": "https://matt.routleynet.org/2022/12/20/finished-reading-the.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/12/19/computation-with-marbles.html",
+				"title": "Computation with marbles 🧮🧐",
+				"content_html": "<p>I&rsquo;ve been interested for a while now in better understanding the underlying mechanics of computers. I&rsquo;ve also been keen to do something other than stare at a screen. <a href=\"https://upperstory.com/turingtumble/\">Turing Tumble</a> is a fun solution to both of these goals.</p>\n<p>Turing Tumble is an educational game in which you build a mechanical computer that is powered by marbles. The game comes with a comic book that guides you through ever more complex computing principles, adding more sophisticated parts as you progress. Each principle is presented as a challenge in which you&rsquo;re given a goal and a few starting pieces. You then have to integrate some earlier principles into the new goal to come up with a solution. The challenges get pretty tough! But, I&rsquo;m enjoying figuring out each puzzle while making progress through the story.</p>\n<p>Just as an example, here&rsquo;s Challenge 26 in which the goal is to release 4 blue marbles, 1 red, and then another 4 blue. The blue, arrow-shaped pieces are bits that allow you to count, while the black piece near the top right corner is an interceptor for stopping computation (warning, spoilers ahead!).</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n<p>Although the primary audience for this is kids, I&rsquo;m finding it both fun and educational!</p>\n",
+				"content_text": "I've been interested for a while now in better understanding the underlying mechanics of computers. I've also been keen to do something other than stare at a screen. [Turing Tumble](https://upperstory.com/turingtumble/) is a fun solution to both of these goals.\n\nTuring Tumble is an educational game in which you build a mechanical computer that is powered by marbles. The game comes with a comic book that guides you through ever more complex computing principles, adding more sophisticated parts as you progress. Each principle is presented as a challenge in which you're given a goal and a few starting pieces. You then have to integrate some earlier principles into the new goal to come up with a solution. The challenges get pretty tough! But, I'm enjoying figuring out each puzzle while making progress through the story.\n\nJust as an example, here's Challenge 26 in which the goal is to release 4 blue marbles, 1 red, and then another 4 blue. The blue, arrow-shaped pieces are bits that allow you to count, while the black piece near the top right corner is an interceptor for stopping computation (warning, spoilers ahead!).\n\n<video src=\"https://matt.routleynet.org/uploads/2022/ad42a59b3f.mov\" controls=\"controls\" poster=\"https://matt.routleynet.org/uploads/2022/a5fc6f41c7.png\" playsinline=\"playsinline\" preload=\"none\"></video>\n\nAlthough the primary audience for this is kids, I'm finding it both fun and educational!\n",
+				"date_published": "2022-12-19T17:50:11-05:00",
+				"url": "https://matt.routleynet.org/2022/12/19/computation-with-marbles.html",
+				"tags": ["blog"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/12/18/spotted-on-todays.html",
+				
+				"content_html": "<p>Spotted on <a href=\"https://strava.app.link/E3g2BtcERvb\">today’s run</a></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Spotted on [today’s run](https://strava.app.link/E3g2BtcERvb)\n\n<img src=\"uploads/2022/78f29d74a1.jpg\" width=\"600\" height=\"600\" alt=\"Graffiti on a bridge support beam\">\n",
+				"date_published": "2022-12-18T12:17:28-05:00",
+				"url": "https://matt.routleynet.org/2022/12/18/spotted-on-todays.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2022/12/18/although-i-was.html",
+				
+				"content_html": "<p>📺 Although I was entertained by <em>The Rings of Power</em>, I agree with <a href=\"https://acoup.blog/2022/12/16/collections-why-rings-of-powers-middle-earth-feels-flat/\">Bret Devereaux&rsquo;s criticisms of the show</a> that left it feeling hollow</p>\n",
+				"content_text": "📺 Although I was entertained by _The Rings of Power_, I agree with [Bret Devereaux's criticisms of the show](https://acoup.blog/2022/12/16/collections-why-rings-of-powers-middle-earth-feels-flat/) that left it feeling hollow\n",
+				"date_published": "2022-12-18T12:09:49-05:00",
+				"url": "https://matt.routleynet.org/2022/12/18/although-i-was.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2022/12/17/a-fun-episode.html",
 				
 				"content_html": "<p>🎧📺 A <a href=\"https://overcast.fm/+ujCHfcqnQ\">fun episode</a> of the Strong Songs podcast about the great Andor TV series</p>\n",
@@ -18,15 +60,15 @@
 				"id": "http://mroutley.micro.blog/2022/12/13/festive-moose.html",
 				
 				"content_html": "<p>Festive moose</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Festive moose\n\n<img src=\"uploads/2022/c9fdd6cb41.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "Festive moose\n\n<img src=\"https://matt.routleynet.org/uploads/2022/c9fdd6cb41.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2022-12-13T20:57:45-05:00",
 				"url": "https://matt.routleynet.org/2022/12/13/festive-moose.html"
 			},
 			{
 				"id": "http://mroutley.micro.blog/2022/12/11/i-wanted-to.html",
 				
-				"content_html": "<p>📚 I wanted to like <a href=\"https://micro.blog/books/9781846684975\">The Gun, the Ship, and the Pen</a> by Linda Colley. The main thesis is that as societies became more complex and conflicts more intense, governments needed to develop written constitutions to cede rights to their citizens and keep them participating in wars. I found getting through the details a tough slog that distracted from the broader narrative.</p>\n",
-				"content_text": "📚 I wanted to like [The Gun, the Ship, and the Pen](https://micro.blog/books/9781846684975) by Linda Colley. The main thesis is that as societies became more complex and conflicts more intense, governments needed to develop written constitutions to cede rights to their citizens and keep them participating in wars. I found getting through the details a tough slog that distracted from the broader narrative.\n",
+				"content_html": "<p>Finished reading: I wanted to like <a href=\"https://micro.blog/books/9781846684975\">The Gun, the Ship, and the Pen</a> by Linda Colley. The main thesis is that as societies became more complex and conflicts more intense, governments needed to develop written constitutions to cede rights to their citizens and keep them participating in wars. I found getting through the details a tough slog that distracted from the broader narrative. 📚</p>\n",
+				"content_text": "Finished reading: I wanted to like [The Gun, the Ship, and the Pen](https://micro.blog/books/9781846684975) by Linda Colley. The main thesis is that as societies became more complex and conflicts more intense, governments needed to develop written constitutions to cede rights to their citizens and keep them participating in wars. I found getting through the details a tough slog that distracted from the broader narrative. 📚\n",
 				"date_published": "2022-12-11T20:42:39-05:00",
 				"url": "https://matt.routleynet.org/2022/12/11/i-wanted-to.html",
 				"tags": ["book"]
@@ -35,7 +77,7 @@
 				"id": "http://mroutley.micro.blog/2022/12/11/running-in-fresh.html",
 				
 				"content_html": "<p>🏃‍♂️ <a href=\"https://strava.app.link/ulU7WXC1Fvb\">Running in fresh snow</a> can be nice. The ambient noise of the city is muffled and the snow cushions your foot striking the ground ❄️</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🏃‍♂️ [Running in fresh snow](https://strava.app.link/ulU7WXC1Fvb) can be nice. The ambient noise of the city is muffled and the snow cushions your foot striking the ground ❄️\n\n<img src=\"uploads/2022/d77e9ede92.jpg\" width=\"450\" height=\"600\" alt=\"Pathway through a cemetery with trees above and snow on the ground\">\n",
+				"content_text": "🏃‍♂️ [Running in fresh snow](https://strava.app.link/ulU7WXC1Fvb) can be nice. The ambient noise of the city is muffled and the snow cushions your foot striking the ground ❄️\n\n<img src=\"https://matt.routleynet.org/uploads/2022/d77e9ede92.jpg\" width=\"450\" height=\"600\" alt=\"Pathway through a cemetery with trees above and snow on the ground\">\n",
 				"date_published": "2022-12-11T12:14:54-05:00",
 				"url": "https://matt.routleynet.org/2022/12/11/running-in-fresh.html",
 				"tags": ["fitness"]
@@ -53,7 +95,7 @@
 				"id": "http://mroutley.micro.blog/2022/12/06/decorating.html",
 				
 				"content_html": "<p>🎄Decorating</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🎄Decorating\n\n<img src=\"uploads/2022/33159103b3.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "🎄Decorating\n\n<img src=\"https://matt.routleynet.org/uploads/2022/33159103b3.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2022-12-06T20:23:15-05:00",
 				"url": "https://matt.routleynet.org/2022/12/06/decorating.html"
 			},
@@ -61,7 +103,7 @@
 				"id": "http://mroutley.micro.blog/2022/12/03/i-expected-the.html",
 				
 				"content_html": "<p>🏃‍♂️ I expected the rain on <a href=\"https%3A//strava.app.link/DWiF7o7Hsvb\">today&rsquo;s zone 2 trail run</a>. The hail and wind gusts were a surprise. Hard to hold zone 2 while being pummelled by ice! 💨🌧️🥶</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
-				"content_text": "🏃‍♂️ I expected the rain on [today's zone 2 trail run](https%3A//strava.app.link/DWiF7o7Hsvb). The hail and wind gusts were a surprise. Hard to hold zone 2 while being pummelled by ice! 💨🌧️🥶\n\n<img src=\"uploads/2022/0b6b10e68a.jpg\" width=\"600\" height=\"600\" alt=\"\"><img src=\"uploads/2022/587f2bd16f.jpg\" width=\"600\" height=\"600\" alt=\"\"><img src=\"uploads/2022/bcb8ffb0f2.jpg\" width=\"600\" height=\"600\" alt=\"\"><img src=\"uploads/2022/e1938b2102.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "🏃‍♂️ I expected the rain on [today's zone 2 trail run](https%3A//strava.app.link/DWiF7o7Hsvb). The hail and wind gusts were a surprise. Hard to hold zone 2 while being pummelled by ice! 💨🌧️🥶\n\n<img src=\"https://matt.routleynet.org/uploads/2022/0b6b10e68a.jpg\" width=\"600\" height=\"600\" alt=\"\"><img src=\"https://matt.routleynet.org/uploads/2022/587f2bd16f.jpg\" width=\"600\" height=\"600\" alt=\"\"><img src=\"https://matt.routleynet.org/uploads/2022/bcb8ffb0f2.jpg\" width=\"600\" height=\"600\" alt=\"\"><img src=\"https://matt.routleynet.org/uploads/2022/e1938b2102.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2022-12-03T12:07:11-05:00",
 				"url": "https://matt.routleynet.org/2022/12/03/i-expected-the.html",
 				"tags": ["fitness"]
@@ -503,8 +545,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/09/03/plague-birds-by.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9781937009946\">Plague Birds</a> by Jason Sizemore is quite the story: advanced AIs living in people’s blood, genetic manipulation run amok, the collapse of civilization, and a mysterious alien. A fun read 📚</p>\n",
-				"content_text": "[Plague Birds](https://micro.blog/books/9781937009946) by Jason Sizemore is quite the story: advanced AIs living in people’s blood, genetic manipulation run amok, the collapse of civilization, and a mysterious alien. A fun read 📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781937009946\">Plague Birds</a> by Jason Sizemore is quite the story: advanced AIs living in people’s blood, genetic manipulation run amok, the collapse of civilization, and a mysterious alien. A fun read 📚</p>\n",
+				"content_text": "Finished reading: [Plague Birds](https://micro.blog/books/9781937009946) by Jason Sizemore is quite the story: advanced AIs living in people’s blood, genetic manipulation run amok, the collapse of civilization, and a mysterious alien. A fun read 📚\n",
 				"date_published": "2022-09-03T11:43:34-05:00",
 				"url": "https://matt.routleynet.org/2022/09/03/plague-birds-by.html",
 				"tags": ["book"]
@@ -520,8 +562,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/28/among-others-by.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9781472106537\">Among Others</a> by Jo Walton is very good. A celebration of SF, despite being about magic and fairies📚</p>\n",
-				"content_text": "[Among Others](https://micro.blog/books/9781472106537) by Jo Walton is very good. A celebration of SF, despite being about magic and fairies📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781472106537\">Among Others</a> by Jo Walton is very good. A celebration of SF, despite being about magic and fairies📚</p>\n",
+				"content_text": "Finished reading: [Among Others](https://micro.blog/books/9781472106537) by Jo Walton is very good. A celebration of SF, despite being about magic and fairies📚\n",
 				"date_published": "2022-08-28T17:30:16-05:00",
 				"url": "https://matt.routleynet.org/2022/08/28/among-others-by.html",
 				"tags": ["book"]
@@ -563,8 +605,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/25/although-the-book.html",
 				
-				"content_html": "<p>Although the book is unfinished, I enjoyed <a href=\"https://micro.blog/books/9780771070853\">Starlight</a> by Richard Wagamese. The theme of appreciating the land resonates well with my cottage vacation. I also found the themes of fatherhood and adopted families compelling 📚</p>\n",
-				"content_text": "Although the book is unfinished, I enjoyed [Starlight](https://micro.blog/books/9780771070853) by Richard Wagamese. The theme of appreciating the land resonates well with my cottage vacation. I also found the themes of fatherhood and adopted families compelling 📚\n",
+				"content_html": "<p>Finished reading: Although the book is unfinished, I enjoyed <a href=\"https://micro.blog/books/9780771070853\">Starlight</a> by Richard Wagamese. The theme of appreciating the land resonates well with my cottage vacation. I also found the themes of fatherhood and adopted families compelling 📚</p>\n",
+				"content_text": "Finished reading: Although the book is unfinished, I enjoyed [Starlight](https://micro.blog/books/9780771070853) by Richard Wagamese. The theme of appreciating the land resonates well with my cottage vacation. I also found the themes of fatherhood and adopted families compelling 📚\n",
 				"date_published": "2022-08-25T09:33:35-05:00",
 				"url": "https://matt.routleynet.org/2022/08/25/although-the-book.html",
 				"tags": ["book"]
@@ -588,8 +630,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/24/tunnel-by-helena.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9781541788824\">Tunnel 29</a> by Helena Merriman is an engrossing book about students that escaped from East Germany during the Cold War, only to then tunnel back under the wall to help more people escape 📚</p>\n",
-				"content_text": "[Tunnel 29](https://micro.blog/books/9781541788824) by Helena Merriman is an engrossing book about students that escaped from East Germany during the Cold War, only to then tunnel back under the wall to help more people escape 📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781541788824\">Tunnel 29</a> by Helena Merriman is an engrossing book about students that escaped from East Germany during the Cold War, only to then tunnel back under the wall to help more people escape 📚</p>\n",
+				"content_text": "Finished reading: [Tunnel 29](https://micro.blog/books/9781541788824) by Helena Merriman is an engrossing book about students that escaped from East Germany during the Cold War, only to then tunnel back under the wall to help more people escape 📚\n",
 				"date_published": "2022-08-24T08:56:58-05:00",
 				"url": "https://matt.routleynet.org/2022/08/24/tunnel-by-helena.html",
 				"tags": ["book"]
@@ -597,8 +639,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/23/the-eye-of.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9781429959810\">The Eye of the World</a> by Robert Jordan was a perfect vacation read. A long and immersive fantasy story with both familiar elements and novel ideas📚</p>\n",
-				"content_text": "[The Eye of the World](https://micro.blog/books/9781429959810) by Robert Jordan was a perfect vacation read. A long and immersive fantasy story with both familiar elements and novel ideas📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781429959810\">The Eye of the World</a> by Robert Jordan was a perfect vacation read. A long and immersive fantasy story with both familiar elements and novel ideas📚</p>\n",
+				"content_text": "Finished reading: [The Eye of the World](https://micro.blog/books/9781429959810) by Robert Jordan was a perfect vacation read. A long and immersive fantasy story with both familiar elements and novel ideas📚\n",
 				"date_published": "2022-08-23T14:12:03-05:00",
 				"url": "https://matt.routleynet.org/2022/08/23/the-eye-of.html",
 				"tags": ["book"]
@@ -623,8 +665,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/20/although-i-was.html",
 				
-				"content_html": "<p>Although I was initially confused by the plot of <a href=\"https://micro.blog/books/9781250789075\">Light From Uncommon Stars</a> by Ryka Aoki, once I got into the story I enjoyed it. A nice mix of humour, honouring your identity, immigrating, and classical music 📚</p>\n",
-				"content_text": "Although I was initially confused by the plot of [Light From Uncommon Stars](https://micro.blog/books/9781250789075) by Ryka Aoki, once I got into the story I enjoyed it. A nice mix of humour, honouring your identity, immigrating, and classical music 📚\n",
+				"content_html": "<p>Finished reading: Although I was initially confused by the plot of <a href=\"https://micro.blog/books/9781250789075\">Light From Uncommon Stars</a> by Ryka Aoki, once I got into the story I enjoyed it. A nice mix of humour, honouring your identity, immigrating, and classical music 📚</p>\n",
+				"content_text": "Finished reading: Although I was initially confused by the plot of [Light From Uncommon Stars](https://micro.blog/books/9781250789075) by Ryka Aoki, once I got into the story I enjoyed it. A nice mix of humour, honouring your identity, immigrating, and classical music 📚\n",
 				"date_published": "2022-08-20T17:15:41-05:00",
 				"url": "https://matt.routleynet.org/2022/08/20/although-i-was.html",
 				"tags": ["book"]
@@ -658,8 +700,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/17/arriving-today-by.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9780062987969\">Arriving Today</a> by Christopher Mims is a very interesting look into the logistics network that we all take for granted with an emphasis on Amazon. A fascinating mix of robotics, AI, and labour laws📚</p>\n",
-				"content_text": "[Arriving Today](https://micro.blog/books/9780062987969) by Christopher Mims is a very interesting look into the logistics network that we all take for granted with an emphasis on Amazon. A fascinating mix of robotics, AI, and labour laws📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780062987969\">Arriving Today</a> by Christopher Mims is a very interesting look into the logistics network that we all take for granted with an emphasis on Amazon. A fascinating mix of robotics, AI, and labour laws📚</p>\n",
+				"content_text": "Finished reading: [Arriving Today](https://micro.blog/books/9780062987969) by Christopher Mims is a very interesting look into the logistics network that we all take for granted with an emphasis on Amazon. A fascinating mix of robotics, AI, and labour laws📚\n",
 				"date_published": "2022-08-17T17:44:56-05:00",
 				"url": "https://matt.routleynet.org/2022/08/17/arriving-today-by.html",
 				"tags": ["book"]
@@ -683,8 +725,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/16/piranesi-by-susanna.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9781635575644\">Piranesi</a> by Susanna Clarke is a delight. A strange and fascinating story that is unlike anything that I’ve read recently 📚</p>\n",
-				"content_text": "[Piranesi](https://micro.blog/books/9781635575644) by Susanna Clarke is a delight. A strange and fascinating story that is unlike anything that I’ve read recently 📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781635575644\">Piranesi</a> by Susanna Clarke is a delight. A strange and fascinating story that is unlike anything that I’ve read recently 📚</p>\n",
+				"content_text": "Finished reading: [Piranesi](https://micro.blog/books/9781635575644) by Susanna Clarke is a delight. A strange and fascinating story that is unlike anything that I’ve read recently 📚\n",
 				"date_published": "2022-08-16T12:15:10-05:00",
 				"url": "https://matt.routleynet.org/2022/08/16/piranesi-by-susanna.html",
 				"tags": ["book"]
@@ -692,8 +734,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/15/persepolis-rising-by.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9780316332828\">Persepolis Rising</a> by James S. A. Corey is a solid start to a new Expanse story. Although I like the mystery surrounding the alien artifacts, Expanse is at its best when focused on the people📚</p>\n",
-				"content_text": "[Persepolis Rising](https://micro.blog/books/9780316332828) by James S. A. Corey is a solid start to a new Expanse story. Although I like the mystery surrounding the alien artifacts, Expanse is at its best when focused on the people📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780316332828\">Persepolis Rising</a> by James S. A. Corey is a solid start to a new Expanse story. Although I like the mystery surrounding the alien artifacts, Expanse is at its best when focused on the people📚</p>\n",
+				"content_text": "Finished reading: [Persepolis Rising](https://micro.blog/books/9780316332828) by James S. A. Corey is a solid start to a new Expanse story. Although I like the mystery surrounding the alien artifacts, Expanse is at its best when focused on the people📚\n",
 				"date_published": "2022-08-15T10:43:31-05:00",
 				"url": "https://matt.routleynet.org/2022/08/15/persepolis-rising-by.html",
 				"tags": ["book"]
@@ -726,8 +768,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/12/the-space-between.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9780593135068\">The Space Between Worlds</a> by Micaiah Johnson is a fun parallel worlds story with lots of plot twists 📚</p>\n",
-				"content_text": "[The Space Between Worlds](https://micro.blog/books/9780593135068) by Micaiah Johnson is a fun parallel worlds story with lots of plot twists 📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780593135068\">The Space Between Worlds</a> by Micaiah Johnson is a fun parallel worlds story with lots of plot twists 📚</p>\n",
+				"content_text": "Finished reading: [The Space Between Worlds](https://micro.blog/books/9780593135068) by Micaiah Johnson is a fun parallel worlds story with lots of plot twists 📚\n",
 				"date_published": "2022-08-12T17:54:47-05:00",
 				"url": "https://matt.routleynet.org/2022/08/12/the-space-between.html",
 				"tags": ["book"]
@@ -743,8 +785,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/10/shipstar-by-gregory.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9781429949682\">Shipstar</a> by Gregory Benford isn’t nearly as ambitious as <em>Bowl of Heaven</em>, the first book in the series. Although there are several big ideas in the book, they didn’t really connect well together. 📚</p>\n",
-				"content_text": "[Shipstar](https://micro.blog/books/9781429949682) by Gregory Benford isn’t nearly as ambitious as _Bowl of Heaven_, the first book in the series. Although there are several big ideas in the book, they didn’t really connect well together. 📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781429949682\">Shipstar</a> by Gregory Benford isn’t nearly as ambitious as <em>Bowl of Heaven</em>, the first book in the series. Although there are several big ideas in the book, they didn’t really connect well together. 📚</p>\n",
+				"content_text": "Finished reading: [Shipstar](https://micro.blog/books/9781429949682) by Gregory Benford isn’t nearly as ambitious as _Bowl of Heaven_, the first book in the series. Although there are several big ideas in the book, they didn’t really connect well together. 📚\n",
 				"date_published": "2022-08-10T17:36:37-05:00",
 				"url": "https://matt.routleynet.org/2022/08/10/shipstar-by-gregory.html",
 				"tags": ["book"]
@@ -768,8 +810,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/08/09/i-enjoyed-the.html",
 				
-				"content_html": "<p>I enjoyed <a href=\"https://micro.blog/books/9780062110831\">The Golem and the Jinni: A Novel</a> by Helene Wecker. Great writing and interesting characters, set in 19th century New York, that explores immigration and finding your purpose 📚</p>\n",
-				"content_text": "I enjoyed [The Golem and the Jinni: A Novel](https://micro.blog/books/9780062110831) by Helene Wecker. Great writing and interesting characters, set in 19th century New York, that explores immigration and finding your purpose 📚\n",
+				"content_html": "<p>Finished reading: I enjoyed <a href=\"https://micro.blog/books/9780062110831\">The Golem and the Jinni: A Novel</a> by Helene Wecker. Great writing and interesting characters, set in 19th century New York, that explores immigration and finding your purpose 📚</p>\n",
+				"content_text": "Finished reading: I enjoyed [The Golem and the Jinni: A Novel](https://micro.blog/books/9780062110831) by Helene Wecker. Great writing and interesting characters, set in 19th century New York, that explores immigration and finding your purpose 📚\n",
 				"date_published": "2022-08-09T09:27:52-05:00",
 				"url": "https://matt.routleynet.org/2022/08/09/i-enjoyed-the.html",
 				"tags": ["book"]
@@ -793,8 +835,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/07/30/the-nova-incident.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9780857669469\">The Nova Incident</a> by Dan Moren is an entertaining mix of espionage, action, and sci-fi. I’ve enjoyed all of the books in this series 📚</p>\n",
-				"content_text": "[The Nova Incident](https://micro.blog/books/9780857669469) by Dan Moren is an entertaining mix of espionage, action, and sci-fi. I’ve enjoyed all of the books in this series 📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780857669469\">The Nova Incident</a> by Dan Moren is an entertaining mix of espionage, action, and sci-fi. I’ve enjoyed all of the books in this series 📚</p>\n",
+				"content_text": "Finished reading: [The Nova Incident](https://micro.blog/books/9780857669469) by Dan Moren is an entertaining mix of espionage, action, and sci-fi. I’ve enjoyed all of the books in this series 📚\n",
 				"date_published": "2022-07-30T15:09:20-05:00",
 				"url": "https://matt.routleynet.org/2022/07/30/the-nova-incident.html",
 				"tags": ["book"]
@@ -818,8 +860,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/07/27/although-i-was.html",
 				
-				"content_html": "<p>Although I was already familiar with many of the details, <a href=\"https://micro.blog/books/9780691201757\">A Series of Fortunate Events</a> by Sean B. Carroll was a brief and entertaining overview of the role of chance in biology. Both humbling and inspiring to think about how contingent everything is📚</p>\n",
-				"content_text": "Although I was already familiar with many of the details, [A Series of Fortunate Events](https://micro.blog/books/9780691201757) by Sean B. Carroll was a brief and entertaining overview of the role of chance in biology. Both humbling and inspiring to think about how contingent everything is📚\n",
+				"content_html": "<p>Finished reading: Although I was already familiar with many of the details, <a href=\"https://micro.blog/books/9780691201757\">A Series of Fortunate Events</a> by Sean B. Carroll was a brief and entertaining overview of the role of chance in biology. Both humbling and inspiring to think about how contingent everything is📚</p>\n",
+				"content_text": "Finished reading: Although I was already familiar with many of the details, [A Series of Fortunate Events](https://micro.blog/books/9780691201757) by Sean B. Carroll was a brief and entertaining overview of the role of chance in biology. Both humbling and inspiring to think about how contingent everything is📚\n",
 				"date_published": "2022-07-27T07:27:03-05:00",
 				"url": "https://matt.routleynet.org/2022/07/27/although-i-was.html",
 				"tags": ["book"]
@@ -951,8 +993,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/05/28/i-really-enjoyed.html",
 				
-				"content_html": "<p>I really enjoyed <a href=\"https://micro.blog/books/9780316193276\">The Rook</a> by Daniel O&rsquo;Malley. A fun mix of espionage and supernatural with a good sense of humour 📚</p>\n",
-				"content_text": "I really enjoyed [The Rook](https://micro.blog/books/9780316193276) by Daniel O'Malley. A fun mix of espionage and supernatural with a good sense of humour 📚\n",
+				"content_html": "<p>Finished reading: I really enjoyed <a href=\"https://micro.blog/books/9780316193276\">The Rook</a> by Daniel O&rsquo;Malley. A fun mix of espionage and supernatural with a good sense of humour 📚</p>\n",
+				"content_text": "Finished reading: I really enjoyed [The Rook](https://micro.blog/books/9780316193276) by Daniel O'Malley. A fun mix of espionage and supernatural with a good sense of humour 📚\n",
 				"date_published": "2022-05-28T17:05:21-05:00",
 				"url": "https://matt.routleynet.org/2022/05/28/i-really-enjoyed.html",
 				"tags": ["book"]
@@ -1032,8 +1074,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/05/09/although-surprisingly-little.html",
 				
-				"content_html": "<p>Although surprisingly little actually happens with the plot in <a href=\"https://micro.blog/books/9781473647626\">Record of a Spaceborn Few</a> by Becky Chambers, the characters and world building are great. Along with fascinating questions about what it means to be human and how to value tradition📚</p>\n",
-				"content_text": "Although surprisingly little actually happens with the plot in [Record of a Spaceborn Few](https://micro.blog/books/9781473647626) by Becky Chambers, the characters and world building are great. Along with fascinating questions about what it means to be human and how to value tradition📚\n",
+				"content_html": "<p>Finished reading: Although surprisingly little actually happens with the plot in <a href=\"https://micro.blog/books/9781473647626\">Record of a Spaceborn Few</a> by Becky Chambers, the characters and world building are great. Along with fascinating questions about what it means to be human and how to value tradition📚</p>\n",
+				"content_text": "Finished reading: Although surprisingly little actually happens with the plot in [Record of a Spaceborn Few](https://micro.blog/books/9781473647626) by Becky Chambers, the characters and world building are great. Along with fascinating questions about what it means to be human and how to value tradition📚\n",
 				"date_published": "2022-05-09T18:48:27-05:00",
 				"url": "https://matt.routleynet.org/2022/05/09/although-surprisingly-little.html",
 				"tags": ["book"]
@@ -1130,8 +1172,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/04/15/harrow-the-ninth.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9781250313201\">Harrow the Ninth (The Locked Tomb Trilogy Book 2)</a> by Tamsyn Muir is really imaginative and well written. I found it rather confusing though. Lots of characters and plot points to track📚</p>\n",
-				"content_text": "[Harrow the Ninth (The Locked Tomb Trilogy Book 2)](https://micro.blog/books/9781250313201) by Tamsyn Muir is really imaginative and well written. I found it rather confusing though. Lots of characters and plot points to track📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781250313201\">Harrow the Ninth (The Locked Tomb Trilogy Book 2)</a> by Tamsyn Muir is really imaginative and well written. I found it rather confusing though. Lots of characters and plot points to track📚</p>\n",
+				"content_text": "Finished reading: [Harrow the Ninth (The Locked Tomb Trilogy Book 2)](https://micro.blog/books/9781250313201) by Tamsyn Muir is really imaginative and well written. I found it rather confusing though. Lots of characters and plot points to track📚\n",
 				"date_published": "2022-04-15T16:23:41-05:00",
 				"url": "https://matt.routleynet.org/2022/04/15/harrow-the-ninth.html",
 				"tags": ["book"]
@@ -1233,8 +1275,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/03/21/trail-of-lightning.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9781529346671\">Trail of Lightning</a> by Rebecca Roanhorse is a great story about a monster hunter on a Navajo reservation after a climate apocalypse📚</p>\n",
-				"content_text": "[Trail of Lightning](https://micro.blog/books/9781529346671) by Rebecca Roanhorse is a great story about a monster hunter on a Navajo reservation after a climate apocalypse📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781529346671\">Trail of Lightning</a> by Rebecca Roanhorse is a great story about a monster hunter on a Navajo reservation after a climate apocalypse📚</p>\n",
+				"content_text": "Finished reading: [Trail of Lightning](https://micro.blog/books/9781529346671) by Rebecca Roanhorse is a great story about a monster hunter on a Navajo reservation after a climate apocalypse📚\n",
 				"date_published": "2022-03-21T18:00:09-05:00",
 				"url": "https://matt.routleynet.org/2022/03/21/trail-of-lightning.html",
 				"tags": ["book"]
@@ -1242,8 +1284,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/03/19/the-ghost-brigades.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9780765354068\">The Ghost Brigades</a> by John Scalzi is a fun “soldiers in space” book with some interesting ethical concepts📚</p>\n",
-				"content_text": "[The Ghost Brigades](https://micro.blog/books/9780765354068) by John Scalzi is a fun “soldiers in space” book with some interesting ethical concepts📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780765354068\">The Ghost Brigades</a> by John Scalzi is a fun “soldiers in space” book with some interesting ethical concepts📚</p>\n",
+				"content_text": "Finished reading: [The Ghost Brigades](https://micro.blog/books/9780765354068) by John Scalzi is a fun “soldiers in space” book with some interesting ethical concepts📚\n",
 				"date_published": "2022-03-19T08:05:00-05:00",
 				"url": "https://matt.routleynet.org/2022/03/19/the-ghost-brigades.html",
 				"tags": ["book"]
@@ -1251,8 +1293,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/03/18/a-closed-and.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9781473621459\">A Closed and Common Orbit</a> by Becky Chambers is really good. A strong emotional core with an intriguing sci-fi structure📚</p>\n",
-				"content_text": "[A Closed and Common Orbit](https://micro.blog/books/9781473621459) by Becky Chambers is really good. A strong emotional core with an intriguing sci-fi structure📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781473621459\">A Closed and Common Orbit</a> by Becky Chambers is really good. A strong emotional core with an intriguing sci-fi structure📚</p>\n",
+				"content_text": "Finished reading: [A Closed and Common Orbit](https://micro.blog/books/9781473621459) by Becky Chambers is really good. A strong emotional core with an intriguing sci-fi structure📚\n",
 				"date_published": "2022-03-18T10:15:23-05:00",
 				"url": "https://matt.routleynet.org/2022/03/18/a-closed-and.html",
 				"tags": ["book"]
@@ -1342,8 +1384,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/02/17/as-with-the.html",
 				
-				"content_html": "<p>As with the first <a href=\"https://matt.routleynet.org/2021/08/29/i-really-enjoyed.html\">two</a> <a href=\"https://matt.routleynet.org/2022/01/22/salvation-lost-by.html\">books</a> in the trilogy, <a href=\"https://micro.blog/books/9780399178894\">The Saints of Salvation</a> by Peter F. Hamilton is a fun sci-fi story about humans fighting back against powerful aliens. Definitely an easy read, though with some pretty imaginative twists and ideas about the future 📚</p>\n",
-				"content_text": "As with the first [two](https://matt.routleynet.org/2021/08/29/i-really-enjoyed.html\r) [books](https://matt.routleynet.org/2022/01/22/salvation-lost-by.html) in the trilogy, [The Saints of Salvation](https://micro.blog/books/9780399178894) by Peter F. Hamilton is a fun sci-fi story about humans fighting back against powerful aliens. Definitely an easy read, though with some pretty imaginative twists and ideas about the future 📚\n",
+				"content_html": "<p>Finished reading: As with the first <a href=\"https://matt.routleynet.org/2021/08/29/i-really-enjoyed.html\">two</a> <a href=\"https://matt.routleynet.org/2022/01/22/salvation-lost-by.html\">books</a> in the trilogy, <a href=\"https://micro.blog/books/9780399178894\">The Saints of Salvation</a> by Peter F. Hamilton is a fun sci-fi story about humans fighting back against powerful aliens. Definitely an easy read, though with some pretty imaginative twists and ideas about the future 📚</p>\n",
+				"content_text": "Finished reading: As with the first [two](https://matt.routleynet.org/2021/08/29/i-really-enjoyed.html\n) [books](https://matt.routleynet.org/2022/01/22/salvation-lost-by.html) in the trilogy, [The Saints of Salvation](https://micro.blog/books/9780399178894) by Peter F. Hamilton is a fun sci-fi story about humans fighting back against powerful aliens. Definitely an easy read, though with some pretty imaginative twists and ideas about the future 📚\n",
 				"date_published": "2022-02-17T17:46:04-05:00",
 				"url": "https://matt.routleynet.org/2022/02/17/as-with-the.html",
 				"tags": ["book"]
@@ -1351,8 +1393,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/01/28/mr-penumbras-hour.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9781250037756\">Mr. Penumbra&rsquo;s 24-Hour Bookstore</a> by Robin Sloan is an entertaining mix of computer nerds, ancient rituals, cryptography, and a love of printed books 📚</p>\n",
-				"content_text": "[Mr. Penumbra's 24-Hour Bookstore](https://micro.blog/books/9781250037756) by Robin Sloan is an entertaining mix of computer nerds, ancient rituals, cryptography, and a love of printed books 📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781250037756\">Mr. Penumbra&rsquo;s 24-Hour Bookstore</a> by Robin Sloan is an entertaining mix of computer nerds, ancient rituals, cryptography, and a love of printed books 📚</p>\n",
+				"content_text": "Finished reading: [Mr. Penumbra's 24-Hour Bookstore](https://micro.blog/books/9781250037756) by Robin Sloan is an entertaining mix of computer nerds, ancient rituals, cryptography, and a love of printed books 📚\n",
 				"date_published": "2022-01-28T17:42:24-05:00",
 				"url": "https://matt.routleynet.org/2022/01/28/mr-penumbras-hour.html",
 				"tags": ["book"]
@@ -1393,8 +1435,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/01/22/salvation-lost-by.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9780399178863\">Salvation Lost</a> by Peter F. Hamilton is fun. Part 2 of the Salvation trilogy and a great humans fighting back against powerful aliens story📚</p>\n",
-				"content_text": "[Salvation Lost](https://micro.blog/books/9780399178863) by Peter F. Hamilton is fun. Part 2 of the Salvation trilogy and a great humans fighting back against powerful aliens story📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780399178863\">Salvation Lost</a> by Peter F. Hamilton is fun. Part 2 of the Salvation trilogy and a great humans fighting back against powerful aliens story📚</p>\n",
+				"content_text": "Finished reading: [Salvation Lost](https://micro.blog/books/9780399178863) by Peter F. Hamilton is fun. Part 2 of the Salvation trilogy and a great humans fighting back against powerful aliens story📚\n",
 				"date_published": "2022-01-22T15:27:48-05:00",
 				"url": "https://matt.routleynet.org/2022/01/22/salvation-lost-by.html",
 				"tags": ["book"]
@@ -1418,8 +1460,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/01/16/the-alignment-problem.html",
 				
-				"content_html": "<p><a href=\"https://brianchristian.org/the-alignment-problem/\">The Alignment Problem</a> by Brian Christian is a fascinating and very well written overview of the current state of AI research. I was particularly struck by how much of the challenge with safe AI is based on our poor understanding of our own intelligence 📚</p>\n",
-				"content_text": "[The Alignment Problem](https://brianchristian.org/the-alignment-problem/) by Brian Christian is a fascinating and very well written overview of the current state of AI research. I was particularly struck by how much of the challenge with safe AI is based on our poor understanding of our own intelligence 📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://brianchristian.org/the-alignment-problem/\">The Alignment Problem</a> by Brian Christian is a fascinating and very well written overview of the current state of AI research. I was particularly struck by how much of the challenge with safe AI is based on our poor understanding of our own intelligence 📚</p>\n",
+				"content_text": "Finished reading: [The Alignment Problem](https://brianchristian.org/the-alignment-problem/) by Brian Christian is a fascinating and very well written overview of the current state of AI research. I was particularly struck by how much of the challenge with safe AI is based on our poor understanding of our own intelligence 📚\n",
 				"date_published": "2022-01-16T13:09:59-05:00",
 				"url": "https://matt.routleynet.org/2022/01/16/the-alignment-problem.html",
 				"tags": ["book"]
@@ -1472,8 +1514,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/01/03/the-stranger-in.html",
 				
-				"content_html": "<p><a href=\"https://micro.blog/books/9780751584530\">The Stranger in the Lifeboat</a> by Mitch Albom is a compelling, brief story about faith and redemption 📚</p>\n",
-				"content_text": "[The Stranger in the Lifeboat](https://micro.blog/books/9780751584530) by Mitch Albom is a compelling, brief story about faith and redemption 📚\n",
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780751584530\">The Stranger in the Lifeboat</a> by Mitch Albom is a compelling, brief story about faith and redemption 📚</p>\n",
+				"content_text": "Finished reading: [The Stranger in the Lifeboat](https://micro.blog/books/9780751584530) by Mitch Albom is a compelling, brief story about faith and redemption 📚\n",
 				"date_published": "2022-01-03T12:08:25-05:00",
 				"url": "https://matt.routleynet.org/2022/01/03/the-stranger-in.html",
 				"tags": ["book"]
@@ -1481,8 +1523,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2022/01/02/this-seems-to.html",
 				
-				"content_html": "<p>This seems to be the consensus, so I won&rsquo;t belabour the point: <a href=\"https://micro.blog/books/9780374159122\">Four Thousand Weeks</a> by Oliver Burkeman is a powerful book. If you feel overwhelmed by busyness or slightly adrift, it is well worth a read. There are some tough messages in it, though, that require contemplation 📚</p>\n",
-				"content_text": "This seems to be the consensus, so I won't belabour the point: [Four Thousand Weeks](https://micro.blog/books/9780374159122) by Oliver Burkeman is a powerful book. If you feel overwhelmed by busyness or slightly adrift, it is well worth a read. There are some tough messages in it, though, that require contemplation 📚\n",
+				"content_html": "<p>Finished reading: This seems to be the consensus, so I won&rsquo;t belabour the point: <a href=\"https://micro.blog/books/9780374159122\">Four Thousand Weeks</a> by Oliver Burkeman is a powerful book. If you feel overwhelmed by busyness or slightly adrift, it is well worth a read. There are some tough messages in it, though, that require contemplation 📚</p>\n",
+				"content_text": "Finished reading: This seems to be the consensus, so I won't belabour the point: [Four Thousand Weeks](https://micro.blog/books/9780374159122) by Oliver Burkeman is a powerful book. If you feel overwhelmed by busyness or slightly adrift, it is well worth a read. There are some tough messages in it, though, that require contemplation 📚\n",
 				"date_published": "2022-01-02T13:55:58-05:00",
 				"url": "https://matt.routleynet.org/2022/01/02/this-seems-to.html",
 				"tags": ["book"]
