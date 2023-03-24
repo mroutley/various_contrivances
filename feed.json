@@ -7,10 +7,67 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2023/03/23/day-chance.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/03/23/reminder-its-day.html\">Day 23</a>: Chance</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 23](https://challenges.micro.blog/2023/03/23/reminder-its-day.html): Chance\n\n<img src=\"uploads/2023/bee29cdd68.jpg\" width=\"449\" height=\"600\" alt=\"Hexes from Settlers of Catan game\">\n",
+				"date_published": "2023-03-23T21:02:07-04:00",
+				"url": "https://matt.routleynet.org/2023/03/23/day-chance.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/03/22/day-insect.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/03/22/reminder-its-day.html\">Day 22</a>: Insect</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 22](https://challenges.micro.blog/2023/03/22/reminder-its-day.html): Insect\n\n<img src=\"uploads/2023/4949088da6.jpg\" width=\"549\" height=\"600\" alt=\"Moth pollinating a canola flower\">\n",
+				"date_published": "2023-03-22T20:36:40-04:00",
+				"url": "https://matt.routleynet.org/2023/03/22/day-insect.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/03/21/day-tiny.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/03/21/reminder-its-day.html\">Day 21</a>: Tiny</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 21](https://challenges.micro.blog/2023/03/21/reminder-its-day.html): Tiny\n\n<img src=\"uploads/2023/7f3522e5cd.jpg\" width=\"600\" height=\"600\" alt=\"Baby’s hand gripping an adult’s thumb\">\n",
+				"date_published": "2023-03-21T19:57:06-04:00",
+				"url": "https://matt.routleynet.org/2023/03/21/day-tiny.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/03/20/day-houseplant.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/03/20/reminder-its-day.html\">Day 20</a>: Houseplant</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 20](https://challenges.micro.blog/2023/03/20/reminder-its-day.html): Houseplant\n\n<img src=\"uploads/2023/1f4f7da3c1.jpg\" width=\"600\" height=\"600\" alt=\"Top down view of a succulent plant\">\n",
+				"date_published": "2023-03-20T17:01:55-04:00",
+				"url": "https://matt.routleynet.org/2023/03/20/day-houseplant.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/03/19/day-analog.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/03/19/reminder-its-day.html\">Day 19</a>: Analog</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 19](https://challenges.micro.blog/2023/03/19/reminder-its-day.html): Analog\n\n<img src=\"uploads/2023/ccf23ffe0f.jpg\" width=\"600\" height=\"600\" alt=\"Close up of an acoustic guitar\">\n",
+				"date_published": "2023-03-19T20:58:35-04:00",
+				"url": "https://matt.routleynet.org/2023/03/19/day-analog.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/03/19/servant-a-good.html",
+				
+				"content_html": "<p>📺 <a href=\"https://www.themoviedb.org/tv/88055\">Servant (2019)</a> - ★★★☆☆</p>\n<p>A good show. Relies pretty heavily on creepy mood, rather than plot, and dark humour.</p>\n<p><img src=\"https://image.tmdb.org/t/p/w780/plsSSobmPSSz4hm8vYMXeIVkJJP.jpg\" alt=\"Servant poster\"></p>\n",
+				"content_text": "📺 [Servant (2019)](https://www.themoviedb.org/tv/88055) - ★★★☆☆\r\n\r\nA good show. Relies pretty heavily on creepy mood, rather than plot, and dark humour. \r\n\r\n![Servant poster](https://image.tmdb.org/t/p/w780/plsSSobmPSSz4hm8vYMXeIVkJJP.jpg)\n",
+				"date_published": "2023-03-19T13:53:39-04:00",
+				"url": "https://matt.routleynet.org/2023/03/19/servant-a-good.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/03/19/finished-reading-the.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780544947665\">The Extended Mind</a> by Annie Murphy Paul is full of great content. I was much more cerebral in my youth and have been externalizing thought much more productively recently. This book helps confirm the approach and adds new techniques 📚</p>\n",
+				"content_text": "Finished reading: [The Extended Mind](https://micro.blog/books/9780544947665) by Annie Murphy Paul is full of great content. I was much more cerebral in my youth and have been externalizing thought much more productively recently. This book helps confirm the approach and adds new techniques 📚\n",
+				"date_published": "2023-03-19T13:50:16-04:00",
+				"url": "https://matt.routleynet.org/2023/03/19/finished-reading-the.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2023/03/18/day-portico.html",
 				
 				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/03/18/reminder-its-day.html\">Day 18</a>: Portico</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[Day 18](https://challenges.micro.blog/2023/03/18/reminder-its-day.html): Portico\n\n<img src=\"uploads/2023/755a44c151.jpg\" width=\"600\" height=\"600\" alt=\"Front porch with pillars \">\n",
+				"content_text": "[Day 18](https://challenges.micro.blog/2023/03/18/reminder-its-day.html): Portico\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/755a44c151.jpg\" width=\"600\" height=\"600\" alt=\"Front porch with pillars \">\n",
 				"date_published": "2023-03-18T18:57:29-04:00",
 				"url": "https://matt.routleynet.org/2023/03/18/day-portico.html"
 			},
@@ -18,7 +75,7 @@
 				"id": "http://mroutley.micro.blog/2023/03/17/day-early.html",
 				
 				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/03/16/the-prompt-for.html\">Day 17</a>: Early</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[Day 17](https://challenges.micro.blog/2023/03/16/the-prompt-for.html): Early\n\n<img src=\"uploads/2023/2f0b512a31.jpg\" width=\"450\" height=\"600\" alt=\"Cyclists riding towards an orange sunrise\">\n",
+				"content_text": "[Day 17](https://challenges.micro.blog/2023/03/16/the-prompt-for.html): Early\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/2f0b512a31.jpg\" width=\"450\" height=\"600\" alt=\"Cyclists riding towards an orange sunrise\">\n",
 				"date_published": "2023-03-17T19:13:44-04:00",
 				"url": "https://matt.routleynet.org/2023/03/17/day-early.html"
 			},
@@ -26,7 +83,7 @@
 				"id": "http://mroutley.micro.blog/2023/03/16/day-road.html",
 				
 				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/03/16/reminder-its-day.html\">Day 16</a>: Road\n<!-- raw HTML omitted --></p>\n",
-				"content_text": "[Day 16](https://challenges.micro.blog/2023/03/16/reminder-its-day.html): Road\n <img src=\"uploads/2022/7a7a3a59ad.jpg\" width=\"600\" height=\"600\" alt=\"Curved road with morning mist\" />\n",
+				"content_text": "[Day 16](https://challenges.micro.blog/2023/03/16/reminder-its-day.html): Road\n <img src=\"https://cdn.uploads.micro.blog/6287/2022/7a7a3a59ad.jpg\" width=\"600\" height=\"600\" alt=\"Curved road with morning mist\" />\n",
 				"date_published": "2023-03-16T11:38:14-04:00",
 				"url": "https://matt.routleynet.org/2023/03/16/day-road.html"
 			},
@@ -34,7 +91,7 @@
 				"id": "http://mroutley.micro.blog/2023/03/15/day-patience.html",
 				
 				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/03/15/reminder-its-day.html\">Day 15</a>: Patience</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[Day 15](https://challenges.micro.blog/2023/03/15/reminder-its-day.html): Patience\n\n<img src=\"uploads/2023/aa1263f4ee.jpg\" width=\"448\" height=\"600\" alt=\"Toddler having a tantrum \">\n",
+				"content_text": "[Day 15](https://challenges.micro.blog/2023/03/15/reminder-its-day.html): Patience\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/aa1263f4ee.jpg\" width=\"448\" height=\"600\" alt=\"Toddler having a tantrum \">\n",
 				"date_published": "2023-03-15T14:39:17-04:00",
 				"url": "https://matt.routleynet.org/2023/03/15/day-patience.html"
 			},
@@ -42,7 +99,7 @@
 				"id": "http://mroutley.micro.blog/2023/03/14/day-horizon.html",
 				
 				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/03/14/reminder-its-day.html\">Day 14</a>: Horizon</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[Day 14](https://challenges.micro.blog/2023/03/14/reminder-its-day.html): Horizon\n\n<img src=\"uploads/2023/0d4b9f60f4.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
+				"content_text": "[Day 14](https://challenges.micro.blog/2023/03/14/reminder-its-day.html): Horizon\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/0d4b9f60f4.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
 				"date_published": "2023-03-14T15:53:28-04:00",
 				"url": "https://matt.routleynet.org/2023/03/14/day-horizon.html"
 			},
@@ -12843,15 +12900,6 @@
 				"date_published": "2004-06-03T12:54:00-04:00",
 				"url": "https://matt.routleynet.org/2019/05/29/routley-mb-ld.html",
 				"tags": ["evolution","academic","blog"]
-			},
-			{
-				"id": "http://mroutley.micro.blog/2004/06/03/society-for-the.html",
-				"title": "Society for the Study of Evolution meetings 2004",
-				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
-				"content_text": "<p>Routley, M.B., L.D. Harder, &amp; S.A. Richards. Ovule fates. <a href=\"http://evolution04.biology.colostate.edu/\">Colorado State University</a></p>\n\n<p><a href=\"http://public.me.com/mroutley\">Download</a> SSE2004.pdf</p>\n",
-				"date_published": "2004-06-03T12:47:35-04:00",
-				"url": "https://matt.routleynet.org/2004/06/03/society-for-the.html",
-				"tags": ["blog"]
 			},
 			{
 				"id": "http://mroutley.micro.blog/2004/04/14/dynamic-state-variable.html",
