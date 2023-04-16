@@ -7,10 +7,44 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2023/04/16/so-impressed-with.html",
+				
+				"content_html": "<p>So impressed with this team. My niece has been great in net. 🥅🏒</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "So impressed with this team. My niece has been great in net. 🥅🏒\n\n<img src=\"uploads/2023/3033848ead.jpg\" width=\"449\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-04-16T17:26:01-04:00",
+				"url": "https://matt.routleynet.org/2023/04/16/so-impressed-with.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/04/10/finished-reading-a.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781529403916\">A Beginner&rsquo;s Guide to the End</a> by B. J. Miller and Shoshana Berger. I&rsquo;m grateful that I didn&rsquo;t <em>need</em> to read this book now. That said, this is an important topic, best thought about when it isn&rsquo;t an emergency. Despite a few America-specific points that don&rsquo;t apply to this Canadian, there&rsquo;s lots of useful and careful advice in this book 📚</p>\n",
+				"content_text": "Finished reading: [A Beginner's Guide to the End](https://micro.blog/books/9781529403916) by B. J. Miller and Shoshana Berger. I'm grateful that I didn't _need_ to read this book now. That said, this is an important topic, best thought about when it isn't an emergency. Despite a few America-specific points that don't apply to this Canadian, there's lots of useful and careful advice in this book 📚\n",
+				"date_published": "2023-04-10T21:01:09-04:00",
+				"url": "https://matt.routleynet.org/2023/04/10/finished-reading-a.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/04/09/gecs-gecs-a.html",
+				
+				"content_html": "<p>🎵 <a href=\"https://www.last.fm/music/100+gecs/10,000+gecs\">10,000 gecs - 100 gecs</a> - ★★★☆☆</p>\n<p>A good workout album: fun, quirky, and upbeat</p>\n<p><img src=\"https://lastfm.freetls.fastly.net/i/u/300x300/cb9f1b72089584f998c5f8260517951b.png\" alt=\"10,000 gecs - 100 gecs poster\"></p>\n",
+				"content_text": "🎵 [10,000 gecs - 100 gecs](https://www.last.fm/music/100+gecs/10,000+gecs) - ★★★☆☆\r\n\r\nA good workout album: fun, quirky, and upbeat\r\n\r\n![10,000 gecs - 100 gecs poster](https://lastfm.freetls.fastly.net/i/u/300x300/cb9f1b72089584f998c5f8260517951b.png)\n",
+				"date_published": "2023-04-09T13:36:16-04:00",
+				"url": "https://matt.routleynet.org/2023/04/09/gecs-gecs-a.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/04/09/good-trail-on.html",
+				
+				"content_html": "<p>🏃‍♂️ Good trail on <a href=\"https://strava.app.link/xJ0rSfywRyb\">today’s long run</a>. Fun to slog through mud on occasion</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2023/56f1c48e37.jpg\" alt=\"\"></p>\n",
+				"content_text": "🏃‍♂️ Good trail on [today’s long run](https://strava.app.link/xJ0rSfywRyb). Fun to slog through mud on occasion \n\n![](https://matt.routleynet.org/uploads/2023/56f1c48e37.jpg)\n",
+				"date_published": "2023-04-09T13:05:35-04:00",
+				"url": "https://matt.routleynet.org/2023/04/09/good-trail-on.html",
+				"tags": ["fitness"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2023/04/08/we-enjoyed-the.html",
 				
-				"content_html": "<p>We enjoyed the [Stranger Things Experience] (<a href=\"https://strangerthings-experience.com/toronto/)\">https://strangerthings-experience.com/toronto/)</a>. A fun mix of live, interactive action and pre-filmed material.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
-				"content_text": "We enjoyed the [Stranger Things Experience] (https://strangerthings-experience.com/toronto/). A fun mix of live, interactive action and pre-filmed material. \n\n<img src=\"uploads/2023/be3fb4860b.jpg\" width=\"600\" height=\"450\" alt=\"Stranger Things logo\"><img src=\"uploads/2023/9d194d43a1.jpg\" width=\"600\" height=\"450\" alt=\"Kids in the Byers’ couch with Christmas lights\">\n",
+				"content_html": "<p>We enjoyed the <a href=\"https://strangerthings-experience.com/toronto/\">Stranger Things Experience</a>. A fun mix of live, interactive action and pre-filmed material.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "We enjoyed the [Stranger Things Experience](https://strangerthings-experience.com/toronto/). A fun mix of live, interactive action and pre-filmed material. \n\n<img src=\"uploads/2023/be3fb4860b.jpg\" width=\"600\" height=\"450\" alt=\"Stranger Things logo\"><img src=\"uploads/2023/9d194d43a1.jpg\" width=\"600\" height=\"450\" alt=\"Kids in the Byers’ couch with Christmas lights\">\n",
 				"date_published": "2023-04-08T12:43:58-04:00",
 				"url": "https://matt.routleynet.org/2023/04/08/we-enjoyed-the.html"
 			},
