@@ -7,10 +7,58 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2023/09/06/day-well.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/06/reminder-its-day.html\">Day 6</a>: Well</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 6](https://challenges.micro.blog/2023/09/06/reminder-its-day.html): Well\n\n<img src=\"uploads/2023/8f33a6d1c8.jpg\" width=\"450\" height=\"600\" alt=\"Kids getting soaked by a fountain\">\n",
+				"date_published": "2023-09-06T19:24:26-04:00",
+				"url": "https://matt.routleynet.org/2023/09/06/day-well.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/05/day-forest.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/05/reminder-its-day.html\">Day 5</a>: Forest</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 5](https://challenges.micro.blog/2023/09/05/reminder-its-day.html): Forest\n\n<img src=\"uploads/2023/6babd4459d.jpg\" width=\"450\" height=\"600\" alt=\"Gravel path through tall trees\">\n",
+				"date_published": "2023-09-05T08:04:00-04:00",
+				"url": "https://matt.routleynet.org/2023/09/05/day-forest.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/04/day-orange.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/04/reminder-its-day.html\">Day 4</a>: Orange</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 4](https://challenges.micro.blog/2023/09/04/reminder-its-day.html): Orange\n\n<img src=\"uploads/2023/06d6394eb1.jpg\" width=\"600\" height=\"600\" alt=\"Vegetables in a frying pan, including orange peppers\">\n",
+				"date_published": "2023-09-04T20:32:05-04:00",
+				"url": "https://matt.routleynet.org/2023/09/04/day-orange.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/03/day-precious.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/03/reminder-its-day.html\">Day 3</a>: Precious</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 3](https://challenges.micro.blog/2023/09/03/reminder-its-day.html): Precious\n\n<img src=\"uploads/2023/465b246fb7.jpg\" width=\"600\" height=\"599\" alt=\"Close up of my hand with a wedding ring\">\n",
+				"date_published": "2023-09-03T21:06:15-04:00",
+				"url": "https://matt.routleynet.org/2023/09/03/day-precious.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/02/day-buildup.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/02/reminder-its-day.html\">Day 2</a>: Buildup</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 2](https://challenges.micro.blog/2023/09/02/reminder-its-day.html): Buildup\n\n<img src=\"uploads/2023/186a98e1de.jpg\" width=\"600\" height=\"800\" alt=\"Looking up a rock cliff, buikt uo with moss and plants\">\n",
+				"date_published": "2023-09-02T21:32:03-04:00",
+				"url": "https://matt.routleynet.org/2023/09/02/day-buildup.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/02/not-a-great.html",
+				
+				"content_html": "<p>Not a great start to Season 2 of Invasion. The ease with which Mitsuki easily dispatches a half dozen invaders doesn’t suggest much jeapordy.</p>\n<p>I really liked the initial mystery and slow build of the first half of Season 1. So, will stick with Season 2 for now 📺</p>\n",
+				"content_text": "Not a great start to Season 2 of Invasion. The ease with which Mitsuki easily dispatches a half dozen invaders doesn’t suggest much jeapordy. \n\nI really liked the initial mystery and slow build of the first half of Season 1. So, will stick with Season 2 for now 📺 \n",
+				"date_published": "2023-09-02T14:19:30-04:00",
+				"url": "https://matt.routleynet.org/2023/09/02/not-a-great.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2023/09/01/day-abstract.html",
 				
 				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/01/reminder-its-day.html\">Day 1</a>: Abstract</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[Day 1](https://challenges.micro.blog/2023/09/01/reminder-its-day.html): Abstract\n\n<img src=\"uploads/2023/2dc115e399.jpg\" width=\"450\" height=\"600\" alt=\"Close up of an abstract floral painting with lots of colours \">\n",
+				"content_text": "[Day 1](https://challenges.micro.blog/2023/09/01/reminder-its-day.html): Abstract\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/2dc115e399.jpg\" width=\"450\" height=\"600\" alt=\"Close up of an abstract floral painting with lots of colours \">\n",
 				"date_published": "2023-09-01T18:49:31-04:00",
 				"url": "https://matt.routleynet.org/2023/09/01/day-abstract.html"
 			},
@@ -27,7 +75,7 @@
 				"id": "http://mroutley.micro.blog/2023/08/27/photos-of-a.html",
 				"title": "Photos of a dog at a cottage",
 				"content_html": "<p>Lucy enjoyed her time at the cottage</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Lucy enjoyed her time at the cottage\n\n<div class=\"adaptive_photo_layout\">\n\t<ul>\n\t\t<li><a href=\"https://matt.routleynet.org/uploads/2023/img-4278.jpeg\"><img src=\"uploads/2023/img-4278.jpeg\" alt=\"Black lab guarding the BBQ\" loading=\"lazy\"></a></li>\n\t\t<li><a href=\"https://matt.routleynet.org/uploads/2023/img-4242.jpeg\"><img src=\"uploads/2023/img-4242.jpeg\" alt=\"Black lab lounging on a chair that they barely fit into\" loading=\"lazy\"></a></li>\n\t\t<li><a href=\"https://matt.routleynet.org/uploads/2023/img-4221.jpeg\"><img src=\"uploads/2023/img-4221.jpeg\" alt=\"Black lab sitting on the beach\" loading=\"lazy\"></a></li>\n\t\t<li><a href=\"https://matt.routleynet.org/uploads/2023/img-4195.jpeg\"><img src=\"uploads/2023/img-4195.jpeg\" alt=\"Black lab sitting on a dock with a sunset behind\" loading=\"lazy\"></a></li>\n\t\t<li><a href=\"https://matt.routleynet.org/uploads/2023/img-4170.jpeg\"><img src=\"uploads/2023/img-4170.jpeg\" alt=\"Black lab lying on the beach, lifeguarding kids swimming \" loading=\"lazy\"></a></li>\n\t\t<li><a href=\"https://matt.routleynet.org/uploads/2023/img-4215.jpeg\"><img src=\"uploads/2023/img-4215.jpeg\" alt=\"Black lab sitting on a dock gazing towards the water\" loading=\"lazy\"></a></li>\n\t\t<li></li>\n\t</ul>\n</div>\n",
+				"content_text": "Lucy enjoyed her time at the cottage\n\n<div class=\"adaptive_photo_layout\">\n\t<ul>\n\t\t<li><a href=\"https://cdn.uploads.micro.blog/6287/2023/img-4278.jpeg\"><img src=\"https://cdn.uploads.micro.blog/6287/2023/img-4278.jpeg\" alt=\"Black lab guarding the BBQ\" loading=\"lazy\"></a></li>\n\t\t<li><a href=\"https://cdn.uploads.micro.blog/6287/2023/img-4242.jpeg\"><img src=\"https://cdn.uploads.micro.blog/6287/2023/img-4242.jpeg\" alt=\"Black lab lounging on a chair that they barely fit into\" loading=\"lazy\"></a></li>\n\t\t<li><a href=\"https://cdn.uploads.micro.blog/6287/2023/img-4221.jpeg\"><img src=\"https://cdn.uploads.micro.blog/6287/2023/img-4221.jpeg\" alt=\"Black lab sitting on the beach\" loading=\"lazy\"></a></li>\n\t\t<li><a href=\"https://cdn.uploads.micro.blog/6287/2023/img-4195.jpeg\"><img src=\"https://cdn.uploads.micro.blog/6287/2023/img-4195.jpeg\" alt=\"Black lab sitting on a dock with a sunset behind\" loading=\"lazy\"></a></li>\n\t\t<li><a href=\"https://cdn.uploads.micro.blog/6287/2023/img-4170.jpeg\"><img src=\"https://cdn.uploads.micro.blog/6287/2023/img-4170.jpeg\" alt=\"Black lab lying on the beach, lifeguarding kids swimming \" loading=\"lazy\"></a></li>\n\t\t<li><a href=\"https://cdn.uploads.micro.blog/6287/2023/img-4215.jpeg\"><img src=\"https://cdn.uploads.micro.blog/6287/2023/img-4215.jpeg\" alt=\"Black lab sitting on a dock gazing towards the water\" loading=\"lazy\"></a></li>\n\t\t<li></li>\n\t</ul>\n</div>\n",
 				"date_published": "2023-08-27T17:13:30-04:00",
 				"url": "https://matt.routleynet.org/2023/08/27/photos-of-a.html",
 				"tags": ["blog"]
@@ -44,7 +92,7 @@
 				"id": "http://mroutley.micro.blog/2023/08/25/last-night-of.html",
 				
 				"content_html": "<p>Last night of vacation</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Last night of vacation\n\n<img src=\"uploads/2023/7708b93950.jpg\" width=\"450\" height=\"600\" alt=\"Moon in clouds shining over a lake\">\n",
+				"content_text": "Last night of vacation\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/7708b93950.jpg\" width=\"450\" height=\"600\" alt=\"Moon in clouds shining over a lake\">\n",
 				"date_published": "2023-08-25T22:01:05-04:00",
 				"url": "https://matt.routleynet.org/2023/08/25/last-night-of.html"
 			},
