@@ -7,10 +7,76 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2023/09/22/day-road.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/21/the-prompt-for.html\">Day 22</a>: Road</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 22](https://challenges.micro.blog/2023/09/21/the-prompt-for.html): Road\n\n<img src=\"uploads/2023/1d5bbe123c.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-09-22T19:23:01-04:00",
+				"url": "https://matt.routleynet.org/2023/09/22/day-road.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/22/likely-the-last.html",
+				
+				"content_html": "<p>🚴‍♂️ Likely <a href=\"https://strava.app.link/vJ18Jj7kjDb\">the last ride</a> of the season with this crew. Getting too dark! Unfortunately we had to end early, thanks too a flat tire.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🚴‍♂️ Likely [the last ride](https://strava.app.link/vJ18Jj7kjDb) of the season with this crew. Getting too dark! Unfortunately we had to end early, thanks too a flat tire. \n\n<img src=\"uploads/2023/d65d7647c2.jpg\" width=\"600\" height=\"450\" alt=\"Crew of cyclist near a lake with the sunrise behind. Ride stats are overlaid: 22.39km 1hr10min\">\n",
+				"date_published": "2023-09-22T17:26:33-04:00",
+				"url": "https://matt.routleynet.org/2023/09/22/likely-the-last.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/22/sunrises-are-a.html",
+				
+				"content_html": "<p>Sunrises are a nice benefit of getting up early</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Sunrises are a nice benefit of getting up early\n\n<img src=\"uploads/2023/cd1b076257.jpg\" width=\"450\" height=\"600\" alt=\"Orange sunrise over a beach\">\n",
+				"date_published": "2023-09-22T08:16:11-04:00",
+				"url": "https://matt.routleynet.org/2023/09/22/sunrises-are-a.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/21/day-fall.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/20/the-prompt-for.html\">Day 21</a>: Fall</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 21](https://challenges.micro.blog/2023/09/20/the-prompt-for.html): Fall\n\n<img src=\"uploads/2023/e8e34d03a4.jpg\" width=\"600\" height=\"800\" alt=\"A tree with bright red leaves on a residential street\">\n",
+				"date_published": "2023-09-21T19:00:06-04:00",
+				"url": "https://matt.routleynet.org/2023/09/21/day-fall.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/20/day-disruption.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/19/the-prompt-for.html\">Day 20</a>:  Disruption</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 20](https://challenges.micro.blog/2023/09/19/the-prompt-for.html):  Disruption\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/0d030dcf4d.jpg\" width=\"450\" height=\"600\" alt=\"Sign on wall: “No trespassing. This area is under construction“\">\n",
+				"date_published": "2023-09-20T18:05:57-04:00",
+				"url": "https://matt.routleynet.org/2023/09/20/day-disruption.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/19/day-edge.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/18/the-prompt-for.html\">Day 19</a>: Edge</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 19](https://challenges.micro.blog/2023/09/18/the-prompt-for.html): Edge\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/771374aa59.jpg\" width=\"450\" height=\"600\" alt=\"Edge of the train platform with yellow warning surface\">\n",
+				"date_published": "2023-09-19T20:42:16-04:00",
+				"url": "https://matt.routleynet.org/2023/09/19/day-edge.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/19/gps-watch-no.html",
+				
+				"content_html": "<p><a href=\"https://www.nytimes.com/2023/09/16/sports/gps-watches-professional-runners.html\">GPS Watch? No Thanks. Top Runners Are Ditching the Data.</a></p>\n<blockquote>\n<p>For many, GPS watches are a remarkably useful training tool. But there are other runners, including world-class runners like Jacobs, who have a hard time understanding the fuss. To them, a smorgasbord of data is more hindrance than help. And get this: Some runners don’t wear watches at all.</p>\n</blockquote>\n<p>I&rsquo;m sympathetic to this idea. In general, I&rsquo;m trying to stop obsessing over my health and fitness data (tough for this data analyst to do). That said, I’m <em>far</em> from an elite runner. So, I don’t have enough body awareness to intuitively know my pace zones and find realtime data on my performance helpful for making sure my runs are effective.</p>\n<p>Perhaps more importantly, my watch is also my source of music and a way to keep my family updated when I’m out on a long run.</p>\n<p>I don’t expect to be running out the door without my watch anytime soon.</p>\n",
+				"content_text": "[GPS Watch? No Thanks. Top Runners Are Ditching the Data.](https://www.nytimes.com/2023/09/16/sports/gps-watches-professional-runners.html)\n\n> For many, GPS watches are a remarkably useful training tool. But there are other runners, including world-class runners like Jacobs, who have a hard time understanding the fuss. To them, a smorgasbord of data is more hindrance than help. And get this: Some runners don’t wear watches at all.\n\nI'm sympathetic to this idea. In general, I'm trying to stop obsessing over my health and fitness data (tough for this data analyst to do). That said, I’m _far_ from an elite runner. So, I don’t have enough body awareness to intuitively know my pace zones and find realtime data on my performance helpful for making sure my runs are effective. \n\nPerhaps more importantly, my watch is also my source of music and a way to keep my family updated when I’m out on a long run.\n\nI don’t expect to be running out the door without my watch anytime soon. \n",
+				"date_published": "2023-09-19T19:04:33-04:00",
+				"url": "https://matt.routleynet.org/2023/09/19/gps-watch-no.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/18/day-fabric.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/17/the-prompt-for.html\">Day 18</a>: Fabric</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 18](https://challenges.micro.blog/2023/09/17/the-prompt-for.html): Fabric\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/b9aa41080c.jpg\" width=\"450\" height=\"600\" alt=\"Close up of chair fabric\">\n",
+				"date_published": "2023-09-18T20:38:14-04:00",
+				"url": "https://matt.routleynet.org/2023/09/18/day-fabric.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2023/09/17/day-intense.html",
 				
 				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/17/reminder-its-day.html\">Day 17</a>: Intense</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[Day 17](https://challenges.micro.blog/2023/09/17/reminder-its-day.html): Intense\n\n<img src=\"uploads/2023/7e8fbffbaa.jpg\" width=\"600\" height=\"600\" alt=\"Red hot coals in a fire pit\">\n",
+				"content_text": "[Day 17](https://challenges.micro.blog/2023/09/17/reminder-its-day.html): Intense\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/7e8fbffbaa.jpg\" width=\"600\" height=\"600\" alt=\"Red hot coals in a fire pit\">\n",
 				"date_published": "2023-09-17T18:59:10-04:00",
 				"url": "https://matt.routleynet.org/2023/09/17/day-intense.html"
 			},
@@ -26,7 +92,7 @@
 				"id": "http://mroutley.micro.blog/2023/09/17/todays-run-was.html",
 				
 				"content_html": "<p>🏃‍♂️ <a href=\"https://strava.app.link/SGGlGeoUaDb\">Today’s run</a> was an endurance run with a progressive fast finish. I tried breathing through my nose for the first hour to keep things slow.</p>\n<p>Powered by <a href=\"https://music.apple.com/ca/album/try-honesty/79565942?i=79565869\">Billy Talent</a> and <a href=\"https://music.apple.com/ca/album/ill-communication/724771323\">Beastie Boys</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🏃‍♂️ [Today’s run](https://strava.app.link/SGGlGeoUaDb) was an endurance run with a progressive fast finish. I tried breathing through my nose for the first hour to keep things slow. \n\nPowered by [Billy Talent](https://music.apple.com/ca/album/try-honesty/79565942?i=79565869) and [Beastie Boys](https://music.apple.com/ca/album/ill-communication/724771323)\n\n<img src=\"uploads/2023/46a7e0f640.jpg\" width=\"600\" height=\"600\" alt=\"Map of the run in Cambridge. 20.99km in 1:59\">\n",
+				"content_text": "🏃‍♂️ [Today’s run](https://strava.app.link/SGGlGeoUaDb) was an endurance run with a progressive fast finish. I tried breathing through my nose for the first hour to keep things slow. \n\nPowered by [Billy Talent](https://music.apple.com/ca/album/try-honesty/79565942?i=79565869) and [Beastie Boys](https://music.apple.com/ca/album/ill-communication/724771323)\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/46a7e0f640.jpg\" width=\"600\" height=\"600\" alt=\"Map of the run in Cambridge. 20.99km in 1:59\">\n",
 				"date_published": "2023-09-17T15:35:01-04:00",
 				"url": "https://matt.routleynet.org/2023/09/17/todays-run-was.html",
 				"tags": ["fitness"]
