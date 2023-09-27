@@ -7,18 +7,93 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2023/09/27/day-embrace.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/26/the-prompt-for.html\">Day 27</a>: Embrace</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 27](https://challenges.micro.blog/2023/09/26/the-prompt-for.html): Embrace\n\n<img src=\"uploads/2023/099594498a.jpg\" width=\"450\" height=\"600\" alt=\"Black lab looking at the camera while wrapped in a hug by a kid\">\n",
+				"date_published": "2023-09-27T19:31:12-04:00",
+				"url": "https://matt.routleynet.org/2023/09/27/day-embrace.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/26/switching-podcast-apps.html",
+				"title": "Switching podcast apps, again 🎧 ",
+				"content_html": "<p><a href=\"https://matt.routleynet.org/2023/06/13/simplifying-my-personal.html\">As predicted</a>, after a couple of months with the <a href=\"https://www.apple.com/apple-podcasts/\">Apple Podcasts app</a>, I&rsquo;m back to <a href=\"https://overcast.fm\">Overcast</a>.</p>\n<p>I think that Apple&rsquo;s Podcasts app is great for anyone new to podcasts, given it has a strong focus on discovering new shows. I&rsquo;m looking for a podcast app that simply plays my <a href=\"https://matt.routleynet.org/2019/12/15/declaring-podcasts-bankruptcy.html\">carefully curated, short list of podcasts</a>. With Apple Podcasts, I kept finding new episodes of shows I didn&rsquo;t intend to subscribe to in my queue.</p>\n<p>Adding in the nice audio features in Overcast that boosts voices and trims silences, makes Overcast the right app for me.</p>\n<p>Of course, having just made this decision and rebuilt my Overcast subscriptions, I see that Apple has now <a href=\"https://www.macstories.net/news/apple-podcasts-adds-shows-from-apple-music-and-news-plus-a-selection-of-third-party-subscription-based-apps/\">integrated Apple Music into their Podcasts app</a>. Better ways of managing radio episodes in Apple Music is on <a href=\"https://matt.routleynet.org/2022/10/18/ive-been-trying.html\">my list of features I’d like to see</a>. So, looks like I&rsquo;m not actually settled on a podcasts app yet, which was a <a href=\"https://matt.routleynet.org/2021/01/16/choosing-a-podcast.html\">silly hope anyway</a>.</p>\n",
+				"content_text": "[As predicted](https://matt.routleynet.org/2023/06/13/simplifying-my-personal.html), after a couple of months with the [Apple Podcasts app](https://www.apple.com/apple-podcasts/), I'm back to [Overcast](https://overcast.fm).\n\nI think that Apple's Podcasts app is great for anyone new to podcasts, given it has a strong focus on discovering new shows. I'm looking for a podcast app that simply plays my [carefully curated, short list of podcasts](https://matt.routleynet.org/2019/12/15/declaring-podcasts-bankruptcy.html). With Apple Podcasts, I kept finding new episodes of shows I didn't intend to subscribe to in my queue.\n\nAdding in the nice audio features in Overcast that boosts voices and trims silences, makes Overcast the right app for me.\n\nOf course, having just made this decision and rebuilt my Overcast subscriptions, I see that Apple has now [integrated Apple Music into their Podcasts app](https://www.macstories.net/news/apple-podcasts-adds-shows-from-apple-music-and-news-plus-a-selection-of-third-party-subscription-based-apps/). Better ways of managing radio episodes in Apple Music is on [my list of features I’d like to see](https://matt.routleynet.org/2022/10/18/ive-been-trying.html). So, looks like I'm not actually settled on a podcasts app yet, which was a [silly hope anyway](https://matt.routleynet.org/2021/01/16/choosing-a-podcast.html).\n",
+				"date_published": "2023-09-26T18:01:01-04:00",
+				"url": "https://matt.routleynet.org/2023/09/26/switching-podcast-apps.html",
+				"tags": ["code","blog","review"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/26/day-beverage.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/25/the-prompt-for.html\">Day 26</a>: Beverage</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 26](https://challenges.micro.blog/2023/09/25/the-prompt-for.html): Beverage\n\n<img src=\"uploads/2023/1fcaf3578c.jpg\" width=\"450\" height=\"600\" alt=\"Holding a large Starbucks coffee \">\n",
+				"date_published": "2023-09-26T16:54:19-04:00",
+				"url": "https://matt.routleynet.org/2023/09/26/day-beverage.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/25/day-flare.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/24/the-prompt-for.html\">Day 25</a>: Flare</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 25](https://challenges.micro.blog/2023/09/24/the-prompt-for.html): Flare\n\n<img src=\"uploads/2023/00802a79e0.jpg\" width=\"302\" height=\"600\" alt=\"Kid jumping for a frisbee with bright sun flare behind\">\n",
+				"date_published": "2023-09-25T18:02:47-04:00",
+				"url": "https://matt.routleynet.org/2023/09/25/day-flare.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/24/day-belt.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/23/the-prompt-for.html\">Day 24</a>: Belt</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 24](https://challenges.micro.blog/2023/09/23/the-prompt-for.html): Belt\n\n<img src=\"uploads/2023/de9c7fe5e9.jpg\" width=\"450\" height=\"600\" alt=\"An excavator with belts for wheels\">\n",
+				"date_published": "2023-09-24T21:08:10-04:00",
+				"url": "https://matt.routleynet.org/2023/09/24/day-belt.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/24/finished-reading-the.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781474608800\">The Rationalist&rsquo;s Guide to the Galaxy</a> by Tom Chivers is an entertaining and interesting book about AI risks and the Rationalists that worry about them 📚</p>\n",
+				"content_text": "Finished reading: [The Rationalist's Guide to the Galaxy](https://micro.blog/books/9781474608800) by Tom Chivers is an entertaining and interesting book about AI risks and the Rationalists that worry about them 📚\n",
+				"date_published": "2023-09-24T13:53:55-04:00",
+				"url": "https://matt.routleynet.org/2023/09/24/finished-reading-the.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/24/starting-to-see.html",
+				
+				"content_html": "<p>🏃‍♂️ Starting to see the Fall colour changes on <a href=\"https://strava.app.link/KgDkgz9jmDb\">today’s run</a>. Powered by <a href=\"https://music.apple.com/ca/album/morbid-stuff/1448895502\">PUP</a> and <a href=\"https://music.apple.com/ca/album/rage-against-the-machine/191450810\">Rage Against the Machine</a></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🏃‍♂️ Starting to see the Fall colour changes on [today’s run](https://strava.app.link/KgDkgz9jmDb). Powered by [PUP](https://music.apple.com/ca/album/morbid-stuff/1448895502) and [Rage Against the Machine](https://music.apple.com/ca/album/rage-against-the-machine/191450810)\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/e147d33f62.jpg\" width=\"450\" height=\"600\" alt=\"One tree with bright orange and red leaves along a trail\">\n",
+				"date_published": "2023-09-24T12:36:39-04:00",
+				"url": "https://matt.routleynet.org/2023/09/24/starting-to-see.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/23/starting-fall-with.html",
+				
+				"content_html": "<p>Starting Fall with a pumpkin ale from Lake of Bays brewery</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Starting Fall with a pumpkin ale from Lake of Bays brewery \n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/2060cb1eb2.jpg\" width=\"450\" height=\"600\" alt=\"Pint glass full of beer beside the empty can from Lake of Bays\">\n",
+				"date_published": "2023-09-23T18:38:00-04:00",
+				"url": "https://matt.routleynet.org/2023/09/23/starting-fall-with.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/09/23/day-a-day.html",
+				
+				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/22/the-prompt-for.html\">Day 23</a>: A day in the life. Enjoying the nice Fall weather outside with a good book</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 23](https://challenges.micro.blog/2023/09/22/the-prompt-for.html): A day in the life. Enjoying the nice Fall weather outside with a good book\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/0657853df9.jpg\" width=\"450\" height=\"600\" alt=\"Holding a Kobo ereader with Neal Stephenson’s Termination Shock as the cover image\">\n",
+				"date_published": "2023-09-23T14:37:54-04:00",
+				"url": "https://matt.routleynet.org/2023/09/23/day-a-day.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2023/09/22/day-road.html",
 				
 				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/21/the-prompt-for.html\">Day 22</a>: Road</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[Day 22](https://challenges.micro.blog/2023/09/21/the-prompt-for.html): Road\n\n<img src=\"uploads/2023/1d5bbe123c.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
+				"content_text": "[Day 22](https://challenges.micro.blog/2023/09/21/the-prompt-for.html): Road\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/1d5bbe123c.jpg\" width=\"450\" height=\"600\" alt=\"A cottage road turning a corner with bright sun up and to the right\">\n",
 				"date_published": "2023-09-22T19:23:01-04:00",
 				"url": "https://matt.routleynet.org/2023/09/22/day-road.html"
 			},
 			{
 				"id": "http://mroutley.micro.blog/2023/09/22/likely-the-last.html",
 				
-				"content_html": "<p>🚴‍♂️ Likely <a href=\"https://strava.app.link/vJ18Jj7kjDb\">the last ride</a> of the season with this crew. Getting too dark! Unfortunately we had to end early, thanks too a flat tire.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🚴‍♂️ Likely [the last ride](https://strava.app.link/vJ18Jj7kjDb) of the season with this crew. Getting too dark! Unfortunately we had to end early, thanks too a flat tire. \n\n<img src=\"uploads/2023/d65d7647c2.jpg\" width=\"600\" height=\"450\" alt=\"Crew of cyclist near a lake with the sunrise behind. Ride stats are overlaid: 22.39km 1hr10min\">\n",
+				"content_html": "<p>🚴‍♂️ Likely <a href=\"https://strava.app.link/vJ18Jj7kjDb\">the last ride</a> of the season with this crew. Getting too dark! Unfortunately we had to end early, thanks to a flat tire.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🚴‍♂️ Likely [the last ride](https://strava.app.link/vJ18Jj7kjDb) of the season with this crew. Getting too dark! Unfortunately we had to end early, thanks to a flat tire. \n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/d65d7647c2.jpg\" width=\"600\" height=\"450\" alt=\"Crew of cyclist near a lake with the sunrise behind. Ride stats are overlaid: 22.39km 1hr10min\">\n",
 				"date_published": "2023-09-22T17:26:33-04:00",
 				"url": "https://matt.routleynet.org/2023/09/22/likely-the-last.html",
 				"tags": ["fitness"]
@@ -27,7 +102,7 @@
 				"id": "http://mroutley.micro.blog/2023/09/22/sunrises-are-a.html",
 				
 				"content_html": "<p>Sunrises are a nice benefit of getting up early</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Sunrises are a nice benefit of getting up early\n\n<img src=\"uploads/2023/cd1b076257.jpg\" width=\"450\" height=\"600\" alt=\"Orange sunrise over a beach\">\n",
+				"content_text": "Sunrises are a nice benefit of getting up early\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/cd1b076257.jpg\" width=\"450\" height=\"600\" alt=\"Orange sunrise over a beach\">\n",
 				"date_published": "2023-09-22T08:16:11-04:00",
 				"url": "https://matt.routleynet.org/2023/09/22/sunrises-are-a.html"
 			},
@@ -35,7 +110,7 @@
 				"id": "http://mroutley.micro.blog/2023/09/21/day-fall.html",
 				
 				"content_html": "<p><a href=\"https://challenges.micro.blog/2023/09/20/the-prompt-for.html\">Day 21</a>: Fall</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[Day 21](https://challenges.micro.blog/2023/09/20/the-prompt-for.html): Fall\n\n<img src=\"uploads/2023/e8e34d03a4.jpg\" width=\"600\" height=\"800\" alt=\"A tree with bright red leaves on a residential street\">\n",
+				"content_text": "[Day 21](https://challenges.micro.blog/2023/09/20/the-prompt-for.html): Fall\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/e8e34d03a4.jpg\" width=\"600\" height=\"800\" alt=\"A tree with bright red leaves on a residential street\">\n",
 				"date_published": "2023-09-21T19:00:06-04:00",
 				"url": "https://matt.routleynet.org/2023/09/21/day-fall.html"
 			},
