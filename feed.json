@@ -7,6 +7,41 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2023/11/09/hill-repeats-at.html",
+				
+				"content_html": "<p>🏃‍♂️ Hill repeats at a steady, moderate pace for <a href=\"https://strava.app.link/uqa3YbynAEb\">today’s run</a>. I tried to focus on my downhill form: staying loose and keeping ground contact time short</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🏃‍♂️ Hill repeats at a steady, moderate pace for [today’s run](https://strava.app.link/uqa3YbynAEb). I tried to focus on my downhill form: staying loose and keeping ground contact time short\n\n<img src=\"uploads/2023/5b08416ed5.jpg\" width=\"600\" height=\"512\" alt=\"Chart of elevation on the run showing six uphills\">\n",
+				"date_published": "2023-11-09T07:20:24-05:00",
+				"url": "https://matt.routleynet.org/2023/11/09/hill-repeats-at.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/11/07/find-a-way.html",
+				
+				"content_html": "<p>🎵 <a href=\"https://www.last.fm/music/MxPx/Find+A+Way+Home\">Find A Way Home by MxPx</a> is a fun punk rock album</p>\n<p><img src=\"https://lastfm.freetls.fastly.net/i/u/300x300/b398d901c61b7897df97a2606ecf5a5b.png\" alt=\"Find A Way Home - MxPx poster\"></p>\n",
+				"content_text": "🎵 [Find A Way Home by MxPx](https://www.last.fm/music/MxPx/Find+A+Way+Home) is a fun punk rock album\r\n\r\n![Find A Way Home - MxPx poster](https://lastfm.freetls.fastly.net/i/u/300x300/b398d901c61b7897df97a2606ecf5a5b.png)\n",
+				"date_published": "2023-11-07T18:30:52-05:00",
+				"url": "https://matt.routleynet.org/2023/11/07/find-a-way.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/11/06/finished-reading-american.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780062655080\">American Moonshot</a> by Douglas Brinkley. I’ve read several books about the Apollo missions, all of them focused on the science and engineering. This book is a fascinating look at the politics and JFK’s indispensable leadership. 🚀📚</p>\n",
+				"content_text": "Finished reading: [American Moonshot](https://micro.blog/books/9780062655080) by Douglas Brinkley. I’ve read several books about the Apollo missions, all of them focused on the science and engineering. This book is a fascinating look at the politics and JFK’s indispensable leadership. 🚀📚\n",
+				"date_published": "2023-11-06T21:33:01-05:00",
+				"url": "https://matt.routleynet.org/2023/11/06/finished-reading-american.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/11/05/nondefault-apps.html",
+				"title": "Non-default apps",
+				"content_html": "<p>As a follow up to <a href=\"https://matt.routleynet.org/2023/11/04/duel-of-the.html\">my list of default apps</a>, I have a few non-default apps that weren’t on the <a href=\"https://listen.hemisphericviews.com/097\">original list from Hemispheric Views</a>.</p>\n<ul>\n<li>🏃‍♂️<strong>Fitness</strong>: As I <a href=\"https://matt.routleynet.org/2023/10/09/choosing-a-portfolio.html\">wrote about recently</a>, I use HealthFit (mostly) instead of Apple Fitness</li>\n<li>🧘 <strong>Meditation</strong>: <a href=\"https://www.wakingup.com/\">Waking Up</a>, instead of Mindfulness</li>\n<li>📓 <strong>Journal</strong>: Doesn’t count yet, since Apple hasn’t released their journalling app. Soon, though, <a href=\"https://dayoneapp.com/\">DayOne</a> instead of the default</li>\n<li>📚 <strong>Books</strong>: <a href=\"https://www.overdrive.com/apps/libby\">Libby</a> instead of Apple Books, mostly because of the public library integration</li>\n<li>🎸 <strong>Listen later</strong>: <a href=\"https://apps.apple.com/ca/app/musicbox-save-music-for-later/id1614730313\">MusicBox</a> instead of the Apple Music library</li>\n</ul>\n",
+				"content_text": "As a follow up to [my list of default apps](https://matt.routleynet.org/2023/11/04/duel-of-the.html), I have a few non-default apps that weren’t on the [original list from Hemispheric Views](https://listen.hemisphericviews.com/097). \n\n* 🏃‍♂️**Fitness**: As I [wrote about recently](https://matt.routleynet.org/2023/10/09/choosing-a-portfolio.html), I use HealthFit (mostly) instead of Apple Fitness\n* 🧘 **Meditation**: [Waking Up](https://www.wakingup.com/), instead of Mindfulness \n* 📓 **Journal**: Doesn’t count yet, since Apple hasn’t released their journalling app. Soon, though, [DayOne](https://dayoneapp.com/) instead of the default \n* 📚 **Books**: [Libby](https://www.overdrive.com/apps/libby) instead of Apple Books, mostly because of the public library integration \n* 🎸 **Listen later**: [MusicBox](https://apps.apple.com/ca/app/musicbox-save-music-for-later/id1614730313) instead of the Apple Music library\n",
+				"date_published": "2023-11-05T14:19:21-05:00",
+				"url": "https://matt.routleynet.org/2023/11/05/nondefault-apps.html",
+				"tags": ["book","blog","review","fitness"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2023/11/04/duel-of-the.html",
 				"title": "Duel of the Defaults: My List",
 				"content_html": "<p><a href=\"https://listen.hemisphericviews.com/097\">Episode 097</a> of the <a href=\"https://hemisphericviews.com/\">Hemispheric Views</a> podcast held a fun <em>Duel of the Defaults!</em> competition.</p>\n<p>Here’s my list. I’ve really shifted to defaults over the past year. I’m conflicted about this: I really like a good indie app, yet find my needs don’t justify the complexity of using non-defaults.</p>\n<ul>\n<li>✉️ <strong>Mail Client</strong>: Apple Mail</li>\n<li>📨 <strong>Mail Server</strong>: iCloud Custom Email Domain</li>\n<li>📝 <strong>Notes</strong>: Apple Notes</li>\n<li>✅ <strong>To-Do</strong>: Reminders</li>\n<li>📷 <strong>iPhone Photo Shooting</strong>: Camera.app</li>\n<li>📚 <strong>Photo Management</strong>: Photos.app</li>\n<li>🗓️ <strong>Calendar</strong>: Calendar.app</li>\n<li>🗄️ <strong>Cloud file storage</strong>: iCloud</li>\n<li>📰 <strong>RSS</strong>: NetNewsWire connected to Feedbin</li>\n<li>📇 <strong>Contacts</strong>: Contacts.app</li>\n<li>🕸️ <strong>Browser</strong>: Safari</li>\n<li>💬 <strong>Chat</strong>: iMessage, WhatsApp</li>\n<li>🔖 <strong>Bookmarks</strong>: Micro.blog</li>\n<li>👓 <strong>Read It Later</strong>: Micro.blog</li>\n<li>📜 <strong>Word Processing</strong>: Pages</li>\n<li>📊 <strong>Spreadsheets</strong>: Numbers</li>\n<li>🛝 <strong>Presentations</strong>: Keynote</li>\n<li>🛒 <strong>Shopping Lists</strong>: Reminders</li>\n<li>🧑‍🍳 <strong>Meal Planning</strong>: None</li>\n<li>💰 <strong>Budgeting &amp; Personal Finance</strong>: ScotiaBank app</li>\n<li>🗞️ <strong>News</strong>: The Economist</li>\n<li>🎶 <strong>Music</strong>: Apple Music</li>\n<li>🎧 <strong>Podcasts</strong>: Overcast (though testing Podcasts.app again)</li>\n<li>🔐 <strong>Password Management</strong>: 1Password (likely changing to iCloud Keychain)</li>\n</ul>\n",
@@ -45,7 +80,7 @@
 				"id": "http://mroutley.micro.blog/2023/10/11/new-running-shoe.html",
 				
 				"content_html": "<p>New running shoe day! After 1,109 kms, I’m replacing the orange ones with another pair of Saucony Kinvara. I definitely don’t recommend waiting so long, just got distracted 🏃‍♂️</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "New running shoe day! After 1,109 kms, I’m replacing the orange ones with another pair of Saucony Kinvara. I definitely don’t recommend waiting so long, just got distracted 🏃‍♂️\n\n<img src=\"uploads/2023/8826edd936.jpg\" width=\"600\" height=\"600\" alt=\"Two pairs of Saucony Kinvara running shoes. Old, beaten up orange pair in the back and nice, new grey ones in the front\">\n",
+				"content_text": "New running shoe day! After 1,109 kms, I’m replacing the orange ones with another pair of Saucony Kinvara. I definitely don’t recommend waiting so long, just got distracted 🏃‍♂️\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/8826edd936.jpg\" width=\"600\" height=\"600\" alt=\"Two pairs of Saucony Kinvara running shoes. Old, beaten up orange pair in the back and nice, new grey ones in the front\">\n",
 				"date_published": "2023-10-11T19:28:28-05:00",
 				"url": "https://matt.routleynet.org/2023/10/11/new-running-shoe.html",
 				"tags": ["fitness"]
