@@ -7,6 +7,31 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2023/11/26/in-a-pleasant.html",
+				
+				"content_html": "<p>In a pleasant surprise, my <a href=\"https://www.freedommobile.ca/en-CA\">cellular carrier</a> just boosted by monthly 4GB to 20GB at no cost. I’m not accustomed to this kind of good customer service from a carrier</p>\n",
+				"content_text": "In a pleasant surprise, my [cellular carrier](https://www.freedommobile.ca/en-CA) just boosted by monthly 4GB to 20GB at no cost. I’m not accustomed to this kind of good customer service from a carrier\n",
+				"date_published": "2023-11-26T11:28:37-05:00",
+				"url": "https://matt.routleynet.org/2023/11/26/in-a-pleasant.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/11/26/finished-reading-all.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781625676184\">All Souls Lost</a> by Dan Moren is fun. Has the same lightly humorous tone as the Bayern Agenda series with a supernatural, rather than sci-fi, plot 📚</p>\n",
+				"content_text": "Finished reading: [All Souls Lost](https://micro.blog/books/9781625676184) by Dan Moren is fun. Has the same lightly humorous tone as the Bayern Agenda series with a supernatural, rather than sci-fi, plot 📚\n",
+				"date_published": "2023-11-26T11:10:15-05:00",
+				"url": "https://matt.routleynet.org/2023/11/26/finished-reading-all.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/11/25/hmm-i-beg.html",
+				
+				"content_html": "<p>Hmm, I beg to differ Apple Music</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Hmm, I beg to differ Apple Music\n\n<img src=\"uploads/2023/90bb9afd4e.jpg\" width=\"600\" height=\"307\" alt=\"A screenshot from Apple Music. A search for “happy indie” yields Nine Inch Nails \">\n",
+				"date_published": "2023-11-25T10:55:49-05:00",
+				"url": "https://matt.routleynet.org/2023/11/25/hmm-i-beg.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2023/11/21/im-not-ready.html",
 				
 				"content_html": "<p>I’m not ready ❄️</p>\n<!-- raw HTML omitted -->\n",
@@ -27,7 +52,7 @@
 				"id": "http://mroutley.micro.blog/2023/11/20/we-have-a.html",
 				
 				"content_html": "<p>🦎 We have a new houseguest</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🦎 We have a new houseguest \n\n<img src=\"uploads/2023/e001874b82.jpg\" width=\"450\" height=\"600\" alt=\"Close up of a crested gecko\">\n",
+				"content_text": "🦎 We have a new houseguest \n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/e001874b82.jpg\" width=\"450\" height=\"600\" alt=\"Close up of a crested gecko\">\n",
 				"date_published": "2023-11-20T18:19:40-05:00",
 				"url": "https://matt.routleynet.org/2023/11/20/we-have-a.html"
 			},
@@ -35,7 +60,7 @@
 				"id": "http://mroutley.micro.blog/2023/11/19/frosty-out-there.html",
 				
 				"content_html": "<p>🏃‍♂️ Frosty out there on <a href=\"https://strava.app.link/2WlDzN3bREb\">today’s trail run</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🏃‍♂️ Frosty out there on [today’s trail run](https://strava.app.link/2WlDzN3bREb)\n\n<img src=\"uploads/2023/1802e905ed.jpg\" width=\"450\" height=\"600\" alt=\"Bridge over a river reflected on the still water\">\n",
+				"content_text": "🏃‍♂️ Frosty out there on [today’s trail run](https://strava.app.link/2WlDzN3bREb)\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2023/1802e905ed.jpg\" width=\"450\" height=\"600\" alt=\"Bridge over a river reflected on the still water\">\n",
 				"date_published": "2023-11-19T10:28:02-05:00",
 				"url": "https://matt.routleynet.org/2023/11/19/frosty-out-there.html",
 				"tags": ["fitness"]
