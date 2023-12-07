@@ -7,6 +7,66 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2023/12/07/forgot-to-turn.html",
+				
+				"content_html": "<p>🏃‍♂️ Forgot to turn off the workout before getting back in the car. Got some impressive running paces! 😀</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🏃‍♂️ Forgot to turn off the workout before getting back in the car. Got some impressive running paces! 😀\n\n<img src=\"uploads/2023/7f748a1d5f.jpg\" width=\"600\" height=\"148\" alt=\"Screenshot from the Fitness app showing 1:17/km and 1:29/km paces\">\n",
+				"date_published": "2023-12-07T15:04:48-05:00",
+				"url": "https://matt.routleynet.org/2023/12/07/forgot-to-turn.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/12/06/nice-addition-to.html",
+				
+				"content_html": "<p>Nice addition to <a href=\"https://apps.apple.com/ca/app/healthfit/id1202650514\">HealthFit</a>: a visual summary of training load to see if you’re optimizing stress and recovery</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Nice addition to [HealthFit](https://apps.apple.com/ca/app/healthfit/id1202650514): a visual summary of training load to see if you’re optimizing stress and recovery \n\n<img src=\"uploads/2023/e921c74acd.jpg\" width=\"600\" height=\"379\" alt=\"Screenshot shows a coloured bar from blue to green to orange to red that indicates training balance\">\n",
+				"date_published": "2023-12-06T10:31:43-05:00",
+				"url": "https://matt.routleynet.org/2023/12/06/nice-addition-to.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/12/05/alright-signed-up.html",
+				
+				"content_html": "<p>🏊 🚴‍♂️ 🏃‍♂️ Alright, signed up for the <a href=\"https://www.ironman.com/im703-muskoka\">Ironman 70.3 in Muskoka</a>. I enjoyed the race last year and look forward to a repeat</p>\n",
+				"content_text": "🏊 🚴‍♂️ 🏃‍♂️ Alright, signed up for the [Ironman 70.3 in Muskoka](https://www.ironman.com/im703-muskoka). I enjoyed the race last year and look forward to a repeat\n",
+				"date_published": "2023-12-05T21:39:07-05:00",
+				"url": "https://matt.routleynet.org/2023/12/05/alright-signed-up.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/12/04/even-more-defaults.html",
+				"title": "Even more defaults",
+				"content_html": "<p>As a follow up to my <a href=\"https://matt.routleynet.org/2023/11/04/duel-of-the.html\">Duel of the Defaults post</a>, I&rsquo;ve made a few changes. These are all based on further adopting app defaults to simplify things.</p>\n<ul>\n<li>📰 <strong>RSS</strong>: I&rsquo;ve swapped out <a href=\"https://feedbin.com/\">Feedbin</a> for iCloud as the backend for <a href=\"https://netnewswire.com/\">NetNewsWire</a>. Although I really like the Feedbin service, my primary use of it is to access my feeds via a web browser at work. In an attempt to limit my feed reading to just once in the morning and once in the evening, switching to iCloud means that only my personal iPhone has access.</li>\n<li>👓 <strong>Read It Later</strong>: Switching to <a href=\"https://support.apple.com/en-us/HT200294\">Safari&rsquo;s Reading List</a> for this. The feature is well integrated into the system and more than sufficient for my needs.</li>\n<li>🎧 <strong>Podcasts</strong>: After some <a href=\"https://matt.routleynet.org/2021/01/16/choosing-a-podcast.html\">back</a> and <a href=\"https://matt.routleynet.org/2023/06/13/simplifying-my-personal.html\">forth</a> and <a href=\"https://matt.routleynet.org/2023/09/26/switching-podcast-apps.html\">back</a> again, over to Apple Podcasts.</li>\n</ul>\n<p>These choices are largely motivated by an attempt to limit the number of inputs and potential for distractions. That said, these default apps are still powerful and effective.</p>\n",
+				"content_text": "As a follow up to my [Duel of the Defaults post](https://matt.routleynet.org/2023/11/04/duel-of-the.html), I've made a few changes. These are all based on further adopting app defaults to simplify things.\n\n* 📰 **RSS**: I've swapped out [Feedbin](https://feedbin.com/) for iCloud as the backend for [NetNewsWire](https://netnewswire.com/). Although I really like the Feedbin service, my primary use of it is to access my feeds via a web browser at work. In an attempt to limit my feed reading to just once in the morning and once in the evening, switching to iCloud means that only my personal iPhone has access.\n* 👓 **Read It Later**: Switching to [Safari's Reading List](https://support.apple.com/en-us/HT200294) for this. The feature is well integrated into the system and more than sufficient for my needs.\n* 🎧 **Podcasts**: After some [back](https://matt.routleynet.org/2021/01/16/choosing-a-podcast.html) and [forth](https://matt.routleynet.org/2023/06/13/simplifying-my-personal.html) and [back](https://matt.routleynet.org/2023/09/26/switching-podcast-apps.html) again, over to Apple Podcasts.\n\n These choices are largely motivated by an attempt to limit the number of inputs and potential for distractions. That said, these default apps are still powerful and effective.\n",
+				"date_published": "2023-12-05T14:00:38-05:00",
+				"url": "https://matt.routleynet.org/2023/12/04/even-more-defaults.html",
+				"tags": ["code","blog"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/12/03/tree-is-up.html",
+				
+				"content_html": "<p>🎄 Tree is up and decorated</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🎄 Tree is up and decorated \n\n<img src=\"uploads/2023/81ee51e8db.jpg\" width=\"450\" height=\"600\" alt=\"Charlie Brown novelty tree. Very spindly with a single drooping ornament\">\n",
+				"date_published": "2023-12-03T10:31:06-05:00",
+				"url": "https://matt.routleynet.org/2023/12/03/tree-is-up.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/12/03/light-rain-wind.html",
+				
+				"content_html": "<p>🏃‍♂️ Light rain, wind, and NIN playlist made for a gloomy ambience on <a href=\"https://strava.app.link/CtXzrVipeFb\">today’s run</a></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🏃‍♂️ Light rain, wind, and NIN playlist made for a gloomy ambience on [today’s run](https://strava.app.link/CtXzrVipeFb)\n\n<img src=\"uploads/2023/92339b7682.jpg\" width=\"450\" height=\"600\" alt=\"Waves crashing into a rocky shoreline with trees in the background under a cloudy, grey sky\">\n",
+				"date_published": "2023-12-03T10:09:47-05:00",
+				"url": "https://matt.routleynet.org/2023/12/03/light-rain-wind.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2023/12/02/i-dont-understand.html",
+				
+				"content_html": "<p>I don’t understand Apple’s algorithms. There’s no way I listened to 100 Gecs Boiler Room Session 51 times. Once was fun, but it is 1 hour and 26 minutes long. I would remember listening to it that many times</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "I don’t understand Apple’s algorithms. There’s no way I listened to 100 Gecs Boiler Room Session 51 times. Once was fun, but it is 1 hour and 26 minutes long. I would remember listening to it that many times  \n\n<img src=\"uploads/2023/a5bfcc39b8.jpg\" width=\"338\" height=\"600\" alt=\"Screenshot from Apple Music Replay claiming I listened to the album a lot\">\n",
+				"date_published": "2023-12-02T14:44:42-05:00",
+				"url": "https://matt.routleynet.org/2023/12/02/i-dont-understand.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2023/12/02/a-bit-gloomy.html",
 				
 				"content_html": "<p>🏃‍♂️ A bit gloomy on <a href=\"https://strava.app.link/0Tm5x5XRcFb\">today’s off the bike run</a></p>\n<!-- raw HTML omitted -->\n",
