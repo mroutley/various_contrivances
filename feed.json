@@ -7,13 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/01/07/found-some-company.html",
+				
+				"content_html": "<p>🏃‍♂️ Found some company on <a href=\"https://strava.app.link/Dy85S0kAaGb\">today’s run</a></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🏃‍♂️ Found some company on [today’s run](https://strava.app.link/Dy85S0kAaGb)\n\n<img src=\"uploads/2024/da9f7e4f87.jpg\" width=\"450\" height=\"600\" alt=\"Two swans floating close together in a lake with a yellowish sunrise behind them\">\n",
+				"date_published": "2024-01-07T11:24:32-05:00",
+				"url": "https://matt.routleynet.org/2024/01/07/found-some-company.html",
+				"tags": ["fitness"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/01/03/fitness-in.html",
 				"title": "🏊‍♂️🚴‍♂️🏃‍♂️ Fitness in 2023",
 				"content_html": "<p>I kept busy in 2023 with triathlon training. As a reference point for next year, here&rsquo;s a comparison of 2023 with 2022.</p>\n<p>My running was surprisingly consistent. Although the totals are almost identical, I do think that my structured workouts were much better in 2023. Each run had a purpose and all were part of a bigger plan.</p>\n<!-- raw HTML omitted -->\n<p>There was a trade off for cycling between indoors and outdoors. In 2023, I couldn&rsquo;t quite get aligned with most of the outdoor group rides. So, there was a lot more indoor riding on Zwift. I&rsquo;d like to switch this around in 2024.</p>\n<!-- raw HTML omitted -->\n<p>I&rsquo;m surprised by my relatively low swimming distances in 2023. This is my strongest of the three. So, I tend to take it for granted. I should bump this up in 2024.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "I kept busy in 2023 with triathlon training. As a reference point for next year, here's a comparison of 2023 with 2022.\n\nMy running was surprisingly consistent. Although the totals are almost identical, I do think that my structured workouts were much better in 2023. Each run had a purpose and all were part of a bigger plan.\n\n<img src=\"uploads/2024/e3b33ab792.jpg\" alt=\"Cumulative running totals for 2023 (1,663 km) and 2022 (1,603 km)\">\n\nThere was a trade off for cycling between indoors and outdoors. In 2023, I couldn't quite get aligned with most of the outdoor group rides. So, there was a lot more indoor riding on Zwift. I'd like to switch this around in 2024.\n\n<img src=\"uploads/2024/ff2a445b13.jpg\" alt=\"Cumulative outdoor cycling totals for 2023 (628 km) and 2022 (1,301 km)\">\n<img src=\"uploads/2024/d87964fccc.jpg\" alt=\"Cumulative indoor cycling totals for 2023 (3,017 km) and 2022 (1,702 km)\">\n\nI'm surprised by my relatively low swimming distances in 2023. This is my strongest of the three. So, I tend to take it for granted. I should bump this up in 2024.\n\n<img src=\"uploads/2024/dc18fc4743.jpg\" alt=\"Cumulative swimming totals for 2023 (85 km) and 2022 (104 km)\">\n",
 				"date_published": "2024-01-03T11:45:29-05:00",
 				"url": "https://matt.routleynet.org/2024/01/03/fitness-in.html",
-				"tags": ["blog"]
+				"tags": ["blog","fitness"]
 			},
 			{
 				"id": "http://mroutley.micro.blog/2024/01/02/new-books-for.html",
