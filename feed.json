@@ -7,6 +7,49 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/03/05/currently-reading-i.html",
+				
+				"content_html": "<p>Finished reading: I enjoyed <a href=\"https://micro.blog/books/9780063159426\">My Effin' Life</a> by Geddy Lee more than I expected. A great testament to hard working, talented friends. Also a great excuse to revisit Rush’s music. I’d missed their last few albums and it was a pleasant surprise to discover them📚</p>\n",
+				"content_text": "Finished reading: I enjoyed [My Effin' Life](https://micro.blog/books/9780063159426) by Geddy Lee more than I expected. A great testament to hard working, talented friends. Also a great excuse to revisit Rush’s music. I’d missed their last few albums and it was a pleasant surprise to discover them📚\n",
+				"date_published": "2024-03-05T18:41:17-05:00",
+				"url": "https://matt.routleynet.org/2024/03/05/currently-reading-i.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/03/03/a-toasted-old.html",
+				
+				"content_html": "<p>A toasted old fashioned kind of night</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "A toasted old fashioned kind of night\n\n<img src=\"uploads/2024/8aa8c536e5.jpg\" width=\"450\" height=\"600\" alt=\"Old fashioned in a glass with ice beside the bottle from BarChef \">\n",
+				"date_published": "2024-03-03T18:54:17-05:00",
+				"url": "https://matt.routleynet.org/2024/03/03/a-toasted-old.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/03/03/trying-to-avoid.html",
+				"title": "Trying to avoid Apple’s Journal app 📔",
+				"content_html": "<p>I have 9,698 entries in <a href=\"https://dayoneapp.com/\">DayOne</a> across 4,312 days. This is one of my favourite and most consistently used apps. And, yet, somehow I am tempted to switch to <a href=\"https://www.apple.com/newsroom/2023/12/apple-launches-journal-app-a-new-app-for-reflecting-on-everyday-moments/\">Apple’s Journal app</a>. This post is to remind me why that is a bad idea.</p>\n<p>So, here’s a list of DayOne features I use that Journal doesn’t have:</p>\n<ul>\n<li>I use DayOne on my iPhone, iPad, Apple Watch, and the web. Journal is only on the iPhone.</li>\n<li>DayOne is my memory archive. I can search for entries with many attributes (like dates), while also organizing with tags and separate journals. Plus, the On This Day feature is great for revisiting old entries. Journal only lets you filter by entry type. There is no search feature.</li>\n<li>There are many ways to get content into DayOne, including via Shortcuts. Journal is much less accommodating and, oddly, has no Shortcuts support. A related feature in DayOne is templates, which I use frequently and Journal lacks.</li>\n<li>Given how valuable (to me) content is in DayOne, I appreciate the broad set of export features. Best I can tell, there’s no way to export from Journal.</li>\n</ul>\n<p>Given all of this, why am I drawn to Journal?</p>\n<p>The primary answer is an appeal to simplicity (which Journal certainly has). I do worry sometimes that my structure of separate journals, tags, and templates in DayOne is unecessary complexity. A secondary answer is my policy of <a href=\"https://matt.routleynet.org/2023/12/04/even-more-defaults.html\">favouring default apps</a> when they’re good enough. Journal is likely quite adequate for many people, especially those that journal to get ideas out of their heads, rather than as a memory archive that they review.</p>\n<!-- raw HTML omitted -->\n<p>Having written this down, the answer seems clear: keep using DayOne. Perhaps, though, I should revisit my DayOne structure to get some of that appealing simplicity from Journal.</p>\n",
+				"content_text": "I have 9,698 entries in [DayOne](https://dayoneapp.com/) across 4,312 days. This is one of my favourite and most consistently used apps. And, yet, somehow I am tempted to switch to [Apple’s Journal app](https://www.apple.com/newsroom/2023/12/apple-launches-journal-app-a-new-app-for-reflecting-on-everyday-moments/). This post is to remind me why that is a bad idea.\n\nSo, here’s a list of DayOne features I use that Journal doesn’t have:\n\n* I use DayOne on my iPhone, iPad, Apple Watch, and the web. Journal is only on the iPhone.\n* DayOne is my memory archive. I can search for entries with many attributes (like dates), while also organizing with tags and separate journals. Plus, the On This Day feature is great for revisiting old entries. Journal only lets you filter by entry type. There is no search feature.\n* There are many ways to get content into DayOne, including via Shortcuts. Journal is much less accommodating and, oddly, has no Shortcuts support. A related feature in DayOne is templates, which I use frequently and Journal lacks.\n* Given how valuable (to me) content is in DayOne, I appreciate the broad set of export features. Best I can tell, there’s no way to export from Journal.\n\nGiven all of this, why am I drawn to Journal? \n\nThe primary answer is an appeal to simplicity (which Journal certainly has). I do worry sometimes that my structure of separate journals, tags, and templates in DayOne is unecessary complexity. A secondary answer is my policy of [favouring default apps](https://matt.routleynet.org/2023/12/04/even-more-defaults.html) when they’re good enough. Journal is likely quite adequate for many people, especially those that journal to get ideas out of their heads, rather than as a memory archive that they review.\n\n<img src=\"uploads/2024/media.png\" height=\"400\" alt=\"Screenshot from Journal showing a few entries\">\n\nHaving written this down, the answer seems clear: keep using DayOne. Perhaps, though, I should revisit my DayOne structure to get some of that appealing simplicity from Journal.\n",
+				"date_published": "2024-03-03T16:23:45-05:00",
+				"url": "https://matt.routleynet.org/2024/03/03/trying-to-avoid.html",
+				"tags": ["blog"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/03/03/misty-run-today.html",
+				
+				"content_html": "<p>🏃‍♂️ <a href=\"https://strava.app.link/eNhwqJHvFHb\">Misty run</a> today</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🏃‍♂️ [Misty run](https://strava.app.link/eNhwqJHvFHb) today\n\n<img src=\"uploads/2024/e609bee11e.jpg\" width=\"450\" height=\"600\" alt=\"Path through some trees with white mist permeating everything \">\n",
+				"date_published": "2024-03-03T11:06:19-05:00",
+				"url": "https://matt.routleynet.org/2024/03/03/misty-run-today.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/03/02/how-to-talk.html",
+				
+				"content_html": "<p>🔗 <!-- raw HTML omitted -->How to Talk to Whales - The Atlantic<!-- raw HTML omitted --></p>\n<blockquote>\n<p>This would be a first-contact scenario involving two species that have lived side by side for ages. I wanted to imagine how it could unfold. I reached out to marine biologists, field scientists who specialize in whales, paleontologists, professors of animal-rights law, linguists, and philosophers. Assume that Project CETI works, I told them. Assume that we are able to communicate something of substance to the sperm whale civilization. What should we say?</p>\n</blockquote>\n<p>Fascinating to think what this would be like and what we might learn</p>\n",
+				"content_text": "🔗 <a href=\"https://www.theatlantic.com/science/archive/2024/02/talking-whales-project-ceti/677549/?gift=S4EwRLGNogt2Kqjs1lNdf1C5Zvy59Sc8vQ93xrMMh-I\" class=\"u-in-reply-to\">How to Talk to Whales - The Atlantic</a>\r\n\r\n> This would be a first-contact scenario involving two species that have lived side by side for ages. I wanted to imagine how it could unfold. I reached out to marine biologists, field scientists who specialize in whales, paleontologists, professors of animal-rights law, linguists, and philosophers. Assume that Project CETI works, I told them. Assume that we are able to communicate something of substance to the sperm whale civilization. What should we say?\r\n\r\nFascinating to think what this would be like and what we might learn\n",
+				"date_published": "2024-03-02T11:32:34-05:00",
+				"url": "https://matt.routleynet.org/2024/03/02/how-to-talk.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/03/01/tangk-idles-im.html",
 				
 				"content_html": "<p>🎵 <a href=\"https://www.last.fm/music/Idles/TANGK\">TANGK - Idles</a></p>\n<p>I’m enjoying their new sound</p>\n<p><img src=\"https://lastfm.freetls.fastly.net/i/u/300x300/de7a2f010aac09f197aa8b342159c0f0.png\" alt=\"TANGK - Idles poster\"></p>\n",
@@ -35,7 +78,7 @@
 				"id": "http://mroutley.micro.blog/2024/02/18/back-to-cold.html",
 				
 				"content_html": "<p>🏃‍♂️ Back to cold, snow, and ice on <a href=\"https://strava.app.link/KoRGtT5viHb\">today’s run</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🏃‍♂️ Back to cold, snow, and ice on [today’s run](https://strava.app.link/KoRGtT5viHb)\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/baf50d10c2.jpg\" width=\"450\" height=\"600\" alt=\"Icy and snow trail. Overlaid with run stats: 16km in 1.5 hours\">\n",
+				"content_text": "🏃‍♂️ Back to cold, snow, and ice on [today’s run](https://strava.app.link/KoRGtT5viHb)\n\n<img src=\"uploads/2024/baf50d10c2.jpg\" width=\"450\" height=\"600\" alt=\"Icy and snow trail. Overlaid with run stats: 16km in 1.5 hours\">\n",
 				"date_published": "2024-02-18T14:37:10-05:00",
 				"url": "https://matt.routleynet.org/2024/02/18/back-to-cold.html",
 				"tags": ["fitness"]
