@@ -7,10 +7,55 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/03/16/finished-reading-i.html",
+				
+				"content_html": "<p>Finished reading: I enjoyed <a href=\"https://micro.blog/books/9780356508818\">Red Moon</a> by Kim Stanley Robinson. Some of his usual attention to detail without getting too dry and a nice emphasis on Chinese culture and history📚</p>\n",
+				"content_text": "Finished reading: I enjoyed [Red Moon](https://micro.blog/books/9780356508818) by Kim Stanley Robinson. Some of his usual attention to detail without getting too dry and a nice emphasis on Chinese culture and history📚\n",
+				"date_published": "2024-03-16T19:09:06-04:00",
+				"url": "https://matt.routleynet.org/2024/03/16/finished-reading-i.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/03/14/finished-reading-although.html",
+				
+				"content_html": "<p>Finished reading: Although difficult to describe, I enjoyed <a href=\"https://micro.blog/books/9780811228862\">The Factory</a> by Hiroko Oyamada. A strange, slightly creepy story about modern work life 📚</p>\n",
+				"content_text": "Finished reading: Although difficult to describe, I enjoyed [The Factory](https://micro.blog/books/9780811228862) by Hiroko Oyamada. A strange, slightly creepy story about modern work life 📚\n",
+				"date_published": "2024-03-14T19:47:36-04:00",
+				"url": "https://matt.routleynet.org/2024/03/14/finished-reading-although.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/03/14/finished-reading-the.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780593128879\">The Last Graduate</a> by Naomi Novik is a great sequel to <a href=\"https://matt.routleynet.org/2023/08/10/finished-reading-i.html\">A Deadly Education</a> 📚</p>\n",
+				"content_text": "Finished reading: [The Last Graduate](https://micro.blog/books/9780593128879) by Naomi Novik is a great sequel to [A Deadly Education](https://matt.routleynet.org/2023/08/10/finished-reading-i.html) 📚\n",
+				"date_published": "2024-03-14T14:14:54-04:00",
+				"url": "https://matt.routleynet.org/2024/03/14/finished-reading-the.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/03/13/finished-reading-empire.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780393882155\">Empire of the Sum: The Rise and Reign of the Pocket Calculator</a> by Keith Houston is more fun than you might expect📚</p>\n",
+				"content_text": "Finished reading: [Empire of the Sum: The Rise and Reign of the Pocket Calculator](https://micro.blog/books/9780393882155) by Keith Houston is more fun than you might expect📚\n",
+				"date_published": "2024-03-13T12:12:11-04:00",
+				"url": "https://matt.routleynet.org/2024/03/13/finished-reading-empire.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/03/13/finished-reading-my.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780593543788\">My Murder</a> by Katie Williams has an intriguing premise, good twists, and is well written. A great book📚</p>\n",
+				"content_text": "Finished reading: [My Murder](https://micro.blog/books/9780593543788) by Katie Williams has an intriguing premise, good twists, and is well written. A great book📚\n",
+				"date_published": "2024-03-13T12:11:13-04:00",
+				"url": "https://matt.routleynet.org/2024/03/13/finished-reading-my.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/03/12/my-plan-for.html",
 				
 				"content_html": "<p>My plan for the week</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "My plan for the week\n\n<img src=\"uploads/2024/de785592ce.jpg\" width=\"450\" height=\"600\" alt=\"Feet on a deck chair with palm trees and blue sky\">\n",
+				"content_text": "My plan for the week\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/de785592ce.jpg\" width=\"450\" height=\"600\" alt=\"Feet on a deck chair with palm trees and blue sky\">\n",
 				"date_published": "2024-03-12T12:08:50-05:00",
 				"url": "https://matt.routleynet.org/2024/03/12/my-plan-for.html"
 			},
@@ -36,7 +81,7 @@
 				"id": "http://mroutley.micro.blog/2024/03/03/a-toasted-old.html",
 				
 				"content_html": "<p>A toasted old fashioned kind of night</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "A toasted old fashioned kind of night\n\n<img src=\"uploads/2024/8aa8c536e5.jpg\" width=\"450\" height=\"600\" alt=\"Old fashioned in a glass with ice beside the bottle from BarChef \">\n",
+				"content_text": "A toasted old fashioned kind of night\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/8aa8c536e5.jpg\" width=\"450\" height=\"600\" alt=\"Old fashioned in a glass with ice beside the bottle from BarChef \">\n",
 				"date_published": "2024-03-03T18:54:17-05:00",
 				"url": "https://matt.routleynet.org/2024/03/03/a-toasted-old.html"
 			},
@@ -44,7 +89,7 @@
 				"id": "http://mroutley.micro.blog/2024/03/03/trying-to-avoid.html",
 				"title": "Trying to avoid Apple’s Journal app 📔",
 				"content_html": "<p>I have 9,698 entries in <a href=\"https://dayoneapp.com/\">DayOne</a> across 4,312 days. This is one of my favourite and most consistently used apps. And, yet, somehow I am tempted to switch to <a href=\"https://www.apple.com/newsroom/2023/12/apple-launches-journal-app-a-new-app-for-reflecting-on-everyday-moments/\">Apple’s Journal app</a>. This post is to remind me why that is a bad idea.</p>\n<p>So, here’s a list of DayOne features I use that Journal doesn’t have:</p>\n<ul>\n<li>I use DayOne on my iPhone, iPad, Apple Watch, and the web. Journal is only on the iPhone.</li>\n<li>DayOne is my memory archive. I can search for entries with many attributes (like dates), while also organizing with tags and separate journals. Plus, the On This Day feature is great for revisiting old entries. Journal only lets you filter by entry type. There is no search feature.</li>\n<li>There are many ways to get content into DayOne, including via Shortcuts. Journal is much less accommodating and, oddly, has no Shortcuts support. A related feature in DayOne is templates, which I use frequently and Journal lacks.</li>\n<li>Given how valuable (to me) content is in DayOne, I appreciate the broad set of export features. Best I can tell, there’s no way to export from Journal.</li>\n</ul>\n<p>Given all of this, why am I drawn to Journal?</p>\n<p>The primary answer is an appeal to simplicity (which Journal certainly has). I do worry sometimes that my structure of separate journals, tags, and templates in DayOne is unecessary complexity. A secondary answer is my policy of <a href=\"https://matt.routleynet.org/2023/12/04/even-more-defaults.html\">favouring default apps</a> when they’re good enough. Journal is likely quite adequate for many people, especially those that journal to get ideas out of their heads, rather than as a memory archive that they review.</p>\n<!-- raw HTML omitted -->\n<p>Having written this down, the answer seems clear: keep using DayOne. Perhaps, though, I should revisit my DayOne structure to get some of that appealing simplicity from Journal.</p>\n",
-				"content_text": "I have 9,698 entries in [DayOne](https://dayoneapp.com/) across 4,312 days. This is one of my favourite and most consistently used apps. And, yet, somehow I am tempted to switch to [Apple’s Journal app](https://www.apple.com/newsroom/2023/12/apple-launches-journal-app-a-new-app-for-reflecting-on-everyday-moments/). This post is to remind me why that is a bad idea.\n\nSo, here’s a list of DayOne features I use that Journal doesn’t have:\n\n* I use DayOne on my iPhone, iPad, Apple Watch, and the web. Journal is only on the iPhone.\n* DayOne is my memory archive. I can search for entries with many attributes (like dates), while also organizing with tags and separate journals. Plus, the On This Day feature is great for revisiting old entries. Journal only lets you filter by entry type. There is no search feature.\n* There are many ways to get content into DayOne, including via Shortcuts. Journal is much less accommodating and, oddly, has no Shortcuts support. A related feature in DayOne is templates, which I use frequently and Journal lacks.\n* Given how valuable (to me) content is in DayOne, I appreciate the broad set of export features. Best I can tell, there’s no way to export from Journal.\n\nGiven all of this, why am I drawn to Journal? \n\nThe primary answer is an appeal to simplicity (which Journal certainly has). I do worry sometimes that my structure of separate journals, tags, and templates in DayOne is unecessary complexity. A secondary answer is my policy of [favouring default apps](https://matt.routleynet.org/2023/12/04/even-more-defaults.html) when they’re good enough. Journal is likely quite adequate for many people, especially those that journal to get ideas out of their heads, rather than as a memory archive that they review.\n\n<img src=\"uploads/2024/media.png\" height=\"400\" alt=\"Screenshot from Journal showing a few entries\">\n\nHaving written this down, the answer seems clear: keep using DayOne. Perhaps, though, I should revisit my DayOne structure to get some of that appealing simplicity from Journal.\n",
+				"content_text": "I have 9,698 entries in [DayOne](https://dayoneapp.com/) across 4,312 days. This is one of my favourite and most consistently used apps. And, yet, somehow I am tempted to switch to [Apple’s Journal app](https://www.apple.com/newsroom/2023/12/apple-launches-journal-app-a-new-app-for-reflecting-on-everyday-moments/). This post is to remind me why that is a bad idea.\n\nSo, here’s a list of DayOne features I use that Journal doesn’t have:\n\n* I use DayOne on my iPhone, iPad, Apple Watch, and the web. Journal is only on the iPhone.\n* DayOne is my memory archive. I can search for entries with many attributes (like dates), while also organizing with tags and separate journals. Plus, the On This Day feature is great for revisiting old entries. Journal only lets you filter by entry type. There is no search feature.\n* There are many ways to get content into DayOne, including via Shortcuts. Journal is much less accommodating and, oddly, has no Shortcuts support. A related feature in DayOne is templates, which I use frequently and Journal lacks.\n* Given how valuable (to me) content is in DayOne, I appreciate the broad set of export features. Best I can tell, there’s no way to export from Journal.\n\nGiven all of this, why am I drawn to Journal? \n\nThe primary answer is an appeal to simplicity (which Journal certainly has). I do worry sometimes that my structure of separate journals, tags, and templates in DayOne is unecessary complexity. A secondary answer is my policy of [favouring default apps](https://matt.routleynet.org/2023/12/04/even-more-defaults.html) when they’re good enough. Journal is likely quite adequate for many people, especially those that journal to get ideas out of their heads, rather than as a memory archive that they review.\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/media.png\" height=\"400\" alt=\"Screenshot from Journal showing a few entries\">\n\nHaving written this down, the answer seems clear: keep using DayOne. Perhaps, though, I should revisit my DayOne structure to get some of that appealing simplicity from Journal.\n",
 				"date_published": "2024-03-03T16:23:45-05:00",
 				"url": "https://matt.routleynet.org/2024/03/03/trying-to-avoid.html",
 				"tags": ["blog"]
