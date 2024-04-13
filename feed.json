@@ -7,10 +7,51 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/04/10/day-morning-commute.html",
+				
+				"content_html": "<p>📷  Day 10</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2024/img-4857.jpg\" alt=\"A train is stationary at a platform, with the sun partially obscured by clouds above. The setting depicts a calm, daylit train station.\"></p>\n<p>Morning commute on the <em>train</em></p>\n",
+				"content_text": "📷  Day 10\r\n\r\n![A train is stationary at a platform, with the sun partially obscured by clouds above. The setting depicts a calm, daylit train station.](https://matt.routleynet.org/uploads/2024/img-4857.jpg)\n\r\n\r\nMorning commute on the _train_\n",
+				"date_published": "2024-04-10T21:05:36-04:00",
+				"url": "https://matt.routleynet.org/2024/04/10/day-morning-commute.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/04/09/day-crispy.html",
+				
+				"content_html": "<p>📷  Day 9</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2024/img-4855.jpg\" alt=\"A plate of nachos topped with melted cheese, ground beef, diced tomatoes, and sliced green onions, served on a white plate with a blue rim.\"></p>\n<p>Crispy</p>\n",
+				"content_text": "📷  Day 9\n\n![A plate of nachos topped with melted cheese, ground beef, diced tomatoes, and sliced green onions, served on a white plate with a blue rim.](https://matt.routleynet.org/uploads/2024/img-4855.jpg)\n\nCrispy\n",
+				"date_published": "2024-04-09T23:36:00-04:00",
+				"url": "https://matt.routleynet.org/2024/04/09/day-crispy.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/04/09/finished-reading-although.html",
+				
+				"content_html": "<p>Finished reading: Although it took two library loan periods, I made it through <a href=\"https://micro.blog/books/9781429960199\">The Shadow Rising</a> by Robert Jordan. Having made it this far, I&rsquo;m sure to get through all of the books now, even though there are many to go 📚</p>\n",
+				"content_text": "Finished reading: Although it took two library loan periods, I made it through [The Shadow Rising](https://micro.blog/books/9781429960199) by Robert Jordan. Having made it this far, I'm sure to get through all of the books now, even though there are many to go 📚\n",
+				"date_published": "2024-04-09T12:39:47-04:00",
+				"url": "https://matt.routleynet.org/2024/04/09/finished-reading-although.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/04/08/day-prevention.html",
+				
+				"content_html": "<p>📷  Day 08</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2024/img-4851.jpg\" alt=\"Railway tracks with a no entry sign, in front of a chain-link fence, next to a platform edge with a yellow line.\"></p>\n<p>Prevention</p>\n",
+				"content_text": "📷  Day 08\r\n\r\n![Railway tracks with a no entry sign, in front of a chain-link fence, next to a platform edge with a yellow line.](https://matt.routleynet.org/uploads/2024/img-4851.jpg)\r\n\r\nPrevention\n",
+				"date_published": "2024-04-08T17:45:08-04:00",
+				"url": "https://matt.routleynet.org/2024/04/08/day-prevention.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/04/07/day-signs-of.html",
+				
+				"content_html": "<p>📷  Day 07</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2024/img-4850.jpg\" alt=\"A vibrant blue flower with a central white and yellow core stands amidst green grass.\"></p>\n<p>Signs of spring in my backyard helps with well being</p>\n",
+				"content_text": "📷  Day 07\r\n\r\n![A vibrant blue flower with a central white and yellow core stands amidst green grass.](https://matt.routleynet.org/uploads/2024/img-4850.jpg)\r\n\r\nSigns of spring in my backyard helps with well being \n",
+				"date_published": "2024-04-07T19:21:18-04:00",
+				"url": "https://matt.routleynet.org/2024/04/07/day-signs-of.html"
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/04/06/day-windy.html",
 				
-				"content_html": "<p>📷  Day 06</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2024/img-3779.jpg\" alt=\"A catamaran with a raised sail is on the shore, with people preparing to sail in a sunny, beachside setting with clear skies.\"></p>\n<p>Windy</p>\n",
-				"content_text": "📷  Day 06\r\n\r\n![A catamaran with a raised sail is on the shore, with people preparing to sail in a sunny, beachside setting with clear skies.](https://matt.routleynet.org/uploads/2024/img-3779.jpg)\r\n\r\nWindy\n",
+				"content_html": "<p>📷  Day 06</p>\n<p><img src=\"https://cdn.uploads.micro.blog/6287/2024/img-3779.jpg\" alt=\"A catamaran with a raised sail is on the shore, with people preparing to sail in a sunny, beachside setting with clear skies.\"></p>\n<p>Windy</p>\n",
+				"content_text": "📷  Day 06\r\n\r\n![A catamaran with a raised sail is on the shore, with people preparing to sail in a sunny, beachside setting with clear skies.](https://cdn.uploads.micro.blog/6287/2024/img-3779.jpg)\r\n\r\nWindy\n",
 				"date_published": "2024-04-06T18:29:01-04:00",
 				"url": "https://matt.routleynet.org/2024/04/06/day-windy.html"
 			},
@@ -18,15 +59,15 @@
 				"id": "http://mroutley.micro.blog/2024/04/06/collective-arts-hazy.html",
 				
 				"content_html": "<p>🍺 Collective Arts Hazy State Session IPA</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🍺 Collective Arts Hazy State Session IPA\n\n<img src=\"uploads/2024/efc398111f.jpg\" width=\"600\" height=\"600\" alt=\"A hazy yellow beverage is poured into a glass next to a can labeled &quot;COLLECTIVE ARTS HAZY STATE SESSION IPA 4.1%&quot; with stylized cat illustrations on a kitchen counter.\">\n",
+				"content_text": "🍺 Collective Arts Hazy State Session IPA\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/efc398111f.jpg\" width=\"600\" height=\"600\" alt=\"A hazy yellow beverage is poured into a glass next to a can labeled &quot;COLLECTIVE ARTS HAZY STATE SESSION IPA 4.1%&quot; with stylized cat illustrations on a kitchen counter.\">\n",
 				"date_published": "2024-04-06T17:37:51-04:00",
 				"url": "https://matt.routleynet.org/2024/04/06/collective-arts-hazy.html"
 			},
 			{
 				"id": "http://mroutley.micro.blog/2024/04/05/day-serene.html",
 				
-				"content_html": "<p>📷  Day 05</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2024/img-4291.jpg\" alt=\"A vivid sunset with orange and blue hues reflects on a calm lake, featuring silhouetted trees and a small dock.\"></p>\n<p>Serene</p>\n",
-				"content_text": "📷  Day 05\r\n\r\n![A vivid sunset with orange and blue hues reflects on a calm lake, featuring silhouetted trees and a small dock.](https://matt.routleynet.org/uploads/2024/img-4291.jpg)\r\n\r\nSerene\n",
+				"content_html": "<p>📷  Day 05</p>\n<p><img src=\"https://cdn.uploads.micro.blog/6287/2024/img-4291.jpg\" alt=\"A vivid sunset with orange and blue hues reflects on a calm lake, featuring silhouetted trees and a small dock.\"></p>\n<p>Serene</p>\n",
+				"content_text": "📷  Day 05\r\n\r\n![A vivid sunset with orange and blue hues reflects on a calm lake, featuring silhouetted trees and a small dock.](https://cdn.uploads.micro.blog/6287/2024/img-4291.jpg)\r\n\r\nSerene\n",
 				"date_published": "2024-04-05T20:10:38-04:00",
 				"url": "https://matt.routleynet.org/2024/04/05/day-serene.html"
 			},
@@ -40,18 +81,10 @@
 				"tags": ["book"]
 			},
 			{
-				"id": "http://mroutley.micro.blog/2024/04/05/day-foliage.html",
-				
-				"content_html": "<p>📷  Day 04</p>\n<p><img src=\"https://cdn.uploads.micro.blog/6287/2024/img-2705.jpg\" alt=\"Lush green grapevine leaves cover a wall and pergola, exuding growth and vitality, with a clear sky barely visible above.\"></p>\n<p>Foliage</p>\n",
-				"content_text": "📷  Day 04\r\n\r\n![Lush green grapevine leaves cover a wall and pergola, exuding growth and vitality, with a clear sky barely visible above.](https://cdn.uploads.micro.blog/6287/2024/img-2705.jpg)\r\n\r\nFoliage\n",
-				"date_published": "2024-04-05T07:18:27-04:00",
-				"url": "https://matt.routleynet.org/2024/04/05/day-foliage.html"
-			},
-			{
 				"id": "http://mroutley.micro.blog/2024/04/04/day-foliage.html",
 				
-				"content_html": "<p>📷  Day 04</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2024/img-2705.jpg\" alt=\"Lush green grapevine leaves cover a wall and pergola, exuding growth and vitality, with a clear sky barely visible above.\"></p>\n<p>Foliage</p>\n",
-				"content_text": "📷  Day 04\n\n![Lush green grapevine leaves cover a wall and pergola, exuding growth and vitality, with a clear sky barely visible above.](https://matt.routleynet.org/uploads/2024/img-2705.jpg)\n\nFoliage\n",
+				"content_html": "<p>📷  Day 04</p>\n<p><img src=\"https://cdn.uploads.micro.blog/6287/2024/img-2705.jpg\" alt=\"Lush green grapevine leaves cover a wall and pergola, exuding growth and vitality, with a clear sky barely visible above.\"></p>\n<p>Foliage</p>\n",
+				"content_text": "📷  Day 04\n\n![Lush green grapevine leaves cover a wall and pergola, exuding growth and vitality, with a clear sky barely visible above.](https://cdn.uploads.micro.blog/6287/2024/img-2705.jpg)\n\nFoliage\n",
 				"date_published": "2024-04-04T20:18:00-04:00",
 				"url": "https://matt.routleynet.org/2024/04/04/day-foliage.html"
 			},
@@ -101,7 +134,7 @@
 				"id": "http://mroutley.micro.blog/2024/03/24/dynamic-run-training.html",
 				"title": "🏃‍♂️ Dynamic run training in Training Today",
 				"content_html": "<p>I’ve been using <a href=\"https://trainingtodayapp.com/\">Training Today</a> for a <a href=\"https://matt.routleynet.org/2021/08/08/readiness-to-train.html\">while</a> <a href=\"https://matt.routleynet.org/2023/10/09/choosing-a-portfolio.html\">now</a> to track my readiness to train (RTT). They’ve recently released a new feature that provides <a href=\"https://trainingtodayapp.com/dynamictraining\">dynamic training</a> for running based on RTT which takes into account your current recovery and health to make sure you don’t overtrain.</p>\n<p>Generating the workouts is easy. In the iPhone app, you choose the type of run (speed, endurance, recovery, etc) and then the app shows you the structured workout, targeting your current RTT. There are options to adjust the RTT (though that seems like cheating) and to shorten the run, if you’re pressed for time. Once you select “Create Workout”, the run is sent to your Apple Watch.</p>\n<!-- raw HTML omitted -->\n<p>On the watch, the Training Today workout shows up near the top of the list in the Workout app and behaves like any other workout. The interval times and heart rate zones with alerts are passed along, making it easy to follow the workout.</p>\n<!-- raw HTML omitted -->\n<p>There are a few obvious enhancements, which the developers have already promised. The first is the addition of cycling and swimming workouts. The second is creating actual fitness plans across multiple days.</p>\n<p>I’m really intrigued by an app like Training Today. Our smartwatches are continuously monitoring us and tracking our fitness. Why not have them also program tailored workouts? That said, I have an actual triathlon coach that creates a comprehensive fitness plan while also providing expert advice and motivation. My watch isn’t this sophisticated — yet.</p>\n",
-				"content_text": "I’ve been using [Training Today][tt] for a [while][vc1] [now][vc2] to track my readiness to train (RTT). They’ve recently released a new feature that provides [dynamic training][tt_dt] for running based on RTT which takes into account your current recovery and health to make sure you don’t overtrain.\n\n[tt]: https://trainingtodayapp.com/\n[vc1]: https://matt.routleynet.org/2021/08/08/readiness-to-train.html\n[vc2]: https://matt.routleynet.org/2023/10/09/choosing-a-portfolio.html\n[tt_dt]: https://trainingtodayapp.com/dynamictraining\n\nGenerating the workouts is easy. In the iPhone app, you choose the type of run (speed, endurance, recovery, etc) and then the app shows you the structured workout, targeting your current RTT. There are options to adjust the RTT (though that seems like cheating) and to shorten the run, if you’re pressed for time. Once you select “Create Workout”, the run is sent to your Apple Watch.\n\n<img src=\"uploads/2024/fb8721b738.png\" width=\"600\" height=\"590\" alt=\"iPhone screenshots showing how to setup a dynamic run\">\n\nOn the watch, the Training Today workout shows up near the top of the list in the Workout app and behaves like any other workout. The interval times and heart rate zones with alerts are passed along, making it easy to follow the workout.\n\n<img src=\"uploads/2024/2edc0cd4b8.png\" width=\"600\" height=\"447\" alt=\"Apple Watch screenshots showing the Training Today workout in the Workout app and the summary screen after the run is complete\">\n\nThere are a few obvious enhancements, which the developers have already promised. The first is the addition of cycling and swimming workouts. The second is creating actual fitness plans across multiple days.\n\nI’m really intrigued by an app like Training Today. Our smartwatches are continuously monitoring us and tracking our fitness. Why not have them also program tailored workouts? That said, I have an actual triathlon coach that creates a comprehensive fitness plan while also providing expert advice and motivation. My watch isn’t this sophisticated — yet.\n",
+				"content_text": "I’ve been using [Training Today][tt] for a [while][vc1] [now][vc2] to track my readiness to train (RTT). They’ve recently released a new feature that provides [dynamic training][tt_dt] for running based on RTT which takes into account your current recovery and health to make sure you don’t overtrain.\n\n[tt]: https://trainingtodayapp.com/\n[vc1]: https://matt.routleynet.org/2021/08/08/readiness-to-train.html\n[vc2]: https://matt.routleynet.org/2023/10/09/choosing-a-portfolio.html\n[tt_dt]: https://trainingtodayapp.com/dynamictraining\n\nGenerating the workouts is easy. In the iPhone app, you choose the type of run (speed, endurance, recovery, etc) and then the app shows you the structured workout, targeting your current RTT. There are options to adjust the RTT (though that seems like cheating) and to shorten the run, if you’re pressed for time. Once you select “Create Workout”, the run is sent to your Apple Watch.\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/fb8721b738.png\" width=\"600\" height=\"590\" alt=\"iPhone screenshots showing how to setup a dynamic run\">\n\nOn the watch, the Training Today workout shows up near the top of the list in the Workout app and behaves like any other workout. The interval times and heart rate zones with alerts are passed along, making it easy to follow the workout.\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/2edc0cd4b8.png\" width=\"600\" height=\"447\" alt=\"Apple Watch screenshots showing the Training Today workout in the Workout app and the summary screen after the run is complete\">\n\nThere are a few obvious enhancements, which the developers have already promised. The first is the addition of cycling and swimming workouts. The second is creating actual fitness plans across multiple days.\n\nI’m really intrigued by an app like Training Today. Our smartwatches are continuously monitoring us and tracking our fitness. Why not have them also program tailored workouts? That said, I have an actual triathlon coach that creates a comprehensive fitness plan while also providing expert advice and motivation. My watch isn’t this sophisticated — yet.\n",
 				"date_published": "2024-03-24T15:01:00-04:00",
 				"url": "https://matt.routleynet.org/2024/03/24/dynamic-run-training.html",
 				"tags": ["blog","fitness"]
