@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/04/26/finished-reading-jinx.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781916265257\">Jinx</a> by Matt Gemmell is a fun read. I enjoy these characters and the settings Gemmell places them in 📚</p>\n",
+				"content_text": "Finished reading: [Jinx](https://micro.blog/books/9781916265257) by Matt Gemmell is a fun read. I enjoy these characters and the settings Gemmell places them in 📚\n",
+				"date_published": "2024-04-26T12:40:18-04:00",
+				"url": "https://matt.routleynet.org/2024/04/26/finished-reading-jinx.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/04/22/day-of-the.html",
 				
 				"content_html": "<p>📷 Day 22 of the April Photoblogging Challenge</p>\n<p>Blue</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2024/b54b4f6236.jpg\" alt=\"Clear blue sky with a single, slender contrail is present amidst faint wisps of clouds.\"></p>\n",
@@ -41,8 +50,8 @@
 			{
 				"id": "http://mroutley.micro.blog/2024/04/18/day-of-the.html",
 				
-				"content_html": "<p>📷 Day 18 of the April Photoblogging Challenge</p>\n<p>Mood</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2024/img-2254.jpg\" alt=\"A child is crying at a dining table with a blurred motion of hands, near an orange plate with food remnants.\"></p>\n",
-				"content_text": "📷 Day 18 of the April Photoblogging Challenge\r\n\r\nMood \r\n\r\n![A child is crying at a dining table with a blurred motion of hands, near an orange plate with food remnants.](https://matt.routleynet.org/uploads/2024/img-2254.jpg)\r\n",
+				"content_html": "<p>📷 Day 18 of the April Photoblogging Challenge</p>\n<p>Mood</p>\n<p><img src=\"https://cdn.uploads.micro.blog/6287/2024/img-2254.jpg\" alt=\"A child is crying at a dining table with a blurred motion of hands, near an orange plate with food remnants.\"></p>\n",
+				"content_text": "📷 Day 18 of the April Photoblogging Challenge\r\n\r\nMood \r\n\r\n![A child is crying at a dining table with a blurred motion of hands, near an orange plate with food remnants.](https://cdn.uploads.micro.blog/6287/2024/img-2254.jpg)\r\n",
 				"date_published": "2024-04-18T20:08:36-04:00",
 				"url": "https://matt.routleynet.org/2024/04/18/day-of-the.html"
 			},
