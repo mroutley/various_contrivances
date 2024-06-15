@@ -7,6 +7,32 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/06/14/finished-reading-hexarchate.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781786181930\">Hexarchate Stories</a> by Yoon Ha Lee contains lots of fun stories. Only make sense though if you’ve read the series 📚</p>\n",
+				"content_text": "Finished reading: [Hexarchate Stories](https://micro.blog/books/9781786181930) by Yoon Ha Lee contains lots of fun stories. Only make sense though if you’ve read the series 📚\n",
+				"date_published": "2024-06-14T20:24:25-04:00",
+				"url": "https://matt.routleynet.org/2024/06/14/finished-reading-hexarchate.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/06/10/training-load-and.html",
+				
+				"content_html": "<p>Training load and rest days on the Apple Watch are nice improvements. I&rsquo;m curious to explore the Vitals App too</p>\n",
+				"content_text": "Training load and rest days on the Apple Watch are nice improvements. I'm curious to explore the Vitals App too\n",
+				"date_published": "2024-06-10T13:46:30-04:00",
+				"url": "https://matt.routleynet.org/2024/06/10/training-load-and.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/06/10/finished-reading-witch.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781250826800\">Witch King</a> by Martha Wells is good. I enjoyed the clever interweaving of the two time periods and the vivid world building 📚</p>\n",
+				"content_text": "Finished reading: [Witch King](https://micro.blog/books/9781250826800) by Martha Wells is good. I enjoyed the clever interweaving of the two time periods and the vivid world building 📚\n",
+				"date_published": "2024-06-10T13:30:47-04:00",
+				"url": "https://matt.routleynet.org/2024/06/10/finished-reading-witch.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/06/08/maybe-not-enemies.html",
 				
 				"content_html": "<p>Maybe not enemies</p>\n<!-- raw HTML omitted -->\n",
@@ -26,7 +52,7 @@
 				"id": "http://mroutley.micro.blog/2024/06/03/welcoming-george-to.html",
 				
 				"content_html": "<p>Welcoming George to our family</p>\n<!-- raw HTML omitted -->\n<p>So far Lucy is mostly ignoring him</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Welcoming George to our family\n\n<img src=\"uploads/2024/9cf30b797a.jpg\" alt=\"A fluffy golden retriever puppy is resting on a wooden surface while looking into the camera.\">\n\nSo far Lucy is mostly ignoring him\n\n<img src=\"uploads/2024/0e7d1ad953.jpg\" alt=\"Two dogs, a black one and a golden retriever puppy, are sitting on grass in a backyard near a wooden fence.\">\n",
+				"content_text": "Welcoming George to our family\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/9cf30b797a.jpg\" alt=\"A fluffy golden retriever puppy is resting on a wooden surface while looking into the camera.\">\n\nSo far Lucy is mostly ignoring him\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/0e7d1ad953.jpg\" alt=\"Two dogs, a black one and a golden retriever puppy, are sitting on grass in a backyard near a wooden fence.\">\n",
 				"date_published": "2024-06-03T18:20:07-04:00",
 				"url": "https://matt.routleynet.org/2024/06/03/welcoming-george-to.html"
 			},
@@ -43,7 +69,7 @@
 				"id": "http://mroutley.micro.blog/2024/06/01/ready-for-tomorrow.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n<p>🏊‍♂️🚴‍♂️🏃‍♂️ Ready for tomorrow</p>\n",
-				"content_text": "<img src=\"uploads/2024/img-5377.jpeg\" width=\"600\" height=\"600\" alt=\"Auto-generated description: A collection of triathlon gear is neatly arranged, including running shoes, a helmet, wetsuit, various nutrition and personal care items, and branded bags.\">\r\n\r\n🏊‍♂️🚴‍♂️🏃‍♂️ Ready for tomorrow \r\n",
+				"content_text": "<img src=\"https://cdn.uploads.micro.blog/6287/2024/img-5377.jpeg\" width=\"600\" height=\"600\" alt=\"Auto-generated description: A collection of triathlon gear is neatly arranged, including running shoes, a helmet, wetsuit, various nutrition and personal care items, and branded bags.\">\r\n\r\n🏊‍♂️🚴‍♂️🏃‍♂️ Ready for tomorrow \r\n",
 				"date_published": "2024-06-01T12:05:57-04:00",
 				"url": "https://matt.routleynet.org/2024/06/01/ready-for-tomorrow.html",
 				"tags": ["fitness"]
