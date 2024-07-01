@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/06/30/george-discovered-digging.html",
+				
+				"content_html": "<p>George discovered digging. So George had his first bath</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2024/4c449cc774.jpg\" alt=\"A wet, young Golden Retriever is sitting in a bathtub.\"></p>\n",
+				"content_text": "George discovered digging. So George had his first bath\n\n![A wet, young Golden Retriever is sitting in a bathtub.](https://matt.routleynet.org/uploads/2024/4c449cc774.jpg)\n",
+				"date_published": "2024-06-30T20:37:49-04:00",
+				"url": "https://matt.routleynet.org/2024/06/30/george-discovered-digging.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/06/26/finished-reading-justin.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781990823824\">Justin Trudeau on the Ropes</a> by Paul Wells is a short, informative, entertaining, and timely look at Justin Trudeau&rsquo;s tenure as Prime Minister 📚</p>\n",
+				"content_text": "Finished reading: [Justin Trudeau on the Ropes](https://micro.blog/books/9781990823824) by Paul Wells is a short, informative, entertaining, and timely look at Justin Trudeau's tenure as Prime Minister 📚\n",
+				"date_published": "2024-06-26T14:06:39-04:00",
+				"url": "https://matt.routleynet.org/2024/06/26/finished-reading-justin.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/06/23/finished-reading-as.html",
 				
 				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781541602847\">As Gods</a> by Matthew Cobb is a really good look at the science, politics, and ethics of genetic engineering 📚</p>\n",
