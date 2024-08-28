@@ -7,6 +7,41 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/08/26/finished-reading-i.html",
+				
+				"content_html": "<p>Finished reading: I mostly enjoyed <a href=\"https://micro.blog/books/9781250228062\">The Terraformers</a> by Annalee Newitz. Great world building across thousands of years and interesting ideas. The middle third dragged a bit though 📚</p>\n",
+				"content_text": "Finished reading: I mostly enjoyed [The Terraformers](https://micro.blog/books/9781250228062) by Annalee Newitz. Great world building across thousands of years and interesting ideas. The middle third dragged a bit though 📚\n",
+				"date_published": "2024-08-26T18:37:51-04:00",
+				"url": "https://matt.routleynet.org/2024/08/26/finished-reading-i.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/08/24/coming-across-this.html",
+				
+				"content_html": "<p>🏃‍♂️ Coming across this World War 1 monument, seemingly in the middle of nowhere while <a href=\"https://strava.app.link/9khImNTgkMb\">running</a> on a country road, was a good reminder of the sacrifices people have made for us</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🏃‍♂️ Coming across this World War 1 monument, seemingly in the middle of nowhere while [running](https://strava.app.link/9khImNTgkMb) on a country road, was a good reminder of the sacrifices people have made for us \n\n<img src=\"uploads/2024/5cad71329e.jpg\" width=\"450\" height=\"600\" alt=\"A stone monument with inscriptions stands within an archway, surrounded by a grassy area and trees, while a running app overlay displays workout details.\">\n",
+				"date_published": "2024-08-24T11:38:21-04:00",
+				"url": "https://matt.routleynet.org/2024/08/24/coming-across-this.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/08/22/although-more-cheerful.html",
+				
+				"content_html": "<p>🎵 Although more cheerful than the last few albums, <a href=\"https://www.last.fm/music/Nick+Cave+&amp;+The+Bad+Seeds/Wild+God\">Wild God by Nick Cave &amp; The Bad Seeds</a> is still steeped in spiritual yearning</p>\n<p><img src=\"https://lastfm.freetls.fastly.net/i/u/300x300/3494e3f58abf45a5f6a09c55f6d5a431.png\" alt=\"Wild God - Nick Cave & The Bad Seeds poster\"></p>\n",
+				"content_text": "🎵 Although more cheerful than the last few albums, [Wild God by Nick Cave & The Bad Seeds](https://www.last.fm/music/Nick+Cave+&+The+Bad+Seeds/Wild+God) is still steeped in spiritual yearning\r\n\r\n![Wild God - Nick Cave & The Bad Seeds poster](https://lastfm.freetls.fastly.net/i/u/300x300/3494e3f58abf45a5f6a09c55f6d5a431.png)\n",
+				"date_published": "2024-08-22T21:17:47-04:00",
+				"url": "https://matt.routleynet.org/2024/08/22/although-more-cheerful.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/08/22/finished-reading-a.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781250236241\">A Prayer for the Crown-Shy</a> by Becky Chambers is delightful. The Monk and Robot series is fun. Sort of like a mirror universe Murderbot📚</p>\n",
+				"content_text": "Finished reading: [A Prayer for the Crown-Shy](https://micro.blog/books/9781250236241) by Becky Chambers is delightful. The Monk and Robot series is fun. Sort of like a mirror universe Murderbot📚\n",
+				"date_published": "2024-08-22T21:14:31-04:00",
+				"url": "https://matt.routleynet.org/2024/08/22/finished-reading-a.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/08/22/finished-reading-the.html",
 				
 				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780062468741\">The Hidden Palace</a> by Helene Wecker is richly detailed with interesting characters and intriguing plot. A nice sequel to The Golem and the Jinni 📚</p>\n",
@@ -19,7 +54,7 @@
 				"id": "http://mroutley.micro.blog/2024/08/21/i-find-it.html",
 				
 				"content_html": "<p>🏃‍♂️ I find it easier to keep good form at faster paces. So, <a href=\"https://strava.app.link/i2ae45FdfMb\">practicing</a> staying tall at a more moderate pace</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🏃‍♂️ I find it easier to keep good form at faster paces. So, [practicing](https://strava.app.link/i2ae45FdfMb) staying tall at a more moderate pace\n\n<img src=\"uploads/2024/defafa55e1.jpg\" width=\"450\" height=\"600\" alt=\"A workout tracking screen displaying a running distance of 19.65 km, time of 1 hour 49 minutes, and an average pace of 5'32&quot;/km, with a scenic background of trees and a partially cloudy sky.\">\n",
+				"content_text": "🏃‍♂️ I find it easier to keep good form at faster paces. So, [practicing](https://strava.app.link/i2ae45FdfMb) staying tall at a more moderate pace\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/defafa55e1.jpg\" width=\"450\" height=\"600\" alt=\"A workout tracking screen displaying a running distance of 19.65 km, time of 1 hour 49 minutes, and an average pace of 5'32&quot;/km, with a scenic background of trees and a partially cloudy sky.\">\n",
 				"date_published": "2024-08-21T10:33:10-04:00",
 				"url": "https://matt.routleynet.org/2024/08/21/i-find-it.html",
 				"tags": ["fitness"]
@@ -28,7 +63,7 @@
 				"id": "http://mroutley.micro.blog/2024/08/20/inspired-by-finishing.html",
 				
 				"content_html": "<p>🏃‍♂️ Inspired by finishing <a href=\"https://matt.routleynet.org/2024/08/19/finished-reading-the.html\">The Lost Art of Running</a> to pay attention to my form. For <a href=\"https://strava.app.link/GjF8Rp9rdMb\">this run</a> I focused on running tall and looking forward. Tough to maintain on the hills</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🏃‍♂️ Inspired by finishing [The Lost Art of Running](https://matt.routleynet.org/2024/08/19/finished-reading-the.html) to pay attention to my form. For [this run](https://strava.app.link/GjF8Rp9rdMb) I focused on running tall and looking forward. Tough to maintain on the hills\n\n<img src=\"uploads/2024/e1ae3ac154.jpg\" width=\"450\" height=\"600\" alt=\"A winding road flanked by lush greenery is shown on a running app screen, displaying a run distance of 10.1 km, a time of 51 minutes, and an average pace of 5'01&quot;/km.\">\n",
+				"content_text": "🏃‍♂️ Inspired by finishing [The Lost Art of Running](https://matt.routleynet.org/2024/08/19/finished-reading-the.html) to pay attention to my form. For [this run](https://strava.app.link/GjF8Rp9rdMb) I focused on running tall and looking forward. Tough to maintain on the hills\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/e1ae3ac154.jpg\" width=\"450\" height=\"600\" alt=\"A winding road flanked by lush greenery is shown on a running app screen, displaying a run distance of 10.1 km, a time of 51 minutes, and an average pace of 5'01&quot;/km.\">\n",
 				"date_published": "2024-08-20T09:00:25-04:00",
 				"url": "https://matt.routleynet.org/2024/08/20/inspired-by-finishing.html",
 				"tags": ["fitness"]
@@ -46,7 +81,7 @@
 				"id": "http://mroutley.micro.blog/2024/08/18/a-new-mug.html",
 				
 				"content_html": "<p>A new mug from my daughter, along with some high expectations</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "A new mug from my daughter, along with some high expectations\n\n<img src=\"uploads/2024/4f0ba0058f.jpg\" width=\"450\" height=\"600\" alt=\"A dark blue mug with text describing the various roles of a dad is placed on a wooden surface with a serene lake and forest background.\">\n",
+				"content_text": "A new mug from my daughter, along with some high expectations\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/4f0ba0058f.jpg\" width=\"450\" height=\"600\" alt=\"A dark blue mug with text describing the various roles of a dad is placed on a wooden surface with a serene lake and forest background.\">\n",
 				"date_published": "2024-08-18T18:37:43-04:00",
 				"url": "https://matt.routleynet.org/2024/08/18/a-new-mug.html"
 			},
