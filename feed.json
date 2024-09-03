@@ -7,6 +7,39 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/08/30/george-did-not.html",
+				
+				"content_html": "<p>George did not appreciate the short-lived experiment with a life jacket</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "George did not appreciate the short-lived experiment with a life jacket\n\n<img src=\"uploads/2024/911f489a75.jpg\" width=\"450\" height=\"600\" alt=\"A wet puppy wearing an orange life jacket sits on the sand near a log.\">\n",
+				"date_published": "2024-08-30T13:46:59-04:00",
+				"url": "https://matt.routleynet.org/2024/08/30/george-did-not.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/08/29/going-to-be.html",
+				
+				"content_html": "<p>Going to be tough to leave</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Going to be tough to leave\n\n<img src=\"uploads/2024/72cb3c12e4.jpg\" width=\"450\" height=\"600\" alt=\"A tranquil lake reflects a vibrant sunset sky with silhouetted trees and a small dock.\">\n",
+				"date_published": "2024-08-29T20:31:42-04:00",
+				"url": "https://matt.routleynet.org/2024/08/29/going-to-be.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/08/28/coming-to-the.html",
+				
+				"content_html": "<p>Coming to the end of a great vacation</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Coming to the end of a great vacation \n\n<img src=\"uploads/2024/8140e30c10.jpg\" width=\"450\" height=\"600\" alt=\"A tranquil lake reflects the colorful sunset sky and surrounding trees, with a small dock floating in the water.\">\n",
+				"date_published": "2024-08-28T09:28:08-04:00",
+				"url": "https://matt.routleynet.org/2024/08/28/coming-to-the.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/08/28/finished-reading-the.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781448127054\">The Long War</a> by Stephen Baxter is okay. Not nearly as interesting as the first book in the series and has a rather meandering plot 📚</p>\n",
+				"content_text": "Finished reading: [The Long War](https://micro.blog/books/9781448127054) by Stephen Baxter is okay. Not nearly as interesting as the first book in the series and has a rather meandering plot 📚\n",
+				"date_published": "2024-08-28T09:21:19-04:00",
+				"url": "https://matt.routleynet.org/2024/08/28/finished-reading-the.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/08/26/finished-reading-i.html",
 				
 				"content_html": "<p>Finished reading: I mostly enjoyed <a href=\"https://micro.blog/books/9781250228062\">The Terraformers</a> by Annalee Newitz. Great world building across thousands of years and interesting ideas. The middle third dragged a bit though 📚</p>\n",
@@ -19,7 +52,7 @@
 				"id": "http://mroutley.micro.blog/2024/08/24/coming-across-this.html",
 				
 				"content_html": "<p>🏃‍♂️ Coming across this World War 1 monument, seemingly in the middle of nowhere while <a href=\"https://strava.app.link/9khImNTgkMb\">running</a> on a country road, was a good reminder of the sacrifices people have made for us</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🏃‍♂️ Coming across this World War 1 monument, seemingly in the middle of nowhere while [running](https://strava.app.link/9khImNTgkMb) on a country road, was a good reminder of the sacrifices people have made for us \n\n<img src=\"uploads/2024/5cad71329e.jpg\" width=\"450\" height=\"600\" alt=\"A stone monument with inscriptions stands within an archway, surrounded by a grassy area and trees, while a running app overlay displays workout details.\">\n",
+				"content_text": "🏃‍♂️ Coming across this World War 1 monument, seemingly in the middle of nowhere while [running](https://strava.app.link/9khImNTgkMb) on a country road, was a good reminder of the sacrifices people have made for us \n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/5cad71329e.jpg\" width=\"450\" height=\"600\" alt=\"A stone monument with inscriptions stands within an archway, surrounded by a grassy area and trees, while a running app overlay displays workout details.\">\n",
 				"date_published": "2024-08-24T11:38:21-04:00",
 				"url": "https://matt.routleynet.org/2024/08/24/coming-across-this.html",
 				"tags": ["fitness"]
