@@ -7,12 +7,57 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/09/24/finished-reading-the.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780593158364\">The Golden Enclaves</a> by Naomi Novik is a good end to a great series 📚</p>\n",
+				"content_text": "Finished reading: [The Golden Enclaves](https://micro.blog/books/9780593158364) by Naomi Novik is a good end to a great series 📚 \n",
+				"date_published": "2024-09-24T17:50:47-04:00",
+				"url": "https://matt.routleynet.org/2024/09/24/finished-reading-the.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/09/21/tried-a-new.html",
+				
+				"content_html": "<p>🏃‍♂️ Tried a new trail near the in-law’s house for <a href=\"https://strava.app.link/PCogDQNb5Mb\">today’s run</a></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🏃‍♂️ Tried a new trail near the in-law’s house for [today’s run](https://strava.app.link/PCogDQNb5Mb)\n\n<img src=\"uploads/2024/9a84966a44.jpg\" width=\"450\" height=\"600\" alt=\"A scenic forest path is framed by arching trees with text overlaying details of an outdoor run, showing distance, time, and average pace.\">\n",
+				"date_published": "2024-09-21T18:03:23-04:00",
+				"url": "https://matt.routleynet.org/2024/09/21/tried-a-new.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/09/20/i-tried-the.html",
+				
+				"content_html": "<p>🏊‍♂️ I tried the <a href=\"https://www.dcrainmaker.com/2024/06/apples-new-watchos-11-trainining-load-turn-by-turn-trail-routes-and-more.html\">new structured swim workout</a> <a href=\"https://strava.app.link/qo9vQwRS2Mb\">this morning</a> in watchOS 11. I appreciated not needing to remember the details about intervals or mentally tracking my laps. Unfortunately I can’t “accidentally” misread the clock anymore for extra rest 😀</p>\n",
+				"content_text": "🏊‍♂️ I tried the [new structured swim workout](https://www.dcrainmaker.com/2024/06/apples-new-watchos-11-trainining-load-turn-by-turn-trail-routes-and-more.html) [this morning](https://strava.app.link/qo9vQwRS2Mb) in watchOS 11. I appreciated not needing to remember the details about intervals or mentally tracking my laps. Unfortunately I can’t “accidentally” misread the clock anymore for extra rest 😀\n",
+				"date_published": "2024-09-20T09:05:34-04:00",
+				"url": "https://matt.routleynet.org/2024/09/20/i-tried-the.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/09/19/the-experiments-in.html",
+				
+				"content_html": "<p>The <a href=\"https://dynamic.wakingup.com/pack/PK016E7\">Experiments in Having No Head</a> series in <a href=\"https://www.wakingup.com/\">Waking Up</a> from <a href=\"https://dynamic.wakingup.com/person/PEWZ75\">Richard Lang</a> are great. So, I&rsquo;m glad to see new sessions added</p>\n",
+				"content_text": "The [Experiments in Having No Head](https://dynamic.wakingup.com/pack/PK016E7) series in [Waking Up](https://www.wakingup.com/) from [Richard Lang](https://dynamic.wakingup.com/person/PEWZ75) are great. So, I'm glad to see new sessions added\n",
+				"date_published": "2024-09-19T16:51:00-04:00",
+				"url": "https://matt.routleynet.org/2024/09/19/the-experiments-in.html",
+				"tags": ["society"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/09/19/i-still-really.html",
+				
+				"content_html": "<p>I still really like my <a href=\"https://matt.routleynet.org/2023/06/13/simplifying-my-personal.html\">iPhone 13 mini</a>. My only challenge is with battery life, since the mini size necessarily means a smaller battery. Now that I have a <a href=\"https://matt.routleynet.org/2023/05/30/living-dangerously-for.html\">separate work phone</a>, I&rsquo;m experimenting with my personal phone automatically enabling <a href=\"https://www.apple.com/ca/batteries/maximizing-performance/\">low battery mode</a> when switching to my work focus. Now I consistently have battery throughout the day, whereas before I needed a top up in the early evening.</p>\n",
+				"content_text": "I still really like my [iPhone 13 mini](https://matt.routleynet.org/2023/06/13/simplifying-my-personal.html). My only challenge is with battery life, since the mini size necessarily means a smaller battery. Now that I have a [separate work phone](https://matt.routleynet.org/2023/05/30/living-dangerously-for.html), I'm experimenting with my personal phone automatically enabling [low battery mode](https://www.apple.com/ca/batteries/maximizing-performance/) when switching to my work focus. Now I consistently have battery throughout the day, whereas before I needed a top up in the early evening.\n\n\n",
+				"date_published": "2024-09-19T09:57:57-04:00",
+				"url": "https://matt.routleynet.org/2024/09/19/i-still-really.html",
+				"tags": ["code"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/09/15/the-youtube-algorithm.html",
 				
 				"content_html": "<p>The YouTube algorithm pulled me into a stream of Apple Watch Ultra videos that I was too tired to resist. <a href=\"https://www.youtube.com/watch?v=OLJvJ4hDcNs\">This one</a> from Brian Talbot resonated the most with me. It isn’t about the specs and features; it’s about the freedom</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "The YouTube algorithm pulled me into a stream of Apple Watch Ultra videos that I was too tired to resist. [This one](https://www.youtube.com/watch?v=OLJvJ4hDcNs) from Brian Talbot resonated the most with me. It isn’t about the specs and features; it’s about the freedom\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/OLJvJ4hDcNs?si=J6QLO8pjvO0A-X5H\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n",
 				"date_published": "2024-09-15T15:28:00-04:00",
-				"url": "https://matt.routleynet.org/2024/09/15/the-youtube-algorithm.html"
+				"url": "https://matt.routleynet.org/2024/09/15/the-youtube-algorithm.html",
+				"tags": ["code"]
 			},
 			{
 				"id": "http://mroutley.micro.blog/2024/09/15/minute-zone-repeats.html",
