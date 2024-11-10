@@ -7,6 +7,33 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/11/07/thinking-about-my.html",
+				
+				"content_html": "<p>🏃‍♂️ Thinking about my grandmother on <a href=\"https://strava.app.link/JTbdjsK3kOb\">today’s run</a>. She was a bright spark and warm hug for 100 years 😢</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🏃‍♂️ Thinking about my grandmother on [today’s run](https://strava.app.link/JTbdjsK3kOb). She was a bright spark and warm hug for 100 years 😢 \n\n<img src=\"uploads/2024/c35b591a74.jpg\" width=\"450\" height=\"600\" alt=\"A sunny outdoor scene depicts a running app screenshot showing a distance of 30.26 km with an average pace of 5,40/km.\">\n",
+				"date_published": "2024-11-07T15:04:01-05:00",
+				"url": "https://matt.routleynet.org/2024/11/07/thinking-about-my.html",
+				"tags": ["fitness"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/11/05/finished-reading-for.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781304565495\">For You</a> by Patrick Rhone is full of wisdom in short chapters. I read one every couple of days to let the ideas percolate before rushing to the next chapter📚</p>\n",
+				"content_text": "Finished reading: [For You](https://micro.blog/books/9781304565495) by Patrick Rhone is full of wisdom in short chapters. I read one every couple of days to let the ideas percolate before rushing to the next chapter📚\n",
+				"date_published": "2024-11-05T20:46:04-05:00",
+				"url": "https://matt.routleynet.org/2024/11/05/finished-reading-for.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/11/05/finished-reading-superintelligence.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781990823633\">Superintelligence: Is Canada Ready for AI?</a> by The Logic is a nice overview of the state of AI in Canada 📚</p>\n",
+				"content_text": "Finished reading: [Superintelligence: Is Canada Ready for AI?](https://micro.blog/books/9781990823633) by The Logic is a nice overview of the state of AI in Canada 📚\n",
+				"date_published": "2024-11-05T19:07:09-05:00",
+				"url": "https://matt.routleynet.org/2024/11/05/finished-reading-superintelligence.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/11/05/some-good-red.html",
 				
 				"content_html": "<p>🍁 Some good red trees on the street this year</p>\n<!-- raw HTML omitted -->\n",
@@ -27,7 +54,7 @@
 				"id": "http://mroutley.micro.blog/2024/10/31/im-posting-album.html",
 				
 				"content_html": "<p>I’m <a href=\"https://matt.routleynet.org/categories/covers/\">posting 20 album covers</a> (one per day) that have shaped my music preferences. No explanations or commentary, just the cover image.</p>\n<!-- raw HTML omitted -->\n<p>20/20</p>\n",
-				"content_text": "I’m [posting 20 album covers](https://matt.routleynet.org/categories/covers/) (one per day) that have shaped my music preferences. No explanations or commentary, just the cover image. \r\n\r\n<img src=\"uploads/2024/b0991f3b-ad8a-4976-80a4-324071d1c7b8.png\" width=\"600\" height=\"600\" alt=\"Auto-generated description: A black and white photo shows a person engulfed in flames with the text rage against the machine at the bottom.\">\r\n\r\n20/20\r\n",
+				"content_text": "I’m [posting 20 album covers](https://matt.routleynet.org/categories/covers/) (one per day) that have shaped my music preferences. No explanations or commentary, just the cover image. \r\n\r\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/b0991f3b-ad8a-4976-80a4-324071d1c7b8.png\" width=\"600\" height=\"600\" alt=\"Auto-generated description: A black and white photo shows a person engulfed in flames with the text rage against the machine at the bottom.\">\r\n\r\n20/20\r\n",
 				"date_published": "2024-10-31T19:34:09-05:00",
 				"url": "https://matt.routleynet.org/2024/10/31/im-posting-album.html"
 			},
@@ -35,7 +62,7 @@
 				"id": "http://mroutley.micro.blog/2024/10/31/here-we-go.html",
 				
 				"content_html": "<p>🏊‍♂️ 🚴 🏃‍♂️ Here we go again!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🏊‍♂️ 🚴 🏃‍♂️ Here we go again!\n\n<img src=\"uploads/2024/0a18a5e9c2.jpg\" width=\"297\" height=\"600\" alt=\"A smartphone screen displays an email receipt for an IRONMAN event registration, including order confirmation details and a QR code.\">\n",
+				"content_text": "🏊‍♂️ 🚴 🏃‍♂️ Here we go again!\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/0a18a5e9c2.jpg\" width=\"297\" height=\"600\" alt=\"A smartphone screen displays an email receipt for an IRONMAN event registration, including order confirmation details and a QR code.\">\n",
 				"date_published": "2024-10-31T19:26:33-05:00",
 				"url": "https://matt.routleynet.org/2024/10/31/here-we-go.html",
 				"tags": ["fitness"]
@@ -44,7 +71,7 @@
 				"id": "http://mroutley.micro.blog/2024/10/31/george-the-rufferree.html",
 				
 				"content_html": "<p>George the rufferree 👻</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "George the rufferree 👻\n\n<img src=\"uploads/2024/48ad0a8c-3693-42fd-bbdd-5f8e32500d22.jpg\" alt=\"A dog is sitting on a wooden floor wearing a black-and-white striped shirt labeled RUFFEREE.\">\n",
+				"content_text": "George the rufferree 👻\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/48ad0a8c-3693-42fd-bbdd-5f8e32500d22.jpg\" alt=\"A dog is sitting on a wooden floor wearing a black-and-white striped shirt labeled RUFFEREE.\">\n",
 				"date_published": "2024-10-31T16:20:51-05:00",
 				"url": "https://matt.routleynet.org/2024/10/31/george-the-rufferree.html"
 			},
