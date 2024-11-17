@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2024/11/17/we-had-great.html",
+				
+				"content_html": "<p>🪓 We had great fun at last night’s <a href=\"https://pancreaticcancercanada.ca/axe-pancreatic-cancer/\">Axe Pancreatic Cancer</a> event. We started the event ten years ago to raise awareness and funds, after my Mom’s short battle with the disease. So gratifying and amazing to see what the event has become, especially under the stewardship of Pancreatic Cancer Canada.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "🪓 We had great fun at last night’s [Axe Pancreatic Cancer](https://pancreaticcancercanada.ca/axe-pancreatic-cancer/) event. We started the event ten years ago to raise awareness and funds, after my Mom’s short battle with the disease. So gratifying and amazing to see what the event has become, especially under the stewardship of Pancreatic Cancer Canada. \n\n<img src=\"uploads/2024/8628197041.jpg\" width=\"450\" height=\"600\" alt=\"Four people are smiling and posing together indoors with string lights and a netted background.\"><img src=\"uploads/2024/eeabd29af3.jpg\" width=\"450\" height=\"600\" alt=\"An axe is embedded in a wooden target with colored rings.\">\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://matt.routleynet.org/uploads/2024/image.mov\" width=\"640\" height=\"852\" poster=\"https://matt.routleynet.org/uploads/2024/poster.png\" preload=\"none\"></video>\n",
+				"date_published": "2024-11-17T10:04:52-05:00",
+				"url": "https://matt.routleynet.org/2024/11/17/we-had-great.html"
+			},
+			{
+				"id": "http://mroutley.micro.blog/2024/11/14/finished-reading-in.html",
+				
+				"content_html": "<p>Finished reading: In <a href=\"https://micro.blog/books/9780143186700\">The Antidote</a>, Oliver Burkeman makes a lot of sense to me about how to live sensibly and genuinely 📚</p>\n",
+				"content_text": "Finished reading: In [The Antidote](https://micro.blog/books/9780143186700), Oliver Burkeman makes a lot of sense to me about how to live sensibly and genuinely 📚\n",
+				"date_published": "2024-11-14T13:37:05-05:00",
+				"url": "https://matt.routleynet.org/2024/11/14/finished-reading-in.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2024/11/07/thinking-about-my.html",
 				
 				"content_html": "<p>🏃‍♂️ Thinking about my grandmother on <a href=\"https://strava.app.link/JTbdjsK3kOb\">today’s run</a>. She was a bright spark and warm hug for 100 years 😢</p>\n<!-- raw HTML omitted -->\n",
@@ -37,7 +54,7 @@
 				"id": "http://mroutley.micro.blog/2024/11/05/some-good-red.html",
 				
 				"content_html": "<p>🍁 Some good red trees on the street this year</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🍁 Some good red trees on the street this year\n\n<img src=\"uploads/2024/9ddc53dbc5.jpg\" width=\"450\" height=\"600\" alt=\"A vibrant red-leafed tree stands on a residential street lined with parked cars and brick houses.\">\n",
+				"content_text": "🍁 Some good red trees on the street this year\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/9ddc53dbc5.jpg\" width=\"450\" height=\"600\" alt=\"A vibrant red-leafed tree stands on a residential street lined with parked cars and brick houses.\">\n",
 				"date_published": "2024-11-05T12:45:56-05:00",
 				"url": "https://matt.routleynet.org/2024/11/05/some-good-red.html"
 			},
@@ -45,7 +62,7 @@
 				"id": "http://mroutley.micro.blog/2024/11/03/lovely-weather-for.html",
 				
 				"content_html": "<p>🏃‍♂️ Lovely weather for <a href=\"https://strava.app.link/ydnBdl13dOb\">a run</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🏃‍♂️ Lovely weather for [a run](https://strava.app.link/ydnBdl13dOb)\n\n<img src=\"uploads/2024/aa3e58e0b8.jpg\" width=\"450\" height=\"600\" alt=\"A picturesque park setting with autumn trees and a running path is displayed alongside fitness tracking stats for an outdoor run.\">\n",
+				"content_text": "🏃‍♂️ Lovely weather for [a run](https://strava.app.link/ydnBdl13dOb)\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2024/aa3e58e0b8.jpg\" width=\"450\" height=\"600\" alt=\"A picturesque park setting with autumn trees and a running path is displayed alongside fitness tracking stats for an outdoor run.\">\n",
 				"date_published": "2024-11-03T09:54:26-05:00",
 				"url": "https://matt.routleynet.org/2024/11/03/lovely-weather-for.html",
 				"tags": ["fitness"]
