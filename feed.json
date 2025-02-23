@@ -7,10 +7,55 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2025/02/22/finished-the-final-season-of.html",
+				
+				"content_html": "<p>🖖 Finished the final season of <a href=\"https://www.startrek.com/series/star-trek-lower-decks\">Star Trek: Lower Decks</a>. Lots of fun, though you need to be at least a moderate Trekkie to get most of the jokes</p>\n",
+				"content_text": "🖖 Finished the final season of [Star Trek: Lower Decks](https://www.startrek.com/series/star-trek-lower-decks). Lots of fun, though you need to be at least a moderate Trekkie to get most of the jokes\n",
+				"date_published": "2025-02-22T12:48:01-05:00",
+				"url": "https://matt.routleynet.org/2025/02/22/finished-the-final-season-of.html",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2025/02/21/i-already-boosted-this-but.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n",
+				"content_text": "<blockquote class=\"quoteback\" data-author=\"Tim Bray\" data-avatar=\"https://micro.blog/timbray@cosocial.ca/avatar.jpg\" cite=\"https://cosocial.ca/@timbray/114043280151272128\"><p>I already boosted this, but I want to add more emphasis.  I think every Canadian citizen of the Fediverse ought to sign this petition to get the Government of Canada off Xitter: <a href=\"https://www.ourcommons.ca/petitions/en/Petition/Details?Petition=e-5359\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">ourcommons.ca/petitions/en/Pet</span><span class=\"invisible\">ition/Details?Petition=e-5359</span></a></p><p>Could anyone who has any Canadian followers please boost or just re-post it yourself?  This matters.</p><p><a href=\"https://cosocial.ca/tags/cnpoli\" class=\"mention hashtag\">#<span>cnpoli</span></a> <a href=\"https://cosocial.ca/tags/fediverse\" class=\"mention hashtag\">#<span>fediverse</span></a></p><footer>Tim Bray <cite><a href=\"https://cosocial.ca/@timbray/114043280151272128\" class=\"u-in-reply-to\">https://cosocial.ca/@timbray/114043280151272128</a></cite></footer></blockquote><script src=\"https://cdn.micro.blog/quoteback.js\"></script>\r\nThis is important!\n",
+				"date_published": "2025-02-21T13:34:31-05:00",
+				"url": "https://matt.routleynet.org/2025/02/21/i-already-boosted-this-but.html",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2025/02/21/rare-treat-of-having-a.html",
+				
+				"content_html": "<p>🏊‍♂️ Rare treat of having a lane to myself on <a href=\"https://strava.app.link/WivV0HKNaRb\">today’s swim</a></p>\n",
+				"content_text": "🏊‍♂️ Rare treat of having a lane to myself on [today’s swim](https://strava.app.link/WivV0HKNaRb)\n",
+				"date_published": "2025-02-21T12:18:03-05:00",
+				"url": "https://matt.routleynet.org/2025/02/21/rare-treat-of-having-a.html",
+				"tags": ["fitness","Microposts"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2025/02/20/regardless-of-if-any-of.html",
+				
+				"content_html": "<p>🇨🇦 Regardless of if any of the proposals are adopted (though I think several should be carefully considered), I&rsquo;m glad to see <a href=\"https://www.buildcanada.com/\">Build Canada</a> is offering bold ideas. We need more of this, especially these days</p>\n",
+				"content_text": "🇨🇦 Regardless of if any of the proposals are adopted (though I think several should be carefully considered), I'm glad to see [Build Canada](https://www.buildcanada.com/) is offering bold ideas. We need more of this, especially these days\n",
+				"date_published": "2025-02-20T12:02:15-05:00",
+				"url": "https://matt.routleynet.org/2025/02/20/regardless-of-if-any-of.html",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2025/02/19/at-the-pool-for-high.html",
+				
+				"content_html": "<p>At the pool for high school city championships. Lots of excitement!</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "At the pool for high school city championships. Lots of excitement!\n\n<img src=\"uploads/2025/3d6c05c614.jpg\" width=\"600\" height=\"599\" alt=\"A busy indoor swimming pool hosts a swim meet, with swimmers in action and spectators in the stands.\">\n",
+				"date_published": "2025-02-19T10:53:19-05:00",
+				"url": "https://matt.routleynet.org/2025/02/19/at-the-pool-for-high.html",
+				"tags": ["Microposts"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2025/02/17/running-out-of-room-for.html",
 				
 				"content_html": "<p>❄️ Running out of room for the snow</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "❄️ Running out of room for the snow\n\n<img src=\"uploads/2025/f82d9fae23.jpg\" width=\"450\" height=\"600\" alt=\"A large pile of snow is seen in front of houses with red garage doors in a residential area.\">\n",
+				"content_text": "❄️ Running out of room for the snow\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2025/f82d9fae23.jpg\" width=\"450\" height=\"600\" alt=\"A large pile of snow is seen in front of houses with red garage doors in a residential area.\">\n",
 				"date_published": "2025-02-17T10:01:13-05:00",
 				"url": "https://matt.routleynet.org/2025/02/17/running-out-of-room-for.html",
 				"tags": ["Microposts"]
@@ -18,17 +63,17 @@
 			{
 				"id": "http://mroutley.micro.blog/2025/02/14/the-sun-rises-seasons-pass.html",
 				"title": "📝 A new season for my notes",
-				"content_html": "<p>The sun rises, seasons change, and I reconsider my note-taking system. Some things are endlessly cyclical.</p>\n<p>These days I use a split system: personal notes in Apple Notes (using a simplified <a href=\"https://www.myforevernotes.com/\">Forever Notes</a> structure) and work notes in OneNote, following the <a href=\"https://fortelabs.com/blog/para/\">PARA method</a>. My daily logs feed into ChatGPT for a summarized weekly note. It’s efficient, structured, and searchable—but also sterile and fleeting.</p>\n<p>This week, after a nudge from <a href=\"https://ljpuk.net/\">Lee Peterson</a> in the <a href=\"https://hemisphericviews.com/\">Hemispheric Views</a> <a href=\"https://discord.gg/mzdB2ug\">Discord</a>, I dusted off a Field Notes notebook I last used in 2015 and started writing again.</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2025/fcf98f434d.jpg\" alt=\"A hand holds a brown Field Notes memo book with a blue pen clipped to it.\"></p>\n<p>Each day gets a fresh page. I list my two or three most important tasks, then jot down whatever comes up. I’ve even revived Patrick Rhone’s <a href=\"https://patrickrhone.com/dashplus/\">Dash/Plus system</a>.</p>\n<p>As plenty of folks will tell you, paper is nice. I also like how it keeps my phone on the charger instead of in my pocket, waiting for me to type something.</p>\n<p>I’ve stopped being precious about my note-taking. My needs evolve, and so should my system.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
-				"content_text": "The sun rises, seasons change, and I reconsider my note-taking system. Some things are endlessly cyclical.  \n\nThese days I use a split system: personal notes in Apple Notes (using a simplified [Forever Notes](https://www.myforevernotes.com/) structure) and work notes in OneNote, following the [PARA method](https://fortelabs.com/blog/para/). My daily logs feed into ChatGPT for a summarized weekly note. It’s efficient, structured, and searchable—but also sterile and fleeting.  \n\nThis week, after a nudge from [Lee Peterson](https://ljpuk.net/) in the [Hemispheric Views](https://hemisphericviews.com/) [Discord](https://discord.gg/mzdB2ug), I dusted off a Field Notes notebook I last used in 2015 and started writing again.  \n\n![A hand holds a brown Field Notes memo book with a blue pen clipped to it.](https://matt.routleynet.org/uploads/2025/fcf98f434d.jpg)  \n\nEach day gets a fresh page. I list my two or three most important tasks, then jot down whatever comes up. I’ve even revived Patrick Rhone’s [Dash/Plus system](https://patrickrhone.com/dashplus/).  \n\nAs plenty of folks will tell you, paper is nice. I also like how it keeps my phone on the charger instead of in my pocket, waiting for me to type something.  \n\nI’ve stopped being precious about my note-taking. My needs evolve, and so should my system.\n\n<audio src=\"https://matt.routleynet.org/uploads/2025/audio.mp3\" preload=\"metadata\" style=\"display: none\"></audio>\n",
+				"content_html": "<p>The sun rises, seasons change, and I reconsider my note-taking system. Some things are endlessly cyclical.</p>\n<p>These days I use a split system: personal notes in Apple Notes (using a simplified <a href=\"https://www.myforevernotes.com/\">Forever Notes</a> structure) and work notes in OneNote, following the <a href=\"https://fortelabs.com/blog/para/\">PARA method</a>. My daily logs feed into ChatGPT for a summarized weekly note. It’s efficient, structured, and searchable—but also sterile and fleeting.</p>\n<p>This week, after a nudge from <a href=\"https://ljpuk.net/\">Lee Peterson</a> in the <a href=\"https://hemisphericviews.com/\">Hemispheric Views</a> <a href=\"https://discord.gg/mzdB2ug\">Discord</a>, I dusted off a Field Notes notebook I last used in 2015 and started writing again.</p>\n<p><img src=\"https://cdn.uploads.micro.blog/6287/2025/fcf98f434d.jpg\" alt=\"A hand holds a brown Field Notes memo book with a blue pen clipped to it.\"></p>\n<p>Each day gets a fresh page. I list my two or three most important tasks, then jot down whatever comes up. I’ve even revived Patrick Rhone’s <a href=\"https://patrickrhone.com/dashplus/\">Dash/Plus system</a>.</p>\n<p>As plenty of folks will tell you, paper is nice. I also like how it keeps my phone on the charger instead of in my pocket, waiting for me to type something.</p>\n<p>I’ve stopped being precious about my note-taking. My needs evolve, and so should my system.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "The sun rises, seasons change, and I reconsider my note-taking system. Some things are endlessly cyclical.  \n\nThese days I use a split system: personal notes in Apple Notes (using a simplified [Forever Notes](https://www.myforevernotes.com/) structure) and work notes in OneNote, following the [PARA method](https://fortelabs.com/blog/para/). My daily logs feed into ChatGPT for a summarized weekly note. It’s efficient, structured, and searchable—but also sterile and fleeting.  \n\nThis week, after a nudge from [Lee Peterson](https://ljpuk.net/) in the [Hemispheric Views](https://hemisphericviews.com/) [Discord](https://discord.gg/mzdB2ug), I dusted off a Field Notes notebook I last used in 2015 and started writing again.  \n\n![A hand holds a brown Field Notes memo book with a blue pen clipped to it.](https://cdn.uploads.micro.blog/6287/2025/fcf98f434d.jpg)  \n\nEach day gets a fresh page. I list my two or three most important tasks, then jot down whatever comes up. I’ve even revived Patrick Rhone’s [Dash/Plus system](https://patrickrhone.com/dashplus/).  \n\nAs plenty of folks will tell you, paper is nice. I also like how it keeps my phone on the charger instead of in my pocket, waiting for me to type something.  \n\nI’ve stopped being precious about my note-taking. My needs evolve, and so should my system.\n\n<audio src=\"https://cdn.uploads.micro.blog/6287/2025/audio.mp3\" preload=\"metadata\" style=\"display: none\"></audio>\n",
 				"date_published": "2025-02-16T15:25:16-05:00",
 				"url": "https://matt.routleynet.org/2025/02/14/the-sun-rises-seasons-pass.html",
-				"tags": ["Microposts","Longform"]
+				"tags": ["Longform"]
 			},
 			{
 				"id": "http://mroutley.micro.blog/2025/02/14/the-sutherland-quarterly.html",
 				"title": "🇨🇦 The Sutherland Quarterly",
 				"content_html": "<p>For my fellow, like-to-be-informed Canadians, I recommend the <a href=\"https://57a2c8.myshopify.com/\">Sutherland Quarterly</a>. As a subscriber, each quarter you get a short book (around 100 pages) on a current, important topic.</p>\n<!-- raw HTML omitted -->\n<p>So far, I’ve read:</p>\n<ul>\n<li><em>An Emergency in Ottawa</em> by Paul Wells on the trucker convoy</li>\n<li><em>Fleeced</em> by Andrew Spence on Canadian banking</li>\n<li><em>Justin Trudeau on the Ropes</em> also by Paul Wells on Trudeau’s challenges as Prime Minister</li>\n<li><em>Superintelligence</em> by The Logic on AI in Canada</li>\n</ul>\n<p>And I’m about to start <em>Jasper on Fire</em> by Matthew Scace. Each has been really good: informative, well written, and relevant to Canadians.</p>\n<p>Subscriptions are available for both print and digital, while each book is also available separately.</p>\n",
-				"content_text": "For my fellow, like-to-be-informed Canadians, I recommend the [Sutherland Quarterly](https://57a2c8.myshopify.com/). As a subscriber, each quarter you get a short book (around 100 pages) on a current, important topic. \n\n<img src=\"uploads/2025/4022886ee4.jpg\" alt=\"Four books with distinct titles and colorful covers are arranged on a marble surface.\">\n\nSo far, I’ve read:\n\n* _An Emergency in Ottawa_ by Paul Wells on the trucker convoy\n* _Fleeced_ by Andrew Spence on Canadian banking\n* _Justin Trudeau on the Ropes_ also by Paul Wells on Trudeau’s challenges as Prime Minister\n* _Superintelligence_ by The Logic on AI in Canada\n\nAnd I’m about to start _Jasper on Fire_ by Matthew Scace. Each has been really good: informative, well written, and relevant to Canadians. \n\nSubscriptions are available for both print and digital, while each book is also available separately.\n",
+				"content_text": "For my fellow, like-to-be-informed Canadians, I recommend the [Sutherland Quarterly](https://57a2c8.myshopify.com/). As a subscriber, each quarter you get a short book (around 100 pages) on a current, important topic. \n\n<img src=\"https://cdn.uploads.micro.blog/6287/2025/4022886ee4.jpg\" alt=\"Four books with distinct titles and colorful covers are arranged on a marble surface.\">\n\nSo far, I’ve read:\n\n* _An Emergency in Ottawa_ by Paul Wells on the trucker convoy\n* _Fleeced_ by Andrew Spence on Canadian banking\n* _Justin Trudeau on the Ropes_ also by Paul Wells on Trudeau’s challenges as Prime Minister\n* _Superintelligence_ by The Logic on AI in Canada\n\nAnd I’m about to start _Jasper on Fire_ by Matthew Scace. Each has been really good: informative, well written, and relevant to Canadians. \n\nSubscriptions are available for both print and digital, while each book is also available separately.\n",
 				"date_published": "2025-02-14T17:45:00-05:00",
 				"url": "https://matt.routleynet.org/2025/02/14/the-sutherland-quarterly.html",
 				"tags": ["Longform"]
@@ -37,7 +82,7 @@
 				"id": "http://mroutley.micro.blog/2025/02/14/sidewalks-were-mostly-clear-on.html",
 				
 				"content_html": "<p>🏃‍♂️ Sidewalks were mostly clear on <a href=\"https://strava.app.link/bFeWrul8YQb\">today’s recovery run</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🏃‍♂️ Sidewalks were mostly clear on [today’s recovery run](https://strava.app.link/bFeWrul8YQb)\n\n<img src=\"uploads/2025/acf83161e8.jpg\" width=\"450\" height=\"600\" alt=\"A snowy residential street is shown with a cleared pathway, lined with snow-covered cars and bare trees, accompanied by running data overlaid on the image.\">\n",
+				"content_text": "🏃‍♂️ Sidewalks were mostly clear on [today’s recovery run](https://strava.app.link/bFeWrul8YQb)\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2025/acf83161e8.jpg\" width=\"450\" height=\"600\" alt=\"A snowy residential street is shown with a cleared pathway, lined with snow-covered cars and bare trees, accompanied by running data overlaid on the image.\">\n",
 				"date_published": "2025-02-14T11:36:06-05:00",
 				"url": "https://matt.routleynet.org/2025/02/14/sidewalks-were-mostly-clear-on.html",
 				"tags": ["fitness","Microposts"]
