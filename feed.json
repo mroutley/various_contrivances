@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2025/02/28/days-like-today-i-wouldnt.html",
+				
+				"content_html": "<p>Days like today, I wouldn’t mind being like George for a few minutes: unaware and content</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2025/12264837d2.jpg\" alt=\"A golden retriever puppy on his back, eyes closed and paws in the air\"></p>\n",
+				"content_text": "Days like today, I wouldn’t mind being like George for a few minutes: unaware and content\n\n![A golden retriever puppy on his back, eyes closed and paws in the air](https://matt.routleynet.org/uploads/2025/12264837d2.jpg)\n",
+				"date_published": "2025-02-28T19:42:24-05:00",
+				"url": "https://matt.routleynet.org/2025/02/28/days-like-today-i-wouldnt.html",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2025/02/23/finished-reading-waves-in-an.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781541603301\">Waves in an Impossible Sea</a> by Matt Strassler is a fascinating, comprehensive, and clear book about field theory in physics. I’ve read a few books on this topic and this is the best one. If you’re curious about particle physics and want to avoid math, you’ll like this one 📚</p>\n",
+				"content_text": "Finished reading: [Waves in an Impossible Sea](https://micro.blog/books/9781541603301) by Matt Strassler is a fascinating, comprehensive, and clear book about field theory in physics. I’ve read a few books on this topic and this is the best one. If you’re curious about particle physics and want to avoid math, you’ll like this one 📚\n",
+				"date_published": "2025-02-23T17:11:25-05:00",
+				"url": "https://matt.routleynet.org/2025/02/23/finished-reading-waves-in-an.html",
+				"tags": ["book","Microposts"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2025/02/22/finished-the-final-season-of.html",
 				
 				"content_html": "<p>🖖 Finished the final season of <a href=\"https://www.startrek.com/series/star-trek-lower-decks\">Star Trek: Lower Decks</a>. Lots of fun, though you need to be at least a moderate Trekkie to get most of the jokes</p>\n",
@@ -46,7 +64,7 @@
 				"id": "http://mroutley.micro.blog/2025/02/19/at-the-pool-for-high.html",
 				
 				"content_html": "<p>At the pool for high school city championships. Lots of excitement!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "At the pool for high school city championships. Lots of excitement!\n\n<img src=\"uploads/2025/3d6c05c614.jpg\" width=\"600\" height=\"599\" alt=\"A busy indoor swimming pool hosts a swim meet, with swimmers in action and spectators in the stands.\">\n",
+				"content_text": "At the pool for high school city championships. Lots of excitement!\n\n<img src=\"https://cdn.uploads.micro.blog/6287/2025/3d6c05c614.jpg\" width=\"600\" height=\"599\" alt=\"A busy indoor swimming pool hosts a swim meet, with swimmers in action and spectators in the stands.\">\n",
 				"date_published": "2025-02-19T10:53:19-05:00",
 				"url": "https://matt.routleynet.org/2025/02/19/at-the-pool-for-high.html",
 				"tags": ["Microposts"]
