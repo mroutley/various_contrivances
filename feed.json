@@ -7,20 +7,56 @@
 	"items": [
 		
 			{
+				"id": "http://mroutley.micro.blog/2025/03/09/lunch-salads-for-the-week.html",
+				
+				"content_html": "<p>Lunch salads for the week prepared</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2025/image-20250309-181607-36891481.jpg\" alt=\"Several mason jars filled with salad ingredients arranged on a counter\"></p>\n",
+				"content_text": "Lunch salads for the week prepared\n\n![Several mason jars filled with salad ingredients arranged on a counter](https://matt.routleynet.org/uploads/2025/image-20250309-181607-36891481.jpg)\n",
+				"date_published": "2025-03-09T18:16:10-04:00",
+				"url": "https://matt.routleynet.org/2025/03/09/lunch-salads-for-the-week.html",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2025/03/08/my-first-workout-with-the.html",
+				
+				"content_html": "<p>🚴 My <a href=\"https://strava.app.link/ZOtenbM0zRb\">first workout</a> with the Zwift Ride was good. The bike is comfortable, quiet, and smooth. Plus, I liked not having to move furniture around before starting while still only half awake.</p>\n",
+				"content_text": "🚴 My [first workout](https://strava.app.link/ZOtenbM0zRb) with the Zwift Ride was good. The bike is comfortable, quiet, and smooth. Plus, I liked not having to move furniture around before starting while still only half awake. \n",
+				"date_published": "2025-03-08T17:50:57-04:00",
+				"url": "https://matt.routleynet.org/2025/03/08/my-first-workout-with-the.html",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2025/03/07/quite-the-week.html",
+				
+				"content_html": "<p>Quite the week</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Quite the week\n\n<img src=\"uploads/2025/d75cdf870f.jpg\" width=\"600\" height=\"600\" alt=\"Glass of scotch with an ice cube, held up by a hand\">\n",
+				"date_published": "2025-03-07T19:56:52-04:00",
+				"url": "https://matt.routleynet.org/2025/03/07/quite-the-week.html",
+				"tags": ["Microposts"]
+			},
+			{
+				"id": "http://mroutley.micro.blog/2025/03/07/after-some-deliberation-i-ordered.html",
+				
+				"content_html": "<p>🚴 After <a href=\"https://matt.routleynet.org/2025/02/12/updating-my-indoor-bike-setup.html\">some deliberation</a>, I ordered the Zwift Ride. With a straightforward setup, I’m ready for tomorrow’s long ride in Watopia!</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "🚴 After [some deliberation](https://matt.routleynet.org/2025/02/12/updating-my-indoor-bike-setup.html), I ordered the Zwift Ride. With a straightforward setup, I’m ready for tomorrow’s long ride in Watopia!\n\n<img src=\"uploads/2025/9770fbc15c.jpg\" width=\"450\" height=\"600\" alt=\"Five boxes of various sizes are stacked in a corner, featuring branding for Zwift and Wahoo.\"><img src=\"uploads/2025/2f26963e9a.jpg\" width=\"450\" height=\"600\" alt=\"A stationary exercise bike with a &quot;Zwift&quot; logo stands in a room, accompanied by a pair of black shoes on the floor.\">\n",
+				"date_published": "2025-03-07T11:06:40-04:00",
+				"url": "https://matt.routleynet.org/2025/03/07/after-some-deliberation-i-ordered.html",
+				"tags": ["fitness","Microposts"]
+			},
+			{
 				"id": "http://mroutley.micro.blog/2025/03/05/were-back-this-time-for.html",
 				
 				"content_html": "<p>We’re <a href=\"https://matt.routleynet.org/2025/02/19/at-the-pool-for-high.html\">back</a>. This time for provincial championships. So many amazing swimmers!</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "We’re [back](https://matt.routleynet.org/2025/02/19/at-the-pool-for-high.html). This time for provincial championships. So many amazing swimmers!\n\n<img src=\"uploads/2025/0b1a3d7595.jpg\" width=\"450\" height=\"600\" alt=\"A bustling indoor swimming pool features multiple lanes with swimmers competing as spectators watch from the sides.\">\n",
-				"date_published": "2025-03-05T10:31:31-05:00",
+				"date_published": "2025-03-05T11:31:31-04:00",
 				"url": "https://matt.routleynet.org/2025/03/05/were-back-this-time-for.html",
 				"tags": ["Microposts"]
 			},
 			{
 				"id": "http://mroutley.micro.blog/2025/02/28/days-like-today-i-wouldnt.html",
 				
-				"content_html": "<p>Days like today, I wouldn’t mind being like George for a few minutes: unaware and content</p>\n<p><img src=\"https://matt.routleynet.org/uploads/2025/12264837d2.jpg\" alt=\"A golden retriever puppy on his back, eyes closed and paws in the air\"></p>\n",
-				"content_text": "Days like today, I wouldn’t mind being like George for a few minutes: unaware and content\n\n![A golden retriever puppy on his back, eyes closed and paws in the air](https://matt.routleynet.org/uploads/2025/12264837d2.jpg)\n",
-				"date_published": "2025-02-28T19:42:24-05:00",
+				"content_html": "<p>Days like today, I wouldn’t mind being like George for a few minutes: unaware and content</p>\n<p><img src=\"https://cdn.uploads.micro.blog/6287/2025/12264837d2.jpg\" alt=\"A golden retriever puppy on his back, eyes closed and paws in the air\"></p>\n",
+				"content_text": "Days like today, I wouldn’t mind being like George for a few minutes: unaware and content\n\n![A golden retriever puppy on his back, eyes closed and paws in the air](https://cdn.uploads.micro.blog/6287/2025/12264837d2.jpg)\n",
+				"date_published": "2025-02-28T20:42:24-04:00",
 				"url": "https://matt.routleynet.org/2025/02/28/days-like-today-i-wouldnt.html",
 				"tags": ["Microposts"]
 			},
